@@ -80,7 +80,7 @@ const Page = () => {
                             } border-black h-full flex items-center min-w-[113.9px] hover:text-black`}
                         >
                             <span>Life Insurance</span>
-                            <IconButton className="p-0">
+                            <IconButton sx={{ padding: 0 }}>
                                 <KeyboardArrowDownIcon
                                     fontSize="small"
                                     color="inherit"
@@ -93,7 +93,7 @@ const Page = () => {
                             className="cursor-pointer hover:border-b-2 min-w-[181.33px] hover:border-black h-full flex items-center hover:text-black"
                         >
                             <span>Free wills & estate plans</span>
-                            <IconButton className="p-0">
+                            <IconButton sx={{ padding: 0 }}>
                                 <KeyboardArrowDownIcon fontSize="small" />
                             </IconButton>
                         </li>
@@ -103,7 +103,7 @@ const Page = () => {
                             className="cursor-pointer hover:border-b-2 min-w-[91.66px] hover:border-black h-full flex items-center hover:text-black"
                         >
                             <span>Why Ethos</span>
-                            <IconButton className="p-0">
+                            <IconButton sx={{ padding: 0 }}>
                                 <KeyboardArrowDownIcon fontSize="small" />
                             </IconButton>
                         </li>
@@ -113,7 +113,7 @@ const Page = () => {
                             className="cursor-pointer hover:border-b-2 min-w-[67.5px] hover:border-black h-full flex items-center hover:text-black"
                         >
                             <span>Agents</span>
-                            <IconButton className="p-0">
+                            <IconButton sx={{ padding: 0 }}>
                                 <KeyboardArrowDownIcon fontSize="small" />
                             </IconButton>
                         </li>
@@ -123,7 +123,7 @@ const Page = () => {
                             className="cursor-pointer hover:border-b-2 min-w-[54.52px] hover:border-black h-full flex items-center hover:text-black"
                         >
                             <span>FAQs</span>
-                            <IconButton className="p-0">
+                            <IconButton sx={{ padding: 0 }}>
                                 <KeyboardArrowDownIcon fontSize="small" />
                             </IconButton>
                         </li>
