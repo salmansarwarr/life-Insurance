@@ -138,11 +138,11 @@ const Page = () => {
                     >
                         Start applying
                     </Link>
-                    <IconButton onClick={() => setshowMenu((prev) => !prev)}>
+                    <IconButton className="2md:hidden" onClick={() => setshowMenu((prev) => !prev)}>
                         {showMenu ? (
                             <CloseOutlinedIcon />
                         ) : (
-                            <MenuOutlinedIcon className="2md:hidden" />
+                            <MenuOutlinedIcon />
                         )}
                     </IconButton>
                 </div>
