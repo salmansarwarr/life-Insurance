@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { DM_Serif_Display } from "next/font/google";
 
-const lora = DM_Serif_Display({ subsets: ["latin"], weight: "400" });
+const dmSerif = DM_Serif_Display({ subsets: ["latin"], weight: "400" });
 
 const Section1 = () => {
     return (
@@ -15,7 +15,7 @@ const Section1 = () => {
                 4.7/5 827 reviews
             </p>
             <p
-                className={`${lora.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
+                className={`${dmSerif.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
             >
                 “Excellent prices for insurance policies...especially
                 considering NO EXAM!”
@@ -39,7 +39,7 @@ const Section2 = () => {
                 4.8/5 887 reviews
             </p>
             <p
-                className={`${lora.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
+                className={`${dmSerif.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
             >
                 “It took about 5 minutes and I was insured instantly for 1.2
                 million.”
@@ -58,7 +58,7 @@ const Section3 = () => {
                 4.7/5 827 reviews
             </p>
             <p
-                className={`${lora.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
+                className={`${dmSerif.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
             >
                 “Loved how easy it was to compare and customize the policy
                 coverage amount.”
@@ -82,7 +82,7 @@ const Section4 = () => {
                 4.8/5 887 reviews
             </p>
             <p
-                className={`${lora.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
+                className={`${dmSerif.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
             >
                 “Love the bonus complimentary estate planning aids.”
             </p>
@@ -100,7 +100,7 @@ const Section5 = () => {
                 4.7/5 827 reviews
             </p>
             <p
-                className={`${lora.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
+                className={`${dmSerif.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
             >
                 “Ethos has brought me so much relief knowing my family will be
                 taken care of.”

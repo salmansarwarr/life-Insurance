@@ -1,13 +1,13 @@
 import { Playfair_Display } from "next/font/google";
 import Image from "next/image";
 
-const lora = Playfair_Display({ subsets: ["latin"], weight: "500" });
+const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
 
 const Section5 = () => {
     return (
         <div className="flex gap-12 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 xl:mt-14 justify-center">
             <h1
-                className={`${lora.className} lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] font-extralight`}
+                className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] font-extralight`}
             >
                 Why MinaLife
             </h1>

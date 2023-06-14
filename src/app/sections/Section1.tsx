@@ -1,14 +1,21 @@
 import { DM_Serif_Display } from "next/font/google";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
-const lora = DM_Serif_Display({ subsets: ["latin"], weight: "400" });
+const dmSerif = DM_Serif_Display({ subsets: ["latin"], weight: "400" });
 
 const Section1 = () => {
+    const router = useRouter();
+
+    const handleClick = () => {
+        router.push('/q/goals')
+    }
+
     return (
         <div className="mb-4 mt-[61px] sm:mb-6 lg:rounded-bl-[35%] xl:justify-center xl:rounded-bl-[30%] lg:px-14 lg:pl-24 lg:justify-between overflow-hidden flex flex-col lg:flex-row items-center bg-[#dbede5] text-[#056257] pt-5 2lg:pt-12 lg:pt-6 xl:pt-4 text-center lg:text-left">
             <div className="lg:w-[42rem] xl:py-14">
                 <h1
-                    className={`${lora.className} font-bold flex flex-col text-[2.8rem] sm:text-[3.8rem] lg:text-[4rem]`}
+                    className={`${dmSerif.className} font-bold flex flex-col text-[2.8rem] sm:text-[3.8rem] lg:text-[4rem]`}
                 >
                     <span className="h-[45px] sm:h-[60px]">Instant</span>
                     <span>life insurance</span>
@@ -17,7 +24,7 @@ const Section1 = () => {
                 <p className="font-semibold text-lg">
                     $1 million in coverage starts at $1/day.
                 </p>
-                <button className="bg-[#f06c00] text-white px-16 sm:px-24 2lg:px-[4.5rem] py-4 mt-8 sm:mt-9 rounded-[0.25rem] font-medium">
+                <button onClick={handleClick} className="bg-[#f06c00] text-white px-16 sm:px-24 2lg:px-[4.5rem] py-4 mt-8 sm:mt-9 rounded-[0.25rem] font-medium">
                     Get my rates
                 </button>
                 <div className="flex mt-12 justify-center lg:justify-start items-center gap-5">
@@ -27,7 +34,7 @@ const Section1 = () => {
                         INSIDER
                     </p>
                     <p
-                        className={`${lora.className} h-fit text-[1rem] sm:text-[1.6rem] font-bold sm:font-extrabold opacity-50 leading-tight`}
+                        className={`${dmSerif.className} h-fit text-[1rem] sm:text-[1.6rem] font-bold sm:font-extrabold opacity-50 leading-tight`}
                     >
                         Forbes
                     </p>
