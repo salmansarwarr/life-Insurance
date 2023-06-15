@@ -6,7 +6,7 @@ import Link from "next/link";
 const Header = () => {
     return (
         <div
-            className={`flex justify-between px-14 py-2 sm:py-4 w-full hover:border-b 2md:border-2 2md:border-b-0 border-l-blue-500 border-r-blue-500 border-t-blue-500`}
+            className={`flex justify-between px-8 py-2 sm:py-4 w-full hover:border-b 2md:border-2 2md:border-b-0 border-l-blue-500 border-r-blue-500 border-t-blue-500`}
         >
             <div>
                 <Link href="/">

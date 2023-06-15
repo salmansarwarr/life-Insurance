@@ -5,10 +5,12 @@ import Header from "../../estimate-experience/sections/Header";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { Playfair_Display } from "next/font/google";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
 
 const page = () => {
+    const router = useRouter();
     const goals = [
         "protect-loved-ones",
         "pay-off-mortage",
@@ -31,7 +33,9 @@ const page = () => {
         }
     };
 
-    const handleSubmit = () => {}
+    const handleSubmit = () => {
+        router.push('/q/how-it-works');
+    }
 
     const isSelected = (name: string) => {
         return selectedGoals.includes(name);
