@@ -32,12 +32,14 @@ const Section2 = () => {
 
     return (
         <div className="py-10 px-8 sm:px-20 flex gap-8 sm:gap-40 md:gap-52 lg:gap-72 xl:gap-96 flex-col sm:flex-row text-[#212322]">
-            <h1 className={`${playfair.className} text-[2.4rem] leading-none`}>FAQs</h1>
+            <h1 className={`${playfair.className} text-[2.4rem] leading-none`}>
+                FAQs
+            </h1>
             <ul className="text-[1.05rem] flex flex-col gap-8 w-full">
                 <li>
                     <div
                         onClick={() => handleDownIcon(0)}
-                        className={`flex items-center font-semibold justify-between w-full`}
+                        className={`flex items-center font-semibold justify-between cursor-pointer w-full`}
                     >
                         <span>What happens next?</span>
                         <IconButton className="p-0">
@@ -66,7 +68,7 @@ const Section2 = () => {
                 <li>
                     <div
                         onClick={() => handleDownIcon(1)}
-                        className={`flex items-center font-semibold justify-between w-full`}
+                        className={`flex items-center font-semibold justify-between cursor-pointer w-full`}
                     >
                         <span>Is the application binding?</span>
                         <IconButton className="p-0">
@@ -93,7 +95,7 @@ const Section2 = () => {
                 <li>
                     <div
                         onClick={() => handleDownIcon(2)}
-                        className={`flex items-center font-semibold justify-between w-full`}
+                        className={`flex items-center font-semibold justify-between cursor-pointer w-full`}
                     >
                         <span>Is this quote my final price?</span>
                         <IconButton className="p-0">
@@ -113,15 +115,15 @@ const Section2 = () => {
                             No—this quick quote calculator gives you an estimate
                             of what life insurance coverage could cost for you.
                             You'll get your real rate when you apply and your
-                            application is approved. With Ethos, the application
-                            is always free.
+                            application is approved. With Minalife, the
+                            application is always free.
                         </p>
                     </div>
                 </li>
                 <li>
                     <div
                         onClick={() => handleDownIcon(3)}
-                        className={`flex items-center font-semibold justify-between w-full`}
+                        className={`flex items-center font-semibold justify-between cursor-pointer w-full`}
                     >
                         <span>Who can apply?</span>
                         <IconButton className="p-0">
@@ -139,16 +141,16 @@ const Section2 = () => {
                     >
                         <p className="mt-4 text-gray-700 text-[1rem]">
                             All U.S. citizens ages 20-85 are welcome to apply.
-                            Ethos is licensed and operates in every U.S. state
-                            and the District of Columbia, excluding the state of
-                            New York.
+                            Minalife is licensed and operates in every U.S.
+                            state and the District of Columbia, excluding the
+                            state of New York.
                         </p>
                     </div>
                 </li>
                 <li>
                     <div
                         onClick={() => handleDownIcon(4)}
-                        className={`flex items-center font-semibold justify-between w-full`}
+                        className={`flex items-center font-semibold justify-between cursor-pointer w-full`}
                     >
                         <span>
                             Will I be stuck with the coverage I applied for?
@@ -169,9 +171,9 @@ const Section2 = () => {
                         <p className="mt-4 text-gray-700 text-[1rem]">
                             No. After your application is approved, you can make
                             adjustments so that you get the coverage you need at
-                            a price that works for you. A licensed Ethos expert
-                            will reach out to help you make sure you've got your
-                            bases covered.
+                            a price that works for you. A licensed Minalife
+                            expert will reach out to help you make sure you've
+                            got your bases covered.
                         </p>
                     </div>
                 </li>

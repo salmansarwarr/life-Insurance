@@ -15,7 +15,6 @@ interface Props {
     notHoveringAnything: boolean;
     handleHover: (num: number) => void;
     hover: boolean[];
-    scrolled: boolean;
     showMenu: boolean;
     setshowMenu: Dispatch<SetStateAction<boolean>>;
 }
@@ -24,12 +23,11 @@ const Header = ({
     notHoveringAnything,
     handleHover,
     hover,
-    scrolled,
     showMenu,
     setshowMenu,
 }: Props) => {
     const router = useRouter();
-    
+
     const handleClick = () => {
         router.push("/q/goals");
     };
@@ -38,15 +36,16 @@ const Header = ({
         <div
             className={`flex fixed top-0 z-10 justify-between px-5 sm:px-6 lg:px-12 py-2 2md:pb-0 w-full bg-white ${
                 !notHoveringAnything && "2md:border-b"
-            } hover:bg-white hover:border-b ${
-                notHoveringAnything && "2md:bg-[#dbede5]"
-            } ${
-                scrolled && "bg-white"
-            } 2md:border-2 2xl:justify-center 2md:border-b-0 border-l-blue-500 border-r-blue-500 border-t-blue-500`}
+            }  hover:border-b 2md:border-2 2xl:justify-center 2md:border-b-0`}
         >
             <div className="flex items-center justify-between 2xl:justify-start xl:gap-8 2md:min-w-[700px] sm:w-[60%]">
                 <Link href="/">
-                    <Image alt="logo" src="/Minalife-logo.png" width={120} height={120} />
+                    <Image
+                        alt="logo"
+                        src="/Minalife-logo.png"
+                        width={120}
+                        height={120}
+                    />
                 </Link>
 
                 <ul className="text-[#494d4b] font-medium hidden 2md:flex text-sm justify-between w-[576px] h-full items-center">

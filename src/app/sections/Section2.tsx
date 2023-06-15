@@ -102,7 +102,7 @@ const Section5 = () => {
             <p
                 className={`${dmSerif.className} max-w-[900px] mt-8 text-[1.85rem] sm:text-[2.2rem] xl:text-[2.5rem] leading-[1.15] text-center font-extralight`}
             >
-                “Ethos has brought me so much relief knowing my family will be
+                Minalife has brought me so much relief knowing my family will be
                 taken care of.”
             </p>
             <p className="font-bold mt-10 xl:mt-14">Georgia Oonkeo</p>
