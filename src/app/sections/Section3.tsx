@@ -5,7 +5,7 @@ const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
 
 const Section3 = () => {
     return (
-        <div className="bg-[#fff2e3] text-[#323232] xl:gap-28 2md:gap-20 2md:justify-center px-8 2md:px-12 xl:pl-16 flex flex-col 2md:flex-row py-10 2md:py-14 items-center">
+        <div className="bg-[#c7ffde] text-[#323232] xl:gap-28 2md:gap-20 2md:justify-center px-8 2md:px-12 xl:pl-16 flex flex-col 2md:flex-row py-10 2md:py-14 items-center">
             <div className="flex flex-col gap-3 2md:gap-6">
                 <h1
                     className={`${playfair.className} text-[2rem] sm:text-[2.5rem] font-extralight`}
