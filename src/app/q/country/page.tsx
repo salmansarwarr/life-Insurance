@@ -44,7 +44,7 @@ const page = () => {
 
 
     const handleSubmit = () => {
-        router.push("/q/state");
+        router.push("/q/us-citizenship");
     };
 
     const customStyles = {
