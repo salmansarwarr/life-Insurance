@@ -33,7 +33,7 @@ const page = () => {
 
 
     const handleSubmit = () => {
-        router.push('/q/how-it-works');
+        router.push('/q/children');
     }
 
     const isSelected = (name: string) => {

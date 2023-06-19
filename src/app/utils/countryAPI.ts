@@ -19,18 +19,18 @@ export const fetchCountryData = async () => {
 export const fetchCountryStates = async () => {
     try {
         var headers = new Headers();
-        headers.append("X-CSCAPI-KEY", "API_KEY");
+        headers.append("X-CSCAPI-KEY", "WmJUbzFJWE05NkhJaklrcFQ3Mkh5VEJHcUdDczVNcFpYdlZjdGtBVw==");
 
         var requestOptions: RequestInit = {
             method: "GET",
             headers: headers,
             redirect: "follow",
-        };
+        };K
 
-        const code = localStorage.getItem('code');
+        const code = localStorage.getItem('countryCode');
 
         const response = await fetch(
-            `https://api.countrystatecity.${code}/v1/states`,
+            `https://api.countrystatecity.in/v1/countries/${code}/states`,
             requestOptions
         );
         if (response.ok) {

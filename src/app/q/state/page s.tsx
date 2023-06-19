@@ -6,9 +6,9 @@ import { Playfair_Display } from "next/font/google";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Select from "react-select";
-import { fetchCountryData, fetchCountryStates } from "@/app/utils/countryAPI";
+import { fetchCountryData } from "@/app/utils/countryAPI";
 
-interface State {
+interface Country {
     label: string;
     value: string;
 }
@@ -16,30 +16,29 @@ interface State {
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
 
 const page = () => {
-    const [states, setstates] = useState<State[]>();
-    const [selectedState, setSelectedState] = useState<State>();
+    const [selectedCountry, setSelectedCountry] = useState<Country>();
+    const [countries, setCountries] = useState<Country[]>();
     const router = useRouter();
 
-    const handleCountryChange = (selectedOption: State) => {
-        setSelectedState(selectedOption);
+    const handleCountryChange = (selectedOption: Country) => {
+        setSelectedCountry(selectedOption);
     };
 
     useEffect(() => {
-        const getStates = async () => {
-            const data = await fetchCountryStates();
-            const formattedData = data.map((state: any) => ({
-                value: state.name,
-                label: state.name,
+        const getCountries = async () => {
+            const data = await fetchCountryData();
+            const formattedData = data.map((country: any) => ({
+                value: country.name.common,
+                label: country.name.common,
             }));
             if (data) {
-                setstates(formattedData);
+                setCountries(formattedData);
             }
         };
 
-        getStates();
+        getCountries();
     }, []);
 
-    console.log(states)
 
     const handleSubmit = () => {
         router.push("/q/us-citizenship");
@@ -49,7 +48,7 @@ const page = () => {
         option: (provided: any, state: any) => ({
             ...provided,
             color: "black", // Set the color based on selection
-            background: state.isSelected ? "green" : "white", // Set the background color based on selection
+            background: state.isSelected ? "blue" : "white", // Set the background color based on selection
         }),
         singleValue: (provided: any) => ({
             ...provided,
@@ -69,20 +68,20 @@ const page = () => {
                     <p
                         className={`${playfair.className} sm:w-[496px] font-semibold text-[1.7rem] sm:text-[2rem] leading-tight max-w-[500px]`}
                     >
-                        What state you were born in?
+                        What country you were born in?
                     </p>
                     <div className="text-[1.1rem] mt-8">
-                        {states && (
+                        {countries && (
                             <Select
                                 styles={customStyles}
-                                options={states}
-                                value={selectedState}
+                                options={countries}
+                                value={selectedCountry}
                                 //@ts-ignore
                                 onChange={handleCountryChange}
-                                getOptionLabel={(option: State) =>
+                                getOptionLabel={(option: Country) =>
                                     option.label
                                 }
-                                getOptionValue={(option: State) =>
+                                getOptionValue={(option: Country) =>
                                     option.value
                                 }
                                 className="mt-2 w-full px-3 py-4  text-black bg-white sm:w-[525px]"
@@ -91,7 +90,7 @@ const page = () => {
                     </div>
                     <button
                         onClick={handleSubmit}
-                        disabled={selectedState == undefined}
+                        disabled={selectedCountry == undefined}
                         className="bg-gray-900 hover:bg-gray-800 sm:text-lg disabled:bg-gray-300 min-w-[220px] sm:w-[496px] flex justify-between items-center mt-10 my-10 text-gray-100 px-4 sm:py-4 sm:px-5 py-3"
                     >
                         <span>Next </span>
