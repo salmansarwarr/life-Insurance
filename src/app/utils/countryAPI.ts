@@ -25,7 +25,7 @@ export const fetchCountryStates = async () => {
             method: "GET",
             headers: headers,
             redirect: "follow",
-        };K
+        };
 
         const code = localStorage.getItem('countryCode');
 
