@@ -1,15 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Footer = () => {
+const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
     return (
-        <div className="bg-[#054742] mt-10 py-10 sm:py-14 lg:pt-20 sm:pb-24 sm:px-14 px-5">
+        <div className="bg-[#054742] py-10 sm:py-14 lg:pt-20 sm:pb-24 sm:px-14 px-5">
             <p className="text-sm sm:text-base text-white">
-                *Prices start at $7/month based on a 20-year old female,
-                healthy, non-smoking for a 10 year term and $100,000 policy.
+                {p1}
             </p>
             <p className="text-sm text-white mt-4">
-                Trustpilot rating as of 3/31/23
+                {p2}
             </p>
             <p className="text-sm text-white">Google rating as of 3/31/23.</p>
             <hr className="bg-white mt-8 sm:mt-14 mb-6 sm:mb-8" />
@@ -205,13 +204,11 @@ const Footer = () => {
                     </div>
                 </div>
                 <p className="text-[0.7rem] mt-10 text-white sm:hidden lg:block lg:mt-20">
-                    © 2023 Minalife Technologies Inc. Minalife operates in some states
-                    as Minalife Life Insurance Services. CA license #0L28949; AR
-                    license #100164629. Minalife offers policies issued by the
-                    carriers listed at{" "}
-                    <Link href="/carriers.">
-                        www.minalife.com/carriers.
-                    </Link>
+                    © 2023 Minalife Technologies Inc. Minalife operates in some
+                    states as Minalife Life Insurance Services. CA license
+                    #0L28949; AR license #100164629. Minalife offers policies
+                    issued by the carriers listed at{" "}
+                    <Link href="/carriers.">www.minalife.com/carriers.</Link>
                     Products and their features may not be available in all
                     states. To help avoid requiring a medical exam, our
                     application asks certain health and lifestyle questions.
@@ -268,10 +265,10 @@ const Footer = () => {
                         </div>
                     </div>
                     <p className="text-[0.7rem] mt-10 text-white">
-                        © 2023 Minalife Technologies Inc. Minalife operates in some
-                        states as Minalife Life Insurance Services. CA license
-                        #0L28949; AR license #100164629. Minalife offers policies
-                        issued by the carriers listed at{" "}
+                        © 2023 Minalife Technologies Inc. Minalife operates in
+                        some states as Minalife Life Insurance Services. CA
+                        license #0L28949; AR license #100164629. Minalife offers
+                        policies issued by the carriers listed at{" "}
                         <Link href="/carriers.">
                             www.minalife.com/carriers.
                         </Link>

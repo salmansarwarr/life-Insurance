@@ -10,7 +10,7 @@ import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import { Dispatch, SetStateAction, useState } from "react";
 import { useRouter } from "next/navigation";
-import MenuHover from "./MenuHover";
+import MenuHover from "../../sections/MenuHover";
 
 interface Props {
     showMenu: boolean;
@@ -36,7 +36,7 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
     const router = useRouter();
 
     const handleClick = () => {
-        router.push("/q/goals");
+        router.push("/estimate-experience");
     };
 
     return (
@@ -121,9 +121,9 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
                     <MdPersonOutline className="text-[2.2rem] text-[#494d4b] hidden lg:block" />
                     <button
                         onClick={handleClick}
-                        className="bg-[rgb(33,35,34)] hover:bg-[#494d4b] text-white py-2 px-3 text-[0.9rem]"
+                        className="bg-[rgb(33,35,34)] hover:bg-[#494d4b] text-white py-2 px-3 text-[0.8rem]"
                     >
-                        Start applying
+                        Check My Price
                     </button>
                     <div className="2md:hidden">
                         <IconButton

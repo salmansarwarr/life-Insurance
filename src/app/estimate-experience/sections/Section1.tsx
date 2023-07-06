@@ -88,7 +88,7 @@ const Section1 = () => {
                             onClick={handleChange}
                             className={
                                 info?.gender == "male"
-                                    ? "w-full py-4 border bg-[#054742] text-white transition-all border-gray-400"
+                                    ? "w-full py-4 border bg-[#82d1ca] text-white transition-all border-gray-400"
                                     : "w-full py-4 border bg-white border-gray-400 transition-all"
                             }
                         />

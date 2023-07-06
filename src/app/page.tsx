@@ -14,50 +14,14 @@ import Header from "./sections/Header";
 
 const Page = () => {
     const [showMenu, setshowMenu] = useState(false);
-    const [hover, sethover] = useState([false, false, false, false, false]);
-    const [scrolled, setScrolled] = useState(false);
-    const notHoveringAnything = hover.every((i) => i == false);
-
-    useEffect(() => {
-        if (typeof window != undefined) {
-            const changeScroll = () => {
-                if (window.scrollY >= 65) {
-                    setScrolled(true);
-                } else {
-                    setScrolled(false);
-                }
-            };
-            window.addEventListener("scroll", changeScroll);
-        }
-    }, []);
-
-    const handleHover = (num: number) => {
-        sethover((prev) => {
-            return prev.map((icon, i) => {
-                if (i == num) {
-                    return !prev[i];
-                } else {
-                    return false;
-                }
-            });
-        });
-    };
 
     return (
         <>
-            <Header
-                notHoveringAnything={notHoveringAnything}
-                handleHover={handleHover}
-                hover={hover}
-                scrolled={scrolled}
-                showMenu={showMenu}
-                setshowMenu={setshowMenu}
-            />
+            <Header showMenu={showMenu} setshowMenu={setshowMenu} />
             {showMenu ? (
                 <Menu />
             ) : (
                 <>
-                    <MenuHover hover={hover} handleHover={handleHover} />
                     <>
                         <Section1 />
                         <Section2 />
@@ -65,7 +29,10 @@ const Page = () => {
                         <Section4 />
                         <Section5 />
                         <Section6 />
-                        <Footer />
+                        <Footer
+                            p1="*Prices start at $7/month based on a 20-year old female, healthy, non-smoking for a 10 year term and $100,000 policy."
+                            p2="Trustpilot rating as of 3/31/23"
+                        />
                     </>
                 </>
             )}

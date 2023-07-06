@@ -29,7 +29,7 @@ const Header = ({
     const router = useRouter();
 
     const handleClick = () => {
-        router.push("/q/goals");
+        router.push("/estimate-experience");
     };
 
     return (

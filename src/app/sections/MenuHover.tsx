@@ -17,7 +17,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                 onMouseOut={() => handleHover(0)}
                 className={`${
                     hover[0] ? "block" : "hidden"
-                } absolute w-full bg-white z-10`}
+                } fixed w-full bg-white z-10`}
             >
                 <div className="p-5 bg-[#edf5f1] flex items-center">
                     <h1
@@ -48,6 +48,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                         >
                             <li className="p-4  pt-0">
                                 <Link
+                                target="_self"
                                     href="/life/term-life-insurance-no-medical-exam"
                                     className="hover:font-light"
                                 >
@@ -240,7 +241,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                 onMouseOut={() => handleHover(1)}
                 className={`${
                     hover[1] ? "block" : "hidden"
-                } absolute w-full bg-white flex h-[15rem]`}
+                } fixed w-full bg-white flex h-[15rem]`}
             >
                 <div className="py-8 px-16">
                     <Link
@@ -277,7 +278,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                 onMouseOut={() => handleHover(2)}
                 className={`${
                     hover[2] ? "block" : "hidden"
-                } absolute w-full bg-white flex`}
+                } fixed w-full bg-white flex`}
             >
                 <div className="py-8 px-16">
                     <Link
@@ -335,7 +336,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                 onMouseOut={() => handleHover(3)}
                 className={`${
                     hover[3] ? "block" : "hidden"
-                } absolute w-full bg-white flex`}
+                } fixed w-full bg-white flex`}
             >
                 <div className="py-8 px-16">
                     <Link
@@ -383,7 +384,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                 onMouseOut={() => handleHover(4)}
                 className={`${
                     hover[4] ? "block" : "hidden"
-                } absolute w-full bg-white flex`}
+                } fixed w-full bg-white flex`}
             >
                 <div className="py-8 px-16">
                     <Link
