@@ -71,7 +71,7 @@ const page = () => {
                             $1 million term life insurance
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            Ethos makes it easy to apply for an online life
+                            minaLife makes it easy to apply for an online life
                             insurance policy that fits your needs. See if a
                             million-dollar life insurance policy will be enough
                             to help protect your family if the unexpected were
@@ -102,7 +102,7 @@ const page = () => {
                             How much is a million-dollar life insurance policy?
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            Discover how Ethos can help you get a policy of up
+                            Discover how minaLife can help you get a policy of up
                             to a million dollars at an affordable rate. This
                             chart shows average 10- to 30-year term life policy
                             premiums for healthy, non-smoking 35-year-old males
@@ -227,10 +227,10 @@ const page = () => {
                     <h1
                         className={`${playfairMd.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
                     >
-                        How to get a million dollar policy with Ethos?
+                        How to get a million dollar policy with minaLife?
                     </h1>
                     <p className="text-xl mt-1">
-                        Ethos makes it easy to apply for online life insurance
+                        minaLife makes it easy to apply for online life insurance
                         tailored to your budget and coverage needs.
                     </p>
                 </div>
@@ -297,7 +297,7 @@ const page = () => {
                         <p className="text-lg mt-1 text-[#7c7377]">
                             If you change your mind within the first 30 days of
                             activating your coverage, we'll refund your payment
-                            in full. And with Ethos, you can cancel your policy
+                            in full. And with minaLife, you can cancel your policy
                             anytime with no extra fees.
                         </p>
                     </div>

@@ -70,7 +70,7 @@ const Section4 = () => {
                         href="/life/whole-life-policies"
                         className="text-lg text-[#292929] font-semibold underline leading-tight"
                     >
-                        Learn more about whole life insurance with Ethos →
+                        Learn more about whole life insurance with minaLife →
                     </Link>
                 </div>
                 <div className="max-w-[550px] 2md:border-r 2md:h-full 2md:pr-4 2md:pb-6">
@@ -120,7 +120,7 @@ const Section4 = () => {
                         href="/life/whole-life-policies"
                         className="text-lg text-[#292929] font-semibold underline leading-tight"
                     >
-                        Learn more about term life insurance with Ethos →
+                        Learn more about term life insurance with minaLife →
                     </Link>
                 </div>
             </div>

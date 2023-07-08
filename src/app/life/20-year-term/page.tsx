@@ -1,10 +1,9 @@
 "use client";
 
+import React, { ChangeEvent, MouseEventHandler, useState } from "react";
 import Header from "../sections/Header";
-import { ChangeEvent, MouseEventHandler, useState } from "react";
-import { Playfair_Display } from "next/font/google";
 import Link from "next/link";
-import Footer from "@/app/sections/Footer";
+import { Playfair_Display } from "next/font/google";
 import Image from "next/image";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
@@ -66,225 +65,238 @@ const page = () => {
                 <div className="flex flex-col gap-4">
                     <div className="max-w-[400px]">
                         <p
-                            className={`${playfair.className} text-[2rem] md:text-[2.4rem] text-[#054742] sm:text-[2rem] leading-tight max-w-[500px]`}
+                            className={`${playfair.className} text-[1.8rem] md:text-[2.4rem] text-[#054742] sm:text-[2rem] leading-tight max-w-[500px]`}
                         >
-                            Life insurance with no medical exam
+                            Find 20 Year Term Life Insurance Plans
                         </p>
-                        <p className="text-gray-800 font-medium mt-4">
-                            minaLife never requires a medical exam for anyone. You
-                            can apply for personalized online life insurance
-                            coverage through minaLife without needing to schedule
-                            an exam—you'll just need to answer a few
-                            health-related questions. Regardless of your health
-                            status, with minaLife, you are eligible for a
-                            no-medical-exam life insurance policy.
+                        <p className="text-gray-800 mt-4">
+                            With minaLife, you can apply for a term length that
+                            gives you the coverage you need, with terms ranging
+                            from 10 to 30 years.
                         </p>
                     </div>
                     <div className="flex gap-4">
                         <Link
                             href="/estimate-experience"
-                            className="bg-[rgb(33,35,34)] transition-all text-white hover:bg-[#494d4b] sm:w-[159px] font-medium text-center mt-6 py-3 sm:py-4 px-4 text-[1rem]"
+                            className="text-[rgb(33,35,34)] hover:bg-[rgb(33,35,34)] transition-all hover:text-white border border-black sm:w-[159px] text-center mt-6 py-3 sm:py-4 px-4 text-[1rem]"
                         >
-                            Get a Quote
-                        </Link>
-                        <Link
-                            href="/q/goals"
-                            className="text-[rgb(33,35,34)] hover:bg-[rgb(33,35,34)] transition-all hover:text-white border border-black sm:w-[159px] font-medium text-center mt-6 py-3 sm:py-4 px-4 text-[1rem]"
-                        >
-                            Start Applying
+                            Check my price
                         </Link>
                     </div>
                 </div>
                 <img
                     className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"
-                    src="/Life-insurance-dad-kids_f0y19t.webp"
+                    src="/father-and-son.webp"
                     alt="img"
                 />
             </div>
-            <div className="flex gap-12 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 xl:mt-14 justify-center">
-                <h1
-                    className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[1.84rem] sm:text-[2.5rem] font-extralight`}
-                >
-                    Online no-exam term life <br className="hidden sm:block" />{" "}
-                    insurance
-                </h1>
-                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full  lg:items-center">
-                    <div className="max-w-[550px]">
-                        <Image
-                            src="/shoe.svg"
-                            alt="no medical exam"
-                            height={50}
-                            width={50}
-                        />
-                        <p className="mt-2 text-lg xl:text-xl text-black">
-                            Fast, online life insurance with no medical exam
+            <div className="mt-[61px] bg-white flex w-full justify-center items-center md:flex-row-reverse flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
+                <div className="flex flex-col gap-4">
+                    <div className="max-w-[400px]">
+                        <p
+                            className={`${playfair.className} text-[2rem] md:text-[2.4rem] sm:text-[2rem] max-w-[500px]`}
+                        >
+                            How much a 20-year term can cost
                         </p>
-                        <p className="text-lg mt-1 text-[#7c7377]">
-                            Complete our 100% online application in minutes.
-                            Just answer a few health questions and receive your
-                            life insurance quote today with no requirements of a
-                            medical exam.
-                        </p>
-                    </div>
-                    <div className="max-w-[550px]">
-                        <Image
-                            src="/money.svg"
-                            alt="Same-Day Coverage"
-                            height={50}
-                            width={50}
-                        />
-                        <p className="mt-2 text-lg xl:text-xl text-black">
-                            Coverage up to $2 million
-                        </p>
-                        <p className="text-lg mt-1 text-[#7c7377]">
-                            Choose coverage from $100,000 to $2 million.
-                        </p>
-                    </div>
-
-                    <div className="max-w-[550px]">
-                        <Image
-                            src="/will.svg"
-                            alt="Affordable Policies"
-                            height={50}
-                            width={50}
-                        />
-                        <p className="mt-2 text-lg xl:text-xl text-black">
-                            Term length flexibility
-                        </p>
-                        <p className="text-lg mt-1 text-[#7c7377]">
-                            We offer 10-, 15-, 20-, and 30-year terms.
-                        </p>
-                    </div>
-                    <div className="max-w-[550px]">
-                        <Image
-                            src="/family.svg"
-                            alt="expert guidance"
-                            height={50}
-                            width={50}
-                        />
-                        <p className="mt-2 text-lg xl:text-xl text-black">
-                            Expert help when you need it
-                        </p>
-                        <p className="text-lg mt-1 text-[#7c7377]">
-                            Our team of licensed agents can answer all your
-                            questions.
+                        <p className="text-gray-800 font-medium mt-4">
+                            Example 20-year monthly premiums for a healthy
+                            40-year-old male and female. Ranging for $100K to
+                            $1.5M in coverage, minaLife can provide as much life
+                            insurance coverage as you need at an affordable
+                            rate. 20-year life insurance premiums can cost as
+                            little as $39 a month for
+                            <Link href="500000-dollar-life-insurance-policy">
+                                $500,000 in coverage
+                            </Link>{" "}
+                            depending on health, age, and several other factors.
                         </p>
                     </div>
                 </div>
+                <img
+                    className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"
+                    src="/pricing-chart_20-year.webp"
+                    alt="img"
+                />
             </div>
-            <div className="mt-[61px] bg-[#fff2e3] flex w-full justify-center items-center md:flex-row-reverse flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
+            <div className="mt-[61px] flex w-full justify-center items-center md:flex-row flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
                 <div className="flex flex-col gap-4">
                     <div className="max-w-[400px]">
                         <p
                             className={`${playfair.className} text-[2rem] md:text-[2.4rem] text-[#054742] sm:text-[2rem] leading-tight max-w-[500px]`}
                         >
-                            See if no-exam life insurance works for you
+                            Life insurance protects the ones you love most
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            Our application is free, non-binding, and won't
-                            affect your credit score.
+                            A 20-year life insurance policy secures your
+                            family’s financial future and can help cover living
+                            expenses, debt, mortgage payments, education, and
+                            more.
                         </p>
                     </div>
-                    <Link
-                        href="/q/goals"
-                        className="bg-[rgb(33,35,34)] transition-all text-white hover:bg-[#494d4b] sm:w-[159px] font-medium text-center mt-6 py-3 sm:py-4 px-4 text-[1rem]"
-                    >
-                        Start Applying
-                    </Link>
                 </div>
                 <img
                     className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"
-                    src="/Stocksy_txpdeed.webp"
+                    src="/Stocksy_txpdf1a777.jpg"
                     alt="img"
                 />
             </div>
-            <div className="flex gap-12 sm:mt-20 lg:mt-24 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
-                <h1
-                    className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] font-extralight`}
-                >
-                    Hassle-free life insurance
-                </h1>
-                <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0  2md:grid-cols-2">
-                    <div className="max-w-[550px] 2md:border-r 2md:pr-8 2md:pb-6">
-                        <p className="text-lg mt-1 text-[#323232]">
-                            Some insurers will require a medical exam before
-                            approving you for a policy if you have an underlying
-                            health condition or work in a high-risk profession.
-                            The medical exam results are then used to determine
-                            your premium, which could result in a "higher risk"
-                            premium if the results indicate that's warranted.
-                            minaLife offers alternatives for those applicants who
-                            are considered a higher risk.{" "}
-                            <Link href="life-insurance/sipmlified-issue-life-insurance">
-                                Simplified issue
-                            </Link>
-                            and{" "}
-                            <Link href="life-insurance/sipmlified-issue-life-insurance">
-                                guaranteed issue
-                            </Link>{" "}
-                            policies are two popular options. Depending on the
-                            answers to your medical questions, you may qualify
-                            for a simplified issue policy. Others may be offered
-                            a guaranteed issue policy with coverage up to
-                            $30,000.
+            <div className="flex gap-12 sm:mt-20 lg:mt-24 lg:items-center w-full sm:gap-16 flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
+                <div className="lg:self-start max-w-[500px]">
+                    <h1
+                        className={`${playfair.className} text-[#262626] lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] font-extralight`}
+                    >
+                        Who can benefit from a 20-year term?
+                    </h1>
+                    <p className="text-[1.1rem] mt-2 text-gray-500">
+                        A 20-year term life policy can be a solid option for
+                        many people because it’s an affordable way to protect
+                        your family for a longer period of time. When it comes
+                        to choosing your term length, a 20-year term might be
+                        perfect for you if:
+                    </p>
+                </div>
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 lg:gap-12 xl:gap-20">
+                    <div className="flex flex-col gap-3">
+                        <Image
+                            src="/icon_parents.svg"
+                            alt="children "
+                            height={50}
+                            width={50}
+                        />
+                        <p className=" text-[1.5rem] text-[#323232] mt-2">
+                            You have young children
+                        </p>
+                        <p className="text-[1.1rem] text-gray-600">
+                            If your children are young, a 20-year term life
+                            insurance policy can provide coverage through their
+                            college years and last until they are no longer
+                            dependents.
                         </p>
                     </div>
-                    <div className="max-w-[550px] 2md:pb-6">
-                        <p className=" text-lg font-semibold text-[#323232]">
-                            minaLife applicants don't need a medical exam
+                    <div className="flex fl ex-col gap-3">
+                        <Image
+                            src="/dollar-coins.svg"
+                            alt="debt"
+                            height={50}
+                            width={50}
+                        />
+                        <p className=" text-[1.5rem] text-[#323232] mt-2">
+                            You have debt
                         </p>
-                        <p className="text-lg mt-5 text-[#323232]">
-                            After you answer a few health questions and submit
-                            your application, it's reviewed to determine if it
-                            can be approved quickly. Depending on your
-                            situation, you may be asked to answer a few
-                            follow-up medical questions.
+                        <p className="text-[1.1rem] text-gray-600">
+                            If you’re paying off a mortgage or carry debt, this
+                            term might be perfect for you. Should the unexpected
+                            happen, your plan can help cover the rest of your
+                            mortgage and shield your family from steep mortgage
+                            payments.
+                        </p>
+                    </div>
+                    <div className="flex flex-col gap-3">
+                        <Image
+                            src="/icon_tree.svg"
+                            alt="You plan on retiring in 20 years"
+                            height={50}
+                            width={50}
+                        />
+                        <p className="text-[1.5rem] text-[#323232] mt-2">
+                            You plan on retiring in 20 years
+                        </p>
+                        <p className="text-[1.1rem] text-gray-600">
+                            Consider how long until you retire. If you plan on
+                            retiring within the next 20 years, this term can
+                            give you extra peace of mind while you’re still
+                            working and set your family up with financial
+                            security.
                         </p>
                     </div>
                 </div>
             </div>
-            <div className="flex gap-12 sm:mt-20 lg:mt-24 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
-                <h1
-                    className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] font-extralight`}
-                >
-                    How to expedite your application
-                </h1>
-                <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0  2md:grid-cols-2">
-                    <div className="max-w-[550px] 2md:pb-6 2md:border-r 2md:pr-8">
-                        <p className=" text-lg font-semibold text-[#323232]">
-                            When you apply
+            <div className="flex gap-12 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 xl:mt-14 justify-center">
+                <div className="self-start max-w-[560px]">
+                    <h1
+                        className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
+                    >
+                        Why thousands of Americans choose minaLife
+                    </h1>
+                    <p className="text-[1.1rem] mt-2 text-gray-500">
+                        minaLife makes it easy to apply for life insurance that’s
+                        tailored to your budget and coverage needs.
+                    </p>
+                </div>
+                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full  lg:items-center">
+                    <div className="max-w-[550px]">
+                        <Image
+                            src="/shoe.svg"
+                            alt="Fast"
+                            height={50}
+                            width={50}
+                        />
+                        <p className="mt-2 text-lg xl:text-xl text-black">
+                            Fast, easy, free application
                         </p>
-                        <p className="text-lg mt-5 text-[#323232]">
-                            Answer each question with as much detail and
-                            accuracy as possible. And be sure to have the
-                            following information handy:
+                        <p className="text-lg mt-1 text-[#7c7377]">
+                            Our straightforward online application can be
+                            completed in minutes—without confusing paperwork or
+                            phone calls with sales agents.
                         </p>
-                        <ul className="text-lg mt-5 text-[#323232] list-disc ml-8">
-                            <li>Driver's license</li>
-                            <li>
-                                Social security number (to verify your identity)
-                            </li>
-                            <li>Personal and family medical history</li>
-                            <li>Current prescription information</li>
-                        </ul>
                     </div>
-                    <div className="max-w-[550px] 2md:pb-6">
-                        <p className=" text-lg font-semibold text-[#323232]">
-                            After you apply
+                    <div className="max-w-[550px]">
+                        <Image
+                            src="/icon_giving-money.svg"
+                            alt="Affordable coverage"
+                            height={50}
+                            width={50}
+                        />
+                        <p className="mt-2 text-lg xl:text-xl text-black">
+                            Affordable, personalized coverage
                         </p>
-                        <p className="text-lg mt-5 text-[#323232]">
-                            If you’re asked to answer any follow-up questions,
-                            be sure to take care of these requests as soon as
-                            possible. The policy underwriting process will be
-                            delayed until these steps get completed.
+                        <p className="text-lg mt-1 text-[#7c7377]">
+                            We offer a wide variety of coverage options to fit
+                            your budget and give you the coverage you actually
+                            need.
+                        </p>
+                    </div>
+                    <div className="max-w-[550px]">
+                        <Image
+                            src="/icon_person-not-risk.svg"
+                            alt="Honest agents"
+                            height={50}
+                            width={50}
+                        />
+                        <p className="mt-2 text-lg xl:text-xl text-black">
+                            Honest advice, non-pushy agents
+                        </p>
+                        <p className="text-lg mt-1 text-[#7c7377]">
+                            You don’t need to talk to an agent – unless you want
+                            to. Our agents are experts in finding you the
+                            coverage that best suits your family’s needs.
+                        </p>
+                    </div>
+                    <div className="max-w-[550px]">
+                        <Image
+                            src="/will.svg"
+                            alt="Cancel easily"
+                            height={50}
+                            width={50}
+                        />
+                        <p className="mt-2 text-lg xl:text-xl text-black">
+                            Cancel easily
+                        </p>
+                        <p className="text-lg mt-1 text-[#7c7377]">
+                            If you change your mind within the first 30 days of
+                            activating your coverage, we’ll refund your payment
+                            in full. And with minaLife, you can cancel your policy
+                            anytime with no extra fees.
                         </p>
                     </div>
                 </div>
             </div>
-            <div className="bg-[#dbede5] xl:flex xl:gap-20 xl:py-10 px-8 sm:mx-8 mt-8 sm:px-20 py-8 text-[#212326]">
+            <div className="bg-[#deebff] xl:flex xl:gap-20 xl:py-10 px-8 sm:mx-8 mt-8 sm:px-20 py-8 text-[#212326]">
                 <div className="2md:mt-8">
-                    <h1 className={`${playfair.className} text-[2.4rem] `}>
-                        Get a quote
+                    <h1
+                        className={`${playfair.className} text-[2.3rem] xl:max-w-[300px]`}
+                    >
+                        Instant life insurance coverage
                     </h1>
                 </div>
                 <form className="mt-8">
@@ -497,7 +509,29 @@ const page = () => {
                     </p>
                 </form>
             </div>
-            <Footer p1="" p2=""/>
+            <div className="bg-[#054742] mt-10 py-6 sm:pb-24 sm:px-14 px-5">
+                <div className="grid">
+                    <p className="text-[0.8rem] text-white mt-7">
+                        © 2023 Minalife Technologies Inc. Minalife operates in
+                        some states as Minalife Life Insurance Services. CA
+                        license #0L28949; AR license #100164629. Minalife offers
+                        policies issued by the carriers listed at{" "}
+                        <Link href="/carriers.">
+                            www.minalife.com/carriers.
+                        </Link>
+                        Products and their features may not be available in all
+                        states. To help avoid requiring a medical exam, our
+                        application asks certain health and lifestyle questions.
+                        <Image
+                            src="/accessibility.png"
+                            className="mt-4 ml-auto"
+                            alt="accessibility"
+                            height={32}
+                            width={32}
+                        />
+                    </p>
+                </div>
+            </div>
         </>
     );
 };

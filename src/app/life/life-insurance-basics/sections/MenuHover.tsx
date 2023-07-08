@@ -350,7 +350,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                         />
                     </Link>
                     <p className="text-[#494d4b] text-[1rem]">
-                        Grow your business with <br /> Ethos.
+                        Grow your business with <br /> minaLife.
                     </p>
                 </div>
                 <div className="pt-8 flex gap-5">

@@ -28,7 +28,7 @@ const page = () => {
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
                             Worried about how much life insurance is going to
-                            cost? You can rest easy knowing Ethos has a policy
+                            cost? You can rest easy knowing minaLife has a policy
                             to fit every budget. See if a{" "}
                             <span className="font-semibold">
                                 $500,000 life insurance policy
@@ -61,7 +61,7 @@ const page = () => {
                             Average costs of $500K online term life policies
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            Discover how Ethos can help get you up to a 500k
+                            Discover how minaLife can help get you up to a 500k
                             term life insurance policy at an affordable rate.
                             This chart shows average costs for a 10- to 30-year
                             term, $500,000 life policy premiums for healthy,
@@ -205,10 +205,10 @@ const page = () => {
                     <h1
                         className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
                     >
-                        Why choose Ethos for my $500k policy?
+                        Why choose minaLife for my $500k policy?
                     </h1>
                     <p className="text-xl mt-1">
-                        Ethos makes it quick and easy to apply for life
+                        minaLife makes it quick and easy to apply for life
                         insurance tailored to your budget and coverage needs.
                     </p>
                 </div>
@@ -278,7 +278,7 @@ const page = () => {
                         <p className="text-lg mt-1 text-[#7c7377]">
                             If you change your mind within the first 30 days of
                             activating your coverage, we'll refund your payment
-                            in full. And with Ethos, you can cancel your policy
+                            in full. And with minaLife, you can cancel your policy
                             anytime with no extra fees.
                         </p>
                     </div>
