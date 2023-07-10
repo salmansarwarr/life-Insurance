@@ -44,7 +44,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                             <span>Life insurance</span>
                         </li>
                         <ul
-                            className={`text-[1rem] font-normal text-[#212322] max-w-[11rem]`}
+                            className={`text-[1rem] font-normal text-[#212322] max-w-[20rem]`}
                         >
                             <li className="p-4  pt-0">
                                 <Link
@@ -88,7 +88,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                             <span>Term life</span>
                         </li>
                         <ul
-                            className={`text-[1rem] font-normal text-[#212322] max-w-[11rem]`}
+                            className={`text-[1rem] font-normal text-[#212322] max-w-[20rem]`}
                         >
                             <li className="p-4  pt-0">
                                 <Link
@@ -131,7 +131,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                             <span>Whole life</span>
                         </li>
                         <ul
-                            className={`text-[1rem] font-normal text-[#212322] max-w-[11rem]`}
+                            className={`text-[1rem] font-normal text-[#212322] max-w-[20rem]`}
                         >
                             <li className="p-4  pt-0">
                                 <Link
@@ -151,7 +151,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                             </li>
                             <li className="p-4  pt-0">
                                 <Link
-                                    href="/life/20-year-term"
+                                    href="/life/understanding-whole-life"
                                     className="hover:font-light"
                                 >
                                     Understanding whole life insurance
@@ -167,7 +167,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                             </li>
                         </ul>
                     </div>
-                    <div>
+                    {/* <div>
                         <li
                             className={`${playfairDisplay.className} border-b mb-3 flex items-center justify-between p-4 pb-3`}
                         >
@@ -233,7 +233,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                                 </Link>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
                 </ul>
             </div>
             <div
@@ -379,7 +379,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                     </Link>
                 </div>
             </div>
-            <div
+            {/* <div
                 onMouseOver={() => handleHover(4)}
                 onMouseOut={() => handleHover(4)}
                 className={`${
@@ -446,7 +446,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                         </Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     );
 };

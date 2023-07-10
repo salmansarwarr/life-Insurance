@@ -1,14 +1,15 @@
 "use client";
 
-import React, { ChangeEvent, MouseEventHandler, useState } from "react";
 import Header from "../sections/Header";
-import Link from "next/link";
+import { ChangeEvent, MouseEventHandler, useState } from "react";
 import { Playfair_Display } from "next/font/google";
-import Image from "next/image";
+import Link from "next/link";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Image from "next/image";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "600" });
+const playfairB = Playfair_Display({ subsets: ["latin"], weight: "800" });
 const playfairLight = Playfair_Display({ subsets: ["latin"], weight: "400" });
 const playfairMd = Playfair_Display({ subsets: ["latin"], weight: "500" });
 
@@ -63,17 +64,18 @@ const page = () => {
     return (
         <>
             <Header showMenu={showMenu} setshowMenu={setshowMenu} />
-            <div className="mt-[61px] bg-[#fff2e3] flex w-full justify-center items-center md:flex-row flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
+            <div className="mt-[61px] bg-[#deebff] flex w-full justify-center items-center md:flex-row flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
                 <div className="flex flex-col gap-4">
                     <div className="max-w-[400px]">
                         <p
-                            className={`${playfair.className} text-[2rem] md:text-[3rem] text-[#fa640a] sm:text-[2.4rem] leading-tight max-w-[500px]`}
+                            className={`${playfair.className} leading-tight text-[2rem] md:text-[3.5rem] text-[#212326] sm:text-[2.4rem] max-w-[500px]`}
                         >
-                            Term Life Insurance Policies
+                            Get covered for life—in minutes.
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            Term life insurance offers fast, easy and affordable
-                            financial protection for your loved ones.
+                            If you're between 65-85 years old, you're guaranteed
+                            to be approved. No health questions or medical exams
+                            necessary.
                         </p>
                     </div>
                     <div className="flex gap-4">
@@ -83,363 +85,77 @@ const page = () => {
                         >
                             Check my price
                         </Link>
-                        <Link
-                            href="/q/goals"
-                            className="text-[rgb(33,35,34)] hover:bg-[rgb(33,35,34)] transition-all hover:text-white border border-black sm:w-[159px] font-medium text-center mt-6 py-3 sm:py-4 px-4 text-[1rem]"
-                        >
-                            Start Applying
-                        </Link>
                     </div>
                 </div>
                 <img
                     className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"
-                    src="/Stocksy.png"
+                    src="/Stocksy_txpb3b.webp"
                     alt="img"
                 />
             </div>
-            <div className="flex gap-12 sm:mt-20 lg:mt-24 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
-                <div className="self-start max-w-[560px]">
+            <div className="flex gap-12 sm:mt-20 lg:mt-24 lg:items-center w-full sm:gap-16 flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
+                <div className="lg:w-full">
                     <h1
-                        className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
+                        className={`${playfair.className} text-[#262626] max-w-[600px] leading-tight text-[2rem] sm:text-[2.8rem] font-extralight`}
                     >
-                        Term life insurance
+                        Features and benefits of this coverage
                     </h1>
-                </div>
-                <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0  2md:grid-cols-2">
-                    <div className="max-w-[550px] 2md:pb-6 2md:border-r 2md:pr-8">
-                        <p className=" text-2xl font-semibold text-[#323232]">
-                            What is it and how does it work?
-                        </p>
-                        <p className="text-[1.15rem] mt-4 text-[#323232]">
-                            Term life insurance features the most
-                            straightforward and affordable life insurance option
-                            by covering you for a set "term" (typically 10 to 30
-                            years). If you pass away during the term period,
-                            your beneficiaries receive a cash payment.
-                        </p>
-                        <p className=" text-lg mt-4 font-semibold text-[#323232]">
-                            Term life insurance with minaLife might be right for
-                            you if:
-                        </p>
-                        <ul className="text-lg mt-5 text-[#323232] list-disc ml-8">
-                            <li>
-                                Your loved ones would need to replace lost
-                                income while raising children or paying a
-                                mortgage
-                            </li>
-                            <li>
-                                You have short-term financial responsibilities
-                                such as loans, a new business, or credit card
-                                debt
-                            </li>
-                            <li>
-                                You want the most affordable life insurance
-                                coverage
-                            </li>
-                            <li>
-                                You appreciate the straightforward nature of
-                                term life insurance
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="max-w-[550px] 2md:pb-6 2md:border-r 2md:pr-8">
-                        <p className=" text-2xl font-semibold text-[#323232]">
-                            What’s the difference between term and whole life
-                            insurance?
-                        </p>
-                        <p className="text-[1.15rem] mt-4 text-[#323232]">
-                            The answer lies in the names. Term life insurance
-                            uses premiums to cover you for the determined "term"
-                            of the policy, expiring if not claimed within that
-                            timeframe.{" "}
-                            <Link
-                                href="/life/whole-life-policies"
-                                className="underline"
-                            >
-                                Whole life insurance
-                            </Link>{" "}
-                            can last your entire life if premiums remain
-                            current. Whole life policies also have the potential
-                            to accrue cash value, depending on the policy.
-                            Still, premiums typically cost between five and 15
-                            times more than a term policy for the same benefit
-                            amount. <br /> <br /> Term life may provide a good
-                            match for someone seeking affordable coverage to
-                            replace lost income over a critical period, such as
-                            while raising children or paying off a mortgage.
-                            Whole life insurance offers options for those with
-                            complex financial situations or someone desiring the
-                            security of lifetime coverage.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div className="mt-[61px] bg-white flex w-full justify-center items-center md:flex-row-reverse flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
-                <div className="flex flex-col gap-4">
-                    <div className="max-w-[400px]">
-                        <p
-                            className={`${playfair.className} text-[2rem] md:text-[2.4rem] sm:text-[2rem] max-w-[500px]`}
-                        >
-                            Coverage you can trust
-                        </p>
-                        <p className="text-gray-800 font-medium mt-4">
-                            Our policies are backed by established life
-                            insurance companies like Legal & General America,
-                            Ameritas Life Insurance Corp., Senior Life, and
-                            TruStage®. By combining minaLife' streamlined
-                            application with their coverage, we've shortened the
-                            application process to minutes, compared to weeks
-                            with traditional applications. With minaLife, you get
-                            the dependability of major insurers and the
-                            convenience of modern technology.
-                        </p>
-                    </div>
-                </div>
-                <img
-                    className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"
-                    src="/value_backed-giants.webp"
-                    alt="img"
-                />
-            </div>
-            <div className="flex gap-12 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 xl:mt-14 justify-center">
-                <div className="self-start max-w-[560px]">
-                    <h1
-                        className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
-                    >
-                        Why purchase with minaLife?
-                    </h1>
-                </div>
-                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full  lg:items-center">
-                    <div className="max-w-[550px]">
-                        <Image
-                            src="/icon_agent.svg"
-                            alt="Expert advice"
-                            height={50}
-                            width={50}
-                        />
-                        <p className="mt-2 text-lg xl:text-xl text-black">
-                            Expert advice
-                        </p>
-                        <p className="text-lg mt-1 text-[#7c7377]">
-                            You don't have to talk to an agent if you don't want
-                            to, but if you do, our licensed agents remain ready
-                            and eager to answer your questions. They're here to
-                            help you find the right life insurance policy for
-                            you.
-                        </p>
-                    </div>
-                    <div className="max-w-[550px]">
-                        <Image
-                            src="/icon_we-use-tech.svg"
-                            alt="Flexible coverage"
-                            height={50}
-                            width={50}
-                        />
-                        <p className="mt-2 text-lg xl:text-xl text-black">
-                            Flexible coverage
-                        </p>
-                        <p className="text-lg mt-1 text-[#7c7377]">
-                            Get anywhere from $20,000 to $2 million in term life
-                            insurance protection. Choose between 10-, 15-, 20-,
-                            and 30-year terms.
-                        </p>
-                    </div>
-                    <div className="max-w-[550px]">
-                        <Image
-                            src="/shoe.svg"
-                            alt="Fast process (no medical exams)"
-                            height={50}
-                            width={50}
-                        />
-                        <p className="mt-2 text-lg xl:text-xl text-black">
-                            Fast process (no medical exams)
-                        </p>
-                        <p className="text-lg mt-1 text-[#7c7377]">
-                            Our 100% online and hassle-free process makes it
-                            easy to apply. What traditionally took weeks can now
-                            be done in minutes, and you don't even need a
-                            medical exam (just answer a few health questions).
-                            There are some instances when underwriters need more
-                            information about your health to complete the
-                            application process.
-                        </p>
-                    </div>
-                    <div className="max-w-[550px]">
-                        <Image
-                            src="/icon_money-back.svg"
-                            alt="Affordable Policies"
-                            height={50}
-                            width={50}
-                        />
-                        <p className="mt-2 text-lg xl:text-xl text-black">
-                            Free-look, money-back guarantee
-                        </p>
-                        <p className="text-lg mt-1 text-[#7c7377]">
-                            Take your policy for a trial run with a 30-day
-                            money-back guarantee. If you're not fully satisfied
-                            in the first 30 days, we'll refund you in full.
-                            After that time, you can cancel your policy with no
-                            cancellation fees.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div className="flex gap-12 sm:mt-20 lg:mt-24 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
-                <div className="self-start max-w-[560px]">
-                    <h1
-                        className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
-                    >
-                        Simplified issue vs. fully underwritten
-                    </h1>
-                    <p className="text-2xl mt-1 font-light">
-                        minaLife offers term life insurance policies with both
-                        simplified issue and fully underwritten options.
-                        Understand the differences and what it means for you.
+                    <p className="text-[1.1rem] mt-2 text-gray-600">
+                        Here's whats included with our whole life policies.
                     </p>
                 </div>
-                <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0  2md:grid-cols-2">
-                    <div className="max-w-[550px] 2md:pb-6 2md:border-r 2md:pr-8">
-                        <p className=" text-lg font-semibold text-[#323232]">
-                            Simplified issue:
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 lg:gap-12 xl:gap-20">
+                    <div className="flex flex-col gap-3">
+                        <Image
+                            src="/icon-01-guaranteed.webp"
+                            alt="Guaranteed"
+                            height={50}
+                            width={50}
+                        />
+                        <p className=" text-[1.5rem] text-[#323232] mt-2">
+                            Guaranteed approval
                         </p>
-                        <p className="text-lg mt-5 text-[#323232]">
-                            Most of our term policies are simplified issue,
-                            meaning the application process and underwriting
-                            decision come instantly based solely on third-party
-                            data and the applicant's responses to health
-                            questions within the application. No medical exam is
-                            necessary.
-                            <br />
-                            <br />
-                            Simplified issue underwriting may be right for you
-                            if:
-                        </p>
-                        <ul className="text-lg mt-5 text-[#323232] list-disc ml-8">
-                            <li>
-                                You need life insurance, but you aren’t sure
-                                you’d qualify for a traditionally underwritten
-                                policy
-                            </li>
-                            <li>
-                                You want a simple process without medical exams
-                                or lab tests
-                            </li>
-                            <li>
-                                You thought you couldn’t get life insurance
-                                because of your age or health
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="max-w-[550px] 2md:pb-6 2md:border-r 2md:pr-8">
-                        <p className=" text-lg font-semibold text-[#323232]">
-                            Fully underwritten:
-                        </p>
-                        <p className="text-lg mt-5 text-[#323232]">
-                            We also offer fully underwritten term policies, a
-                            more traditional method that historically includes a
-                            complete application and medical exam. minaLife
-                            modernizes the process and doesn't require a medical
-                            exam but does include health questions within the
-                            application to help determine premium levels.
-                            <br />
-                            <br />
-                            Fully underwritten policies may be right for you if:
-                        </p>
-                        <ul className="text-lg mt-5 text-[#323232] list-disc ml-8">
-                            <li>You’re in good health</li>
-                            <li>
-                                You’re looking for life insurance with a higher
-                                death benefit
-                            </li>
-                            <li>You don’t mind a longer application process</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div className="flex gap-12 sm:mt-20 lg:mt-24 py-14 lg:items-center bg-[#fff2e3] w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
-                <div className="self-start max-w-[560px]">
-                    <h1
-                        className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
-                    >
-                        FAQs
-                    </h1>
-                </div>
-                <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0  2md:grid-cols-2">
-                    <div className="max-w-[550px] 2md:pb-6 2md:border-r 2md:pr-8">
-                        <p className=" text-2xl font-semibold text-[#323232]">
-                            What does a policy cover?
-                        </p>
-                        <p className="text-[1.15rem] mt-4 text-[#323232]">
-                            It's ultimately up to your beneficiaries to decide
-                            how to use the cash payout. People often choose to
-                            help cover things like:
-                        </p>
-                        <ul className="text-lg mt-5 text-[#323232] list-disc ml-8">
-                            <li>Home mortgages or rent</li>
-                            <li>Lost income</li>
-                            <li>Loans and debt</li>
-                            <li>Children’s education</li>
-                            <li>Living expenses</li>
-                            <li>Funeral costs</li>
-                        </ul>
-                        <p className=" text-2xl mt-7 font-semibold text-[#323232]">
-                            How do policy claims and payouts work?
-                        </p>
-                        <p className="text-[1.15rem] mt-4 text-[#323232]">
-                            It's typically simple for your beneficiaries to file
-                            a claim and receive a cash payout. If you pass away
-                            while your coverage is in force, your beneficiary
-                            files a claim with your insurance carrier (as
-                            identified on your policy documents), and the
-                            carrier will issue the death benefit payout. Barring
-                            unusual complications, your beneficiary will receive
-                            an untaxed, lump-sum payment for the value of the
-                            policy's death benefit. For example, if you purchase
-                            $1 million in coverage, your beneficiary will
-                            receive a tax-free $1 million lump-sum payout.
+                        <p className="text-[1.1rem] text-gray-600">
+                            If you're between the ages of 65 and 85, you're
+                            guaranteed to be approved, regardless of any health
+                            issues. It's that simple.
                         </p>
                     </div>
-                    <div className="max-w-[550px] 2md:pb-6 2md:border-r 2md:pr-8">
-                        <p className=" text-2xl font-semibold text-[#323232]">
-                            Is there a chance the payout won’t be paid?
+                    <div className="flex flex-col gap-3">
+                        <Image
+                            src="/icon-02-affordable.webp"
+                            alt="affordable"
+                            height={50}
+                            width={50}
+                        />
+                        <p className=" text-[1.5rem] text-[#323232] mt-2">
+                            Affordable lifelong protection
                         </p>
-                        <p className="text-[1.15rem] mt-4 text-[#323232]">
-                            A claim may not be paid if underwriting finds that
-                            parts of the application were answered untruthfully
-                            or if the claim is the result of death by suicide
-                            within the first two years of the policy being in
-                            force.
+                        <p className="text-[1.1rem] text-gray-600">
+                            As long as you keep up with your premiums, this
+                            coverage will last your whole life. Premiums are
+                            level, meaning they won't go up over the life of
+                            your policy. The quote you get today is the same as
+                            your final rate.
                         </p>
-                        <p className=" text-2xl mt-7 font-semibold text-[#323232]">
-                            What happens when my term ends?
+                    </div>
+                    <div className="flex flex-col gap-3">
+                        <Image
+                            src="/icon-03-cash-value.webp"
+                            alt="cash"
+                            height={50}
+                            width={50}
+                        />
+                        <p className=" text-[1.5rem] text-[#323232] mt-2">
+                            Cash value
                         </p>
-                        <p className="text-[1.15rem] mt-4 text-[#323232]">
-                            If you do not pass away during your term, you have
-                            options when your term ends:
-                        </p>
-                        <ul className="text-lg mt-5 text-[#323232] list-disc ml-8">
-                            <li>
-                                You can apply to extend your term to ensure you
-                                always have coverage.
-                            </li>
-                            <li>
-                                You can apply for a new policy with a fresh term
-                                length and coverage amounts
-                            </li>
-                            <li>
-                                You can decide to bypass extensions or not
-                                purchase a new policy
-                            </li>
-                        </ul>
-                        <p className="text-2xl mt-7 font-semibold text-[#323232]">
-                            Have more questions?
-                        </p>
-                        <p className="text-[1.15rem] mt-4 text-[#323232]">
-                            Find the answers on the{" "}
-                            <Link href="/faq" className="underline">
-                                minaLife FAQ page
-                            </Link>
-                            .
+                        <p className="text-[1.1rem] text-gray-600">
+                            This policy builds cash value automatically. You can
+                            use this cash value for emergencies or to supplement
+                            retirement income by taking a tax-free policy loan
+                            against the cash value. Note that outstanding policy
+                            loans will decrease the amount of the death benefit
+                            paid to your beneficiaries.
                         </p>
                     </div>
                 </div>
@@ -447,10 +163,15 @@ const page = () => {
             <div className="flex gap-12 sm:mt-20 lg:mt-24 lg:items-center w-full sm:gap-16 flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
                 <div className="lg:w-full">
                     <h1
-                        className={`${playfair.className} text-[#262626] lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] font-extralight`}
+                        className={`${playfair.className} text-[#262626] lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.8rem] font-extralight`}
                     >
-                        How to purchase a policy
+                        How it works
                     </h1>
+                    <p className="text-[1.1rem] mt-2 text-gray-600">
+                        minaLife makes it easy to apply for a life insurance
+                        plan that helps <br className="hidden lg:block" />{" "}
+                        protect those you care about most.
+                    </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 lg:gap-12 xl:gap-20">
                     <div className="flex flex-col gap-3">
@@ -460,52 +181,129 @@ const page = () => {
                             1
                         </div>
                         <p className=" text-[1.5rem] text-[#323232] mt-2">
-                            Choose coverage
+                            Apply in minutes
                         </p>
                         <p className="text-[1.1rem] text-gray-600">
-                            Choose a policy that’s right for you. minaLife offers a
-                            range of coverage and term length options, so you
-                            can personalize your coverage to fit your needs.
+                            Our simple online application process means you’ll
+                            be approved instantly. No health questions or
+                            medical exams needed.
                         </p>
                     </div>
                     <div className="flex flex-col gap-3">
                         <div
-                            className={`rounded-full w-16 h-16 pt-2 text-center bg-[#deebff] text-[#262626] text-5xl ${playfairLight.className}`}
+                            className={`rounded-full w-16 h-16 text-center pt-2 bg-[#deebff] text-[#262626] text-5xl ${playfairLight.className}`}
                         >
                             2
                         </div>
                         <p className=" text-[1.5rem] text-[#323232] mt-2">
-                            Apply online
+                            Choose your coverage
                         </p>
                         <p className="text-[1.1rem] text-gray-600">
-                            After you choose your plan, complete our online
-                            application. It’s simple, straightforward, and it
-                            only takes about 10 minutes.
+                            Choose between $10K, $15K, $20K, and $25K in
+                            coverage. Once you lock in a monthly premium, it’ll
+                            stay the same during the life of your policy.
+                            Guaranteed.
                         </p>
                     </div>
                     <div className="flex flex-col gap-3">
                         <div
-                            className={`rounded-full w-16 h-16 pt-2 text-center bg-[#deebff] text-[#262626] text-5xl ${playfairLight.className}`}
+                            className={`rounded-full w-16 h-16 text-center pt-2 bg-[#deebff] text-[#262626] text-5xl ${playfairLight.className}`}
                         >
                             3
                         </div>
-                        <p className="text-[1.5rem] text-[#323232] mt-2">
-                            Activate your coverage
+                        <p className=" text-[1.5rem] text-[#323232] mt-2">
+                            Get covered instantly
                         </p>
                         <p className="text-[1.1rem] text-gray-600">
-                            Once your application is submitted, we’ll process
-                            the information to provide you a quick (sometimes
-                            instant) decision on coverage eligibility and your
-                            rate. If approved, you can activate your coverage
-                            immediately.
+                            Once you attach a credit card and make your first
+                            payment, you’re covered. Coverage is immediate and
+                            lasts your whole life.
                         </p>
                     </div>
                 </div>
             </div>
-            <div className="bg-[#fff2e3] xl:flex xl:gap-20 xl:py-10 px-8 sm:mx-8 mt-8 sm:px-20 py-8 text-[#212326]">
+            <div className="flex gap-12 bg-[#deebff] sm:mt-20 py-14 lg:mt-24 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
+                <h1
+                    className={`${playfairB.className} lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.8rem] font-extralight`}
+                >
+                    Is this policy right for me?
+                </h1>
+                <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0  2md:grid-cols-2">
+                    <div className="max-w-[550px] 2md:border-r 2md:border-r-gray-400 2md:pr-8 2md:pb-6">
+                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
+                            This type of coverage is attractive to many because
+                            you can get approved and covered in a matter of
+                            minutes, and there are never any medical exams.
+                        </p>
+                    </div>
+                    <div className="max-w-[550px] 2md:pb-6">
+                        <p className="text-lg text-[#323232] font-medium">
+                            Guaranteed issue whole life insurance might be the
+                            right fit for you if:
+                        </p>
+                        <ul className="text-lg mt-5 text-[#323232] list-disc ml-8">
+                            <li>
+                                You want a simple application process without
+                                medical exams or lab tests
+                            </li>
+                            <li>
+                                You thought you couldn’t get life insurance
+                                because of your age or health
+                            </li>
+                            <li>You want your policy to build cash value</li>
+                            <li>You want coverage for the rest of your life</li>
+                            <li>
+                                You don’t want your family to have to worry
+                                about your final expenses
+                            </li>
+                            <li>
+                                You’re willing to pay a higher premium for the
+                                unique benefits of this coverage
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="flex gap-12 bg-[#fff2e3] py-14 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 justify-center">
+                <h1
+                    className={`${playfairB.className} lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.8rem] font-extralight`}
+                >
+                    Additional features and benefits
+                </h1>
+                <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0  2md:grid-cols-2">
+                    <div className="max-w-[550px] 2md:border-r 2md:border-r-gray-400 2md:pr-8 2md:pb-6">
+                        <p className="text-lg text-[#323232] font-medium">
+                            Graded death benefit
+                        </p>
+                        <p className=" text-lg  text-[#323232]">
+                            This policy comes with a graded death benefit, which
+                            means that if you suffer a non-accidental death
+                            within the first two years of coverage, your
+                            beneficiaries will get 100% of the premiums you
+                            paid, plus 30%. If death occurs after two years,
+                            then the total amount of your coverage is paid,
+                            minus any outstanding policy loans, regardless of
+                            the cause of death.
+                        </p>
+                    </div>
+                    <div className="max-w-[550px] 2md:pb-6">
+                        <p className="text-lg text-[#323232] font-medium">
+                            Help the whole way
+                        </p>
+                        <p className="text-lg mt-5 text-[#323232]">
+                            Before you buy this policy, minaLife is available to
+                            help you with any questions you may have via phone,
+                            email, text, and chat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="bg-[#dbede5] lg:justify-center xl:flex xl:gap-28dbede5dbede5dbede5dbede5dbede5dbede5 xl:py-10 px-8 sm:mx-8 mt-8 sm:px-20 py-8 text-[#212326]">
                 <div className="2md:mt-8">
-                    <h1 className={`${playfair.className} text-[2.4rem] `}>
-                        Get an instant quote
+                    <h1
+                        className={`${playfair.className} text-[2.4rem] leading-tight max-w-[300px]`}
+                    >
+                        Get started with whole life insurance
                     </h1>
                 </div>
                 <form className="mt-8">
@@ -718,7 +516,7 @@ const page = () => {
                     </p>
                 </form>
             </div>
-            <div className="bg-[#054742] mt-10 py-10 sm:py-14 lg:pt-20 sm:pb-24 sm:px-14 px-5">
+            <div className="bg-[#054742] mt-10 py-6 sm:pb-24 sm:px-14 px-5">
                 <div className="grid">
                     <div className="grid sm:hidden">
                         <p className="text-sm font-semibold text-white">
@@ -727,7 +525,7 @@ const page = () => {
                         {/* <p className="text-sm text-white mt-4">
                             1606 Headway Circle
                         </p>
-                        <p className="text-sm text-white">#9013</p> */} 
+                        <p className="text-sm text-white">#9013</p> */}
                         <p className="text-sm text-white">
                             116 Forrestal Village, NJ, USA
                         </p>
@@ -828,12 +626,6 @@ const page = () => {
                                 Blog
                             </Link>
                             <Link
-                                href="/app/needs"
-                                className="underline text-white"
-                            >
-                                Coverage Calculator
-                            </Link>
-                            <Link
                                 href="/life/life-insurance-101"
                                 className="underline text-white"
                             >
@@ -845,12 +637,6 @@ const page = () => {
                             >
                                 How it works
                             </Link>
-                            <Link
-                                href="/app/login"
-                                className="underline text-white"
-                            >
-                                Account login
-                            </Link>
                         </div>
                         <div className="flex flex-col gap-2">
                             <p className="font-semibold text-white">Company</p>
@@ -861,42 +647,35 @@ const page = () => {
                                 About us
                             </Link>
                             <Link
-                                href="/carriers"
-                                className="underline text-white"
-                            >
-                                Our carriers
-                            </Link>
-                            <Link
                                 href="/reviews"
                                 className="underline text-white"
                             >
                                 Reviews
                             </Link>
-                            <Link
-                                href="/careers"
-                                className="underline text-white"
-                            >
-                                Careers
-                            </Link>
-                            <Link
-                                href="/press"
-                                className="underline text-white"
-                            >
-                                Press
-                            </Link>
-                            <Link
-                                href="/leadership"
-                                className="underline text-white"
-                            >
-                                Leadership
-                            </Link>
-                            <Link
-                                href="/whats-yours-minalife"
-                                className="underline text-white"
-                            >
-                                What's your Minalife? Podcast
-                            </Link>
                         </div>
+                        {/* <div className="flex flex-col gap-2">
+                            <p className="font-semibold text-white">
+                                Partnerships
+                            </p>
+                            <Link
+                                href="/agents"
+                                className="underline text-white"
+                            >
+                                Minalife for Agents
+                            </Link>
+                            <Link
+                                href="/agents-portal"
+                                className="underline text-white"
+                            >
+                                Agent Login
+                            </Link>
+                            <Link
+                                href="/affiliate-program"
+                                className="underline text-white"
+                            >
+                                Affiliate Program
+                            </Link>
+                        </div> */}
                         <div className="flex flex-col gap-2">
                             <p className="font-semibold text-white">Legal</p>
                             <Link

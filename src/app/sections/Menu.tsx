@@ -228,7 +228,7 @@ const Menu = () => {
                                 </li>
                                 <li className="p-4 px-6 pt-0">
                                     <Link
-                                        href="/life/20-year-term"
+                                        href="/life/understanding-whole-life"
                                         className="hover:font-light"
                                     >
                                         Understanding whole life insurance
@@ -243,7 +243,7 @@ const Menu = () => {
                                     </Link>
                                 </li>
                             </ul>
-                            <li
+                            {/* <li
                                 onClick={() => handleNestedDownIcon(3)}
                                 className={`${lora.className} flex items-center justify-between p-4 px-6 w-full`}
                             >
@@ -328,7 +328,7 @@ const Menu = () => {
                                         Life insurance blog
                                     </Link>
                                 </li>
-                            </ul>
+                            </ul>*/}
                         </ul>
                     </div>
                 </li>
@@ -476,7 +476,7 @@ const Menu = () => {
                         </li>
                     </ul>
                 </li>
-                <li>
+                {/* <li>
                     <div
                         onClick={() => handleDownIcon(4)}
                         className={`${downIcons[4] && "bg-[#054742]"} ${
@@ -532,7 +532,7 @@ const Menu = () => {
                             </Link>
                         </li>
                     </ul>
-                </li>
+                </li> */}
             </ul>
             <ul className="text-[#26262d] text-lg border-t mt-6 py-8 px-6 border-t-black">
                 <li className="mb-2">

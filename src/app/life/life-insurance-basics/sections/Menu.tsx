@@ -228,7 +228,7 @@ const Menu = () => {
                                 </li>
                                 <li className="p-4 px-6 pt-0">
                                     <Link
-                                        href="/life/20-year-term"
+                                        href="/life/understanding-whole-life"
                                         className="hover:font-light"
                                     >
                                         Understanding whole life insurance

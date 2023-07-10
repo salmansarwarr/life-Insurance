@@ -6,7 +6,6 @@ import Link from "next/link";
 import { Playfair_Display } from "next/font/google";
 import Image from "next/image";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import Footer from "@/app/sections/Footer";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "600" });
 const playfairLight = Playfair_Display({ subsets: ["latin"], weight: "400" });

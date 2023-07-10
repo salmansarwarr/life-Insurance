@@ -1,8 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Menu from "./sections/Menu";
-import MenuHover from "./sections/MenuHover";
 import Footer from "@/app/sections/Footer";
 import Header from "../sections/Header";
 import Section1 from "./sections/Section1";

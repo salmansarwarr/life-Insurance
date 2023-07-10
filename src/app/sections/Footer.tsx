@@ -51,11 +51,13 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                         <p className="text-sm font-semibold text-white">
                             Contact Us
                         </p>
-                        <p className="text-sm text-white mt-4">
+                        {/* <p className="text-sm text-white mt-4">
                             1606 Headway Circle
                         </p>
-                        <p className="text-sm text-white">#9013</p>
-                        <p className="text-sm text-white">Austin, TX 78754</p>
+                        <p className="text-sm text-white">#9013</p> */} 
+                        <p className="text-sm text-white">
+                            116 Forrestal Village, NJ, USA
+                        </p>
                         <p className="text-sm text-white">(415) 915-0665</p>
                         <Link
                             href="/"
@@ -105,12 +107,6 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                             Blog
                         </Link>
                         <Link
-                            href="/app/needs"
-                            className="underline text-white"
-                        >
-                            Coverage Calculator
-                        </Link>
-                        <Link
                             href="/life/life-insurance-101"
                             className="underline text-white"
                         >
@@ -122,44 +118,17 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                         >
                             How it works
                         </Link>
-                        <Link
-                            href="/app/login"
-                            className="underline text-white"
-                        >
-                            Account login
-                        </Link>
                     </div>
                     <div className="flex flex-col gap-2">
                         <p className="font-semibold text-white">Company</p>
                         <Link href="/about" className="underline text-white">
                             About us
                         </Link>
-                        <Link href="/carriers" className="underline text-white">
-                            Our carriers
-                        </Link>
                         <Link href="/reviews" className="underline text-white">
                             Reviews
                         </Link>
-                        <Link href="/careers" className="underline text-white">
-                            Careers
-                        </Link>
-                        <Link href="/press" className="underline text-white">
-                            Press
-                        </Link>
-                        <Link
-                            href="/leadership"
-                            className="underline text-white"
-                        >
-                            Leadership
-                        </Link>
-                        <Link
-                            href="/whats-yours-minalife"
-                            className="underline text-white"
-                        >
-                            What's your Minalife? Podcast
-                        </Link>
                     </div>
-                    <div className="flex flex-col gap-2">
+                    {/* <div className="flex flex-col gap-2">
                         <p className="font-semibold text-white">Partnerships</p>
                         <Link href="/agents" className="underline text-white">
                             Minalife for Agents
@@ -176,7 +145,7 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                         >
                             Affiliate Program
                         </Link>
-                    </div>
+                    </div> */}
                     <div className="flex flex-col gap-2">
                         <p className="font-semibold text-white">Legal</p>
                         <Link href="/terms" className="underline text-white">
@@ -225,11 +194,13 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                         <p className="text-sm font-semibold text-white">
                             Contact Us
                         </p>
-                        <p className="text-sm text-white mt-4">
+                        {/* <p className="text-sm text-white mt-4">
                             1606 Headway Circle
                         </p>
-                        <p className="text-sm text-white">#9013</p>
-                        <p className="text-sm text-white">Austin, TX 78754</p>
+                        <p className="text-sm text-white">#9013</p> */} 
+                        <p className="text-sm text-white">
+                            116 Forrestal Village, NJ, USA
+                        </p>
                         <p className="text-sm text-white">(415) 915-0665</p>
                         <Link
                             href="/"
