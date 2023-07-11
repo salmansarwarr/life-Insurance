@@ -54,8 +54,8 @@ const Section1 = () => {
                     />
                 </div>
             </div>
-            <div className="bg-white lg:bg-[#dbede5] mt-6 sm:mt-8 lg:mt-0 w-full lg:w-fit">
-                <div className="w-full lg:w-fit flex justify-center overflow-hidden bg-[#dbede5] rounded-bl-[70%] sm:rounded-bl-[60%] 2lg:rounded-bl-[50%] 2md:rounded-bl-[4 0%] lg:rounded-none">
+            <div className="bg-white lg:bg-[#dbede5] mt-6 sm:mt-8 w-full lg:w-fit">
+                <div className="w-full pt-10 lg:w-fit flex justify-center overflow-hidden bg-[#dbede5] rounded-bl-[70%] sm:rounded-bl-[60%] 2lg:rounded-bl-[50%] 2md:rounded-bl-[4 0%] lg:rounded-none">
                     <Image
                         className="sm:w-[350px] 2lg:w-auto xl:w-[600px]"
                         src="/ctaImage.png"
