@@ -331,54 +331,6 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                     </Link>
                 </div>
             </div>
-            <div
-                onMouseOver={() => handleHover(3)}
-                onMouseOut={() => handleHover(3)}
-                className={`${
-                    hover[3] ? "block" : "hidden"
-                } fixed w-full bg-white flex`}
-            >
-                <div className="py-8 px-16">
-                    <Link
-                        href="/self-serve-organic"
-                        className={`${playfairDisplay.className} hover:underline font-light text-black text-[1.5rem]`}
-                    >
-                        Minalife for agents
-                        <EastOutlinedIcon
-                            fontSize="small"
-                            color="inherit"
-                            className="font-light ml-2"
-                        />
-                    </Link>
-                    <p className="text-[#494d4b] text-[1rem]">
-                        Grow your business with <br /> minaLife.
-                    </p>
-                </div>
-                <div className="pt-8 flex gap-5">
-                    <Link
-                        href="/self-serve-organic"
-                        className="text-sm hover:underline"
-                    >
-                        Join as an agent
-                        <EastOutlinedIcon
-                            fontSize="small"
-                            color="inherit"
-                            className="text-sm font-light ml-2"
-                        />
-                    </Link>
-                    <Link
-                        href="/agents-portal/login"
-                        className="text-sm hover:underline"
-                    >
-                        Log in as an agent
-                        <EastOutlinedIcon
-                            fontSize="small"
-                            color="inherit"
-                            className="text-sm font-light ml-2"
-                        />
-                    </Link>
-                </div>
-            </div>
             {/* <div
                 onMouseOver={() => handleHover(4)}
                 onMouseOut={() => handleHover(4)}

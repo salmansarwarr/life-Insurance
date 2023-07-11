@@ -426,56 +426,6 @@ const Menu = () => {
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <div
-                        onClick={() => handleDownIcon(3)}
-                        className={`${downIcons[3] && "bg-[#054742]"} ${
-                            downIcons[3] && "text-white"
-                        } flex items-center justify-between p-4 px-6 border-0 border-t w-full`}
-                    >
-                        <span>Agents</span>
-                        <IconButton className="p-0">
-                            {downIcons[3] ? (
-                                <KeyboardArrowUpIcon
-                                    fontSize="small"
-                                    className="text-white"
-                                />
-                            ) : (
-                                <KeyboardArrowDownIcon fontSize="small" />
-                            )}
-                        </IconButton>
-                    </div>
-                    <ul
-                        className={`text-lg text-[#212322] w-full ${
-                            downIcons[3] ? "block" : "hidden"
-                        }`}
-                    >
-                        <li className="p-4 px-6">
-                            <Link
-                                href="/self-serve-organic"
-                                className="hover:font-light"
-                            >
-                                Minalife for agents
-                            </Link>
-                        </li>
-                        <li className="p-4 px-6 pt-0">
-                            <Link
-                                href="/self-serve-organic"
-                                className="hover:font-light"
-                            >
-                                Join as an agent
-                            </Link>
-                        </li>
-                        <li className="p-4 px-6 pt-0">
-                            <Link
-                                href="/agents-portal/login"
-                                className="hover:font-light"
-                            >
-                                Log in as an agent
-                            </Link>
-                        </li>
-                    </ul>
-                </li>
                 {/* <li>
                     <div
                         onClick={() => handleDownIcon(4)}

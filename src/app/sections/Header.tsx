@@ -95,16 +95,6 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
                             </IconButton>
                         </li>
                         <li
-                            onMouseOver={() => handleHover(3)}
-                            onMouseOut={() => handleHover(3)}
-                            className="cursor-pointer hover:border-b-2 min-w-[67.5px] hover:border-black h-full flex items-center hover:text-black"
-                        >
-                            <span>Agents</span>
-                            <IconButton sx={{ padding: 0 }}>
-                                <KeyboardArrowDownIcon fontSize="small" />
-                            </IconButton>
-                        </li>
-                        <li
                             onMouseOver={() => handleHover(4)}
                             onMouseOut={() => handleHover(4)}
                             className="cursor-pointer hover:border-b-2 min-w-[54.52px] hover:border-black h-full flex items-center hover:text-black"
