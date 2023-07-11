@@ -7,14 +7,14 @@ const Section3 = () => {
     return (
         <div className="bg-[#c7ffde] text-[#323232] xl:gap-28 2md:gap-20 2md:justify-center px-8 2md:px-12 xl:pl-16 flex flex-col 2md:flex-row py-10 2md:py-14 items-center">
             <div className="flex gap-12 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 xl:mt-14 justify-center">
-                <div className="self-start max-w-[560px]">
+                <div className=" max-w-[560px]">
                     <h1
-                        className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
+                        className={`${playfair.className} lg:w-[100%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
                     >
                         How MinaLife Works
                     </h1>
                 </div>
-                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full  lg:items-center">
+                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full lg:items-center">
                     <div className="max-w-[550px]">
                         <p className="mt-2 text-lg xl:text-xl text-black">
                             Quick and Easy Application

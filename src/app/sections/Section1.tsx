@@ -60,8 +60,8 @@ const Section1 = () => {
                         className="sm:w-[350px] 2lg:w-auto xl:w-[440px]"
                         src="/ctaImage.png"
                         alt="insurance" 
-                        width={300}
-                        height={300}
+                        width={600}
+                        height={600}
                     />
                 </div>
             </div>
