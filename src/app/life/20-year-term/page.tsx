@@ -136,7 +136,7 @@ const page = () => {
                 </div>
                 <img
                     className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"
-                    src="/Stocksy_txpdf1a777.jpg"
+                    src="/protect love ones-01.png"
                     alt="img"
                 />
             </div>
@@ -500,7 +500,7 @@ const page = () => {
                         type="submit"
                         className="bg-gray-900 sm:ml-auto hover:bg-gray-800 sm:text-lg disabled:bg-gray-300 min-w-[220px] flex justify-between items-center mt-10 my-10 text-gray-100 px-4 sm:py-4 sm:px-5 py-3"
                     >
-                        <span>Continue </span>
+                        <span>Submit </span>
                         <ArrowForwardIcon fontSize="small" color="inherit" />
                     </button>
                     <p className="text-sm text-gray-600 mt-4">

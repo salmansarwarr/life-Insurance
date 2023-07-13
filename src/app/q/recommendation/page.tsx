@@ -7,9 +7,9 @@ import { Playfair_Display } from "next/font/google";
 import Link from "next/link";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
+const depend = localStorage.getItem("depend");
 
 const page = () => {
-
     const unSelectedStyles =
         "p-4 w-[150px] h-[145px] border border-gray-400 flex gap-2 flex-col justify-center text-center items-center";
 
@@ -36,9 +36,17 @@ const page = () => {
                             PROTECTION FOR
                         </p>
                         <p className={unSelectedStyles}>
-                            <p>Partner</p>
+                            <p>{depend}</p>
                             <Image
-                                src="/partner.png"
+                                src={
+                                    depend == "partner"
+                                        ? "/partner.png"
+                                        : depend == "children"
+                                        ? "/children.png"
+                                        : depend == "parent"
+                                        ? "/home.png"
+                                        : "/other.png"
+                                }
                                 alt="partner"
                                 height={55}
                                 width={55}

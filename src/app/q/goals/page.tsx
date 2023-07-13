@@ -66,7 +66,7 @@ const page = () => {
                         >
                             <p>I want to protect my loved ones</p>
                             <Image
-                                src="/money.png"
+                                src="/protect love ones-01.png"
                                 alt="money"
                                 height={55}
                                 width={55}
@@ -82,7 +82,7 @@ const page = () => {
                         >
                             <p>I want to pay off my mortgage</p>
                             <Image
-                                src="/home.png"
+                                src="/pay off my mortgage-01.png"
                                 alt="money"
                                 height={55}
                                 width={55}
@@ -98,7 +98,7 @@ const page = () => {
                         >
                             <p>I want to prepare for my family's future</p>
                             <Image
-                                src="/will.png"
+                                src="/prepare my family's future-01.png"
                                 alt="money"
                                 height={55}
                                 width={55}
@@ -114,7 +114,7 @@ const page = () => {
                         >
                             <p>I'm looking for peace of mind</p>
                             <Image
-                                src="/peace.png"
+                                src="/peace of mind 2-01.png"
                                 alt="money"
                                 height={55}
                                 width={55}
@@ -130,7 +130,7 @@ const page = () => {
                         >
                             <p>I want to cover my final expenses</p>
                             <Image
-                                src="/home.png"
+                                src="/cover my final expenses 2-01 (2).png"
                                 alt="money"
                                 height={55}
                                 width={55}
@@ -146,7 +146,7 @@ const page = () => {
                         >
                             <p>I'm not sure</p>
                             <Image
-                                src="/plant.png"
+                                src="/i'm not sure-01.png"
                                 alt="money"
                                 height={55}
                                 width={55}

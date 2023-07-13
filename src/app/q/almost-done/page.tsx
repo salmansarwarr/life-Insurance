@@ -44,7 +44,7 @@ const page = () => {
                         href="/q/calculated-policy"
                         className="bg-gray-900 hover:bg-gray-800 sm:text-lg disabled:bg-gray-300 min-w-[220px] sm:w-[496px] flex justify-between items-center mt-10 my-10 text-gray-100 px-4 sm:py-4 sm:px-5 py-3"
                     >
-                        <span>Continue to TrueStage® </span>
+                        <span>Submit to TrueStage® </span>
                         <ArrowForwardIcon fontSize="small" color="inherit" />
                     </Link>
                 </div>

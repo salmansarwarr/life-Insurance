@@ -1,0 +1,37 @@
+<svg width="20" height="42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M16 31v-4l2-4v-7l-4-2 4-10c1-1 0-2-1-3l-3 1-4 10H7l-2 2H4c-2 0-2 1-2 2v7l2 5v3"
+    fill="#DBECE4"
+  />
+  <path
+    d="M16 31v-4l2-4v-7l-4-2 4-10c1-1 0-2-1-3l-3 1-4 10H7l-2 2H4c-2 0-2 1-2 2v7l2 5v3"
+    stroke="#064944"
+    stroke-miterlimit="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path d="m4 31 1 1h6" fill="#DBECE4" />
+  <path
+    d="m4 31 1 1h6"
+    stroke="#064944"
+    stroke-miterlimit="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path d="M18 17v-1c0-4-4-13-5-14l-2-1c-2 1-2 2-1 3l4 12v1" fill="#DBECE4" />
+  <path
+    d="M18 17v-1c0-4-4-13-5-14l-2-1c-2 1-2 2-1 3l4 12v1"
+    stroke="#064944"
+    stroke-miterlimit="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path d="M17 17H8l-2 2 2 2h4c-3 1-3 3-3 6" fill="#DBECE4" />
+  <path
+    d="M17 17H8l-2 2 2 2h4c-3 1-3 3-3 6M5 14v4M9 13v2M18 41l-5-2H6l-4 2-1-1v-4l1-1h16l1 1v4l-1 1Z"
+    stroke="#064944"
+    stroke-miterlimit="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

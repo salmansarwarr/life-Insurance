@@ -1,0 +1,31 @@
+<svg width="36" height="42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M5 27v6c0 2 6 6 13 6s12-4 12-6v-9l-12 5-13-5"
+    stroke="#064944"
+    stroke-miterlimit="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="m35 22-17-8-17 8 17 7 17-7ZM33 40v1M33 23v15"
+    stroke="#064944"
+    stroke-miterlimit="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path d="m23 20-5 1a10 10 0 1 1 7-3" fill="#DBECE4" />
+  <path
+    d="m23 20-5 1a10 10 0 1 1 7-3M18 4v14"
+    stroke="#064944"
+    stroke-miterlimit="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M21 8c0-3-6-3-6 0 0 4 5 2 6 5s-4 5-6 1"
+    stroke="#064944"
+    stroke-miterlimit="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

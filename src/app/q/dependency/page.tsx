@@ -24,6 +24,7 @@ const page = () => {
         "p-4 border border-gray-400 flex gap-2 flex-col justify-center text-center items-center";
 
     const handleClick = (name: string) => {
+        localStorage.setItem('depend', name);
         if (!selectedDependencies.includes(name)) {
             setselectedDependencies((prev) => [...prev, name]);
         } else {

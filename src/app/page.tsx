@@ -13,7 +13,7 @@ import Footer from "./sections/Footer";
 import Header from "./sections/Header";
 
 const Page = () => {
-    const [showMenu, setshowMenu] = useState(false);
+    const [showMenu, setshowMenu] = useState<boolean>(false);
 
     return (
         <>
@@ -22,18 +22,16 @@ const Page = () => {
                 <Menu />
             ) : (
                 <>
-                    <>
-                        <Section1 />
-                        <Section2 />
-                        <Section3 />
-                        <Section4 />
-                        <Section5 />
-                        <Section6 />
-                        <Footer
-                            p1="*Prices start at $7/month based on a 20-year old female, healthy, non-smoking for a 10 year term and $100,000 policy."
-                            p2="Trustpilot rating as of 3/31/23"
-                        />
-                    </>
+                    <Section1 />
+                    <Section2 />
+                    <Section3 />
+                    <Section4 />
+                    <Section5 />
+                    <Section6 />
+                    <Footer
+                        p1="*Prices start at $7/month based on a 20-year old female, healthy, non-smoking for a 10 year term and $100,000 policy."
+                        p2="Trustpilot rating as of 3/31/23"
+                    />
                 </>
             )}
         </>

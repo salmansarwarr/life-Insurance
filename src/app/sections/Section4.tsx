@@ -28,7 +28,7 @@ const Section4 = () => {
                 <Image
                     alt="peace of mind"
                     className="w-full h-[50vw] max-w-[560px] max-h-[315px] 2md:max-w-none 2md:max-h-none 2md:w-[35vw] 2md:h-[20vw] xl:w-[480px] xl:h-[319px]"
-                    src="/Stocksy.png"
+                    src="/peace of mind 2-01.png"
                     height={300}
                     width={300}
                 ></Image>
