@@ -11,18 +11,23 @@ const willFlow =
     localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
 
 const page = () => {
-    const [nicotine, setNicotine] = useState("");
+    const [willInPlace, setWillInPlace] = useState("");
     const router = useRouter();
 
     const handleChange = (
         e: MouseEvent<HTMLInputElement, globalThis.MouseEvent>
     ) => {
         //@ts-ignore
-        setNicotine(e.target.value.toLowerCase());
+        if (e.target.value == "I'm not sure") {
+            setWillInPlace("not-sure");
+        } else {
+            //@ts-ignore
+            setWillInPlace(e.target.value.toLowerCase());
+        }
     };
 
     const handleSubmit = () => {
-        willFlow ? router.push("/q/wills") : router.push("/q/country");
+        router.push("/q/willsEducational") ;
     };
 
     return (
@@ -31,7 +36,7 @@ const page = () => {
             <div>
                 {willFlow ? (
                     <div className=" text-sm flex flex-col gap-2 w-full bg-gray-100">
-                        <div className="w-[65%] h-2 bg-[#054742]"></div>
+                        <div className="w-[70%] h-2 bg-[#054742]"></div>
                         <p className="px-4 pb-2">
                             PART 1:
                             <span className="font-medium ml-2">
@@ -48,37 +53,49 @@ const page = () => {
                     <p
                         className={`${playfair.className} sm:w-[496px] font-semibold text-[1.7rem] sm:text-[2rem] leading-tight max-w-[500px]`}
                     >
-                        Do you currently use nicotine products?
+                        Do you have an Estate Plan or Will in place?
                     </p>
                     <div className="flex flex-col gap-2 text-[1.1rem] mt-8">
                         <input
                             type="button"
-                            name="nicotine"
+                            name="willInPlace"
                             value="Yes"
                             //@ts-ignore
                             onClick={handleChange}
                             className={
-                                nicotine == "yes"
-                                    ? "w-full py-4 sm:w-[496px] border bg-[#054742] text-white transition-all border-gray-400"
-                                    : "w-full py-4 sm:w-[496px] border bg-white border-gray-400 transition-all"
+                                willInPlace == "yes"
+                                    ? "text-left px-4 w-full py-4 sm:w-[496px] border bg-[#054742] text-white transition-all border-gray-400"
+                                    : "text-left px-4 w-full py-4 sm:w-[496px] border bg-white border-gray-400 transition-all"
                             }
                         />
                         <input
                             type="button"
-                            name="nicotine"
+                            name="willInPlace"
                             value="No"
                             //@ts-ignore
                             onClick={handleChange}
                             className={
-                                nicotine == "no"
-                                    ? "w-full py-4 sm:w-[496px] border bg-[#054742] text-white transition-all border-gray-400"
-                                    : "w-full py-4 sm:w-[496px] border bg-white border-gray-400 transition-all"
+                                willInPlace == "no"
+                                    ? "text-left px-4 w-full py-4 sm:w-[496px] border bg-[#054742] text-white transition-all border-gray-400"
+                                    : "text-left px-4 w-full py-4 sm:w-[496px] border bg-white border-gray-400 transition-all"
+                            }
+                        />
+                        <input
+                            type="button"
+                            name="willInPlace"
+                            value="I'm not sure"
+                            //@ts-ignore
+                            onClick={handleChange}
+                            className={
+                                willInPlace == "not-sure"
+                                    ? "text-left px-4 w-full py-4 sm:w-[496px] border bg-[#054742] text-white transition-all border-gray-400"
+                                    : "text-left px-4 w-full py-4 sm:w-[496px] border bg-white border-gray-400 transition-all"
                             }
                         />
                     </div>
                     <button
                         onClick={handleSubmit}
-                        disabled={nicotine == ""}
+                        disabled={willInPlace == ""}
                         className="bg-gray-900 hover:bg-gray-800 sm:text-lg disabled:bg-gray-300 min-w-[220px] sm:w-[496px] flex justify-between items-center mt-10 my-10 text-gray-100 px-4 sm:py-4 sm:px-5 py-3"
                     >
                         <span>Next </span>

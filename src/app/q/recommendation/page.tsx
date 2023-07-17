@@ -8,6 +8,8 @@ import Link from "next/link";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
 const depend = localStorage.getItem("depend");
+const willFlow =
+    localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
 
 const page = () => {
     const unSelectedStyles =
@@ -17,9 +19,21 @@ const page = () => {
         <>
             <Header />
             <div>
-                <div className="h-[0.5rem] w-full bg-gray-100">
-                    <div className="w-[95%] h-full bg-[#054742]"></div>
-                </div>
+                {willFlow ? (
+                    <div className=" text-sm flex flex-col gap-2 w-full bg-gray-100">
+                        <div className="w-[65%] h-2 bg-[#054742]"></div>
+                        <p className="px-4 pb-2">
+                            PART 1:
+                            <span className="font-medium ml-2">
+                                COVERAGE NEEDS
+                            </span>
+                        </p>
+                    </div>
+                ) : (
+                    <div className="h-[0.5rem] w-full bg-gray-100">
+                        <div className="w-[95%] h-full bg-[#054742]"></div>
+                    </div>
+                )}
                 <div className="flex flex-col py-14 sm:py-20 px-5 items-center">
                     <p
                         className={`${playfair.className} text-center text-[1.75rem] sm:text-[2rem] leading-tight max-w-[500px]`}
@@ -54,7 +68,7 @@ const page = () => {
                         </p>
                     </div>
                     <Link
-                        href="/q/almost-done"
+                        href={willFlow ? "q/confirmEligibility" : "/q/almost-done"} 
                         className="bg-gray-900 hover:bg-gray-800 sm:text-lg disabled:bg-gray-300 min-w-[220px] sm:w-[496px] flex justify-between items-center mt-10 my-10 text-gray-100 px-4 sm:py-4 sm:px-5 py-3"
                     >
                         <span>Next </span>

@@ -8,34 +8,33 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
+const willFlow = localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
 
 const page = () => {
     const router = useRouter();
-    const dependency = [
-        "partner",
-        "children",
-        "parent",
-        "other",
-    ];
-    const [selectedDependencies, setselectedDependencies] = useState<string[]>([]);
+    const dependency = ["partner", "children", "parent", "other"];
+    const [selectedDependencies, setselectedDependencies] = useState<string[]>(
+        []
+    );
     const selectedStyles =
         "p-4 border border-[#054742] text-[#054742] font-bold flex gap-2 flex-col justify-center text-center items-center";
     const unSelectedStyles =
         "p-4 border border-gray-400 flex gap-2 flex-col justify-center text-center items-center";
 
     const handleClick = (name: string) => {
-        localStorage.setItem('depend', name);
+        localStorage.setItem("depend", name);
         if (!selectedDependencies.includes(name)) {
             setselectedDependencies((prev) => [...prev, name]);
         } else {
-            setselectedDependencies((prev) => prev.filter((goal) => goal !== name));
+            setselectedDependencies((prev) =>
+                prev.filter((goal) => goal !== name)
+            );
         }
     };
 
-
     const handleSubmit = () => {
-        router.push('/q/children');
-    }
+        willFlow ? router.push("/q/how-it-works") : router.push("/q/children");
+    };
 
     const isSelected = (name: string) => {
         return selectedDependencies.includes(name);
@@ -46,7 +45,11 @@ const page = () => {
             <Header />
             <div>
                 <div className="h-[0.5rem] w-full bg-gray-100">
-                    <div className="w-[65%] h-full bg-[#054742]"></div>
+                    {willFlow ? (
+                        <div className="w-[50%] h-full bg-[#054742]"></div>
+                    ) : (
+                        <div className="w-[65%] h-full bg-[#054742]"></div>
+                    )}
                 </div>
                 <div className="flex flex-col py-14 sm:py-20 px-5 items-center">
                     <p
@@ -54,7 +57,9 @@ const page = () => {
                     >
                         Who depends on you financially?
                     </p>
-                    <p className="mt-4 text-sm text-gray-800 text-left sm:w-[490px]">This helps us customize our plan</p>
+                    <p className="mt-4 text-sm text-gray-800 text-left sm:w-[490px]">
+                        This helps us customize our plan
+                    </p>
                     <div className="grid gap-4 grid-cols-2 sm:w-[490px] mt-6 text-[0.8rem] text-black">
                         <button
                             onClick={() => handleClick(dependency[0])}

@@ -32,7 +32,7 @@ const page = () => {
                     </div>
                     <Image src="/estate.svg" className="mt-6 mx-auto" alt="estate" height={200} width={200}/>
                     <Link
-                        href="/q/annual-pre-tax-income"
+                        href="/q/income"
                         className="bg-gray-900 hover:bg-gray-800 sm:text-lg disabled:bg-gray-300 min-w-[220px] sm:w-[496px] flex justify-between items-center mt-10 my-10 text-gray-100 px-4 sm:py-4 sm:px-5 py-3"
                     >
                         <span>Next </span>

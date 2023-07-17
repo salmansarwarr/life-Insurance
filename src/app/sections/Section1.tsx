@@ -8,6 +8,7 @@ const Section1 = () => {
     const router = useRouter();
 
     const handleClick = () => {
+        localStorage.setItem('flow', '');
         router.push('/q/goals')
     }
 

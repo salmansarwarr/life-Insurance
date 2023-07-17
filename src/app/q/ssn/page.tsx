@@ -22,7 +22,7 @@ const page = () => {
     };
 
     const handleSubmit = () => {
-        router.push("/q/dependency");
+        router.push("/q/protections");
     };
 
     return (

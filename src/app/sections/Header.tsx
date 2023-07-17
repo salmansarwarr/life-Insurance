@@ -36,6 +36,7 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
     const router = useRouter();
 
     const handleClick = () => {
+        localStorage.setItem('flow', '');
         router.push("/q/goals");
     };
 

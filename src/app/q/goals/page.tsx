@@ -8,6 +8,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
+const willFlow = localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
 
 const page = () => {
     const router = useRouter();
@@ -34,8 +35,10 @@ const page = () => {
     };
 
     const handleSubmit = () => {
-        router.push('/q/how-it-works');
-    }
+        willFlow
+            ? router.push("/q/protections")
+            : router.push("/q/how-it-works");
+    };
 
     const isSelected = (name: string) => {
         return selectedGoals.includes(name);
@@ -46,7 +49,11 @@ const page = () => {
             <Header />
             <div>
                 <div className="h-[0.5rem] w-full bg-gray-100">
-                    <div className="w-[5%] h-full bg-[#054742]"></div>
+                    {willFlow ? (
+                        <div className="w-[45%] h-full bg-[#054742]"></div>
+                    ) : (
+                        <div className="w-[5%] h-full bg-[#054742]"></div>
+                    )}
                 </div>
                 <div className="flex flex-col py-14 sm:py-20 px-5 items-center">
                     <p
@@ -54,6 +61,9 @@ const page = () => {
                     >
                         Let's get started! What are your goals for life
                         insurance?
+                    </p>
+                    <p className="sm:w-[496px] text-gray-600 mt-4">
+                        Select all that apply.
                     </p>
                     <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 sm:max-w-[496px] mt-6 text-[0.8rem] text-black">
                         <button

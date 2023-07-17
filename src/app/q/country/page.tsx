@@ -11,10 +11,12 @@ import { fetchCountryData } from "@/app/utils/countryAPI";
 interface Country {
     label: string;
     value: string;
-    code: string
+    code: string;
 }
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
+const willFlow =
+    localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
 
 const page = () => {
     const [selectedCountry, setSelectedCountry] = useState<Country>();
@@ -22,7 +24,7 @@ const page = () => {
     const router = useRouter();
 
     const handleCountryChange = (selectedOption: Country) => {
-        localStorage.setItem('countryCode', selectedOption.code)
+        localStorage.setItem("countryCode", selectedOption.code);
         setSelectedCountry(selectedOption);
     };
 
@@ -32,7 +34,7 @@ const page = () => {
             const formattedData = data.map((country: any) => ({
                 value: country.name.common,
                 label: country.name.common,
-                code: country.cca2
+                code: country.cca2,
             }));
             if (data) {
                 setCountries(formattedData);
@@ -42,9 +44,8 @@ const page = () => {
         getCountries();
     }, []);
 
-
     const handleSubmit = () => {
-        router.push("/q/state");
+        willFlow ? router.push("/q/us-citizenship") : router.push("/q/state");
     };
 
     const customStyles = {
@@ -59,14 +60,25 @@ const page = () => {
         }),
     };
 
-
     return (
         <>
             <Header />
             <div>
-                <div className="h-[0.5rem] w-full bg-gray-100">
-                    <div className="w-[30%] h-full bg-[#054742]"></div>
-                </div>
+                {willFlow ? (
+                    <div className=" text-sm flex flex-col gap-2 w-full bg-gray-100">
+                        <div className="w-[75%] h-2 bg-[#054742]"></div>
+                        <p className="px-4 pb-2">
+                            PART 2:
+                            <span className="font-medium ml-2">
+                                CONFIRM ELIGIBILITY
+                            </span>
+                        </p>
+                    </div>
+                ) : (
+                    <div className="h-[0.5rem] w-full bg-gray-100">
+                        <div className="w-[30%] h-full bg-[#054742]"></div>
+                    </div>
+                )}
                 <div className="flex flex-col px-6 py-8 sm:py-14 sm:items-center">
                     <p
                         className={`${playfair.className} sm:w-[496px] font-semibold text-[1.7rem] sm:text-[2rem] leading-tight max-w-[500px]`}

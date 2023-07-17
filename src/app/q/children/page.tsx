@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import LightbulbOutlinedIcon from "@mui/icons-material/LightbulbOutlined";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
-const willFlow = localStorage.getItem("flow") == "will";
+const willFlow = localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
 
 const page = () => {
     const router = useRouter();
