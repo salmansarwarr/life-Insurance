@@ -8,9 +8,13 @@ const Section1 = () => {
     const router = useRouter();
 
     const handleClick = () => {
-        localStorage.setItem('flow', '');
-        router.push('/q/goals')
-    }
+        try {
+            localStorage.setItem("flow", "");
+        } catch (error) {
+            console.log(error);
+        }
+        router.push("/q/goals");
+    };
 
     return (
         <div className="mb-4 mt-[61px] sm:mb-6 lg:rounded-bl-[35%] xl:justify-center xl:rounded-bl-[30%] lg:px-14 lg:pl-24 lg:justify-between overflow-hidden flex flex-col lg:flex-row items-center bg-[#dbede5] text-[#056257] pt-5 2lg:pt-12 lg:pt-6 xl:pt-4 text-center lg:text-left">
@@ -25,7 +29,10 @@ const Section1 = () => {
                 <p className="font-semibold text-lg">
                     $1 million in coverage starts at $1/day.
                 </p>
-                <button onClick={handleClick} className="bg-[#f06c00] text-white px-16 sm:px-24 2lg:px-[4.5rem] py-4 mt-8 sm:mt-9 rounded-[0.25rem] font-medium">
+                <button
+                    onClick={handleClick}
+                    className="bg-[#f06c00] text-white px-16 sm:px-24 2lg:px-[4.5rem] py-4 mt-8 sm:mt-9 rounded-[0.25rem] font-medium"
+                >
                     Get my rates
                 </button>
                 <div className="flex mt-12 justify-center lg:justify-start items-center gap-5">
@@ -42,14 +49,14 @@ const Section1 = () => {
                     <Image
                         alt="fortune"
                         src="/fortune.png"
-                        className="sm:w-[70px]" 
+                        className="sm:w-[70px]"
                         width={50}
                         height={50}
                     />
                     <Image
                         alt="yahoo"
                         src="/yahoo.png"
-                        className="sm:w-[70px]" 
+                        className="sm:w-[70px]"
                         width={50}
                         height={50}
                     />
@@ -60,12 +67,12 @@ const Section1 = () => {
                     <Image
                         className="sm:w-full xl:w-[900px]"
                         src="/ctaImage.png"
-                        alt="insurance" 
+                        alt="insurance"
                         width={800}
                         height={800}
                     />
                 </div>
-            </div>  
+            </div>
         </div>
     );
 };

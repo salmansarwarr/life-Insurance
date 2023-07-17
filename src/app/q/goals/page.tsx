@@ -8,7 +8,13 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
-const willFlow = localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
+let willFlow: any;
+try {
+    willFlow =
+        localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
+} catch (error) {
+    willFlow = false;
+}
 
 const page = () => {
     const router = useRouter();

@@ -15,16 +15,24 @@ interface Country {
 }
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
-const willFlow =
-    localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
-
+let willFlow: any;
+try {
+    willFlow =
+        localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
+} catch (error) {
+    willFlow = false;
+}
 const page = () => {
     const [selectedCountry, setSelectedCountry] = useState<Country>();
     const [countries, setCountries] = useState<Country[]>();
     const router = useRouter();
 
     const handleCountryChange = (selectedOption: Country) => {
-        localStorage.setItem("countryCode", selectedOption.code);
+        try {
+            localStorage.setItem("countryCode", selectedOption.code);
+        } catch (error) {
+            console.log(error)
+        }
         setSelectedCountry(selectedOption);
     };
 

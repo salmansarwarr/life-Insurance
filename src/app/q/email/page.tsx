@@ -7,9 +7,13 @@ import { ChangeEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 import LockIcon from "@mui/icons-material/Lock";
 import Link from "next/link";
-const willFlow =
-    localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
-
+let willFlow: any;
+try {
+    willFlow =
+        localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
+} catch (error) {
+    willFlow = false;
+}
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
 
 const page = () => {

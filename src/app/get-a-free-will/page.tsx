@@ -66,7 +66,11 @@ const page = () => {
     }
 
     const handleClick = () => {
-        localStorage.setItem('flow', 'will');
+        try {
+            localStorage.setItem("flow", "will");
+        } catch (error) {
+            console.log(error)
+        }
         router.push("/q/epgOverview");
     };
 

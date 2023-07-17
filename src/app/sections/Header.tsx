@@ -36,7 +36,11 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
     const router = useRouter();
 
     const handleClick = () => {
-        localStorage.setItem('flow', '');
+        try {
+            localStorage.setItem("flow", "");
+        } catch (error) {
+            console.log(error);
+        }
         router.push("/q/goals");
     };
 
@@ -100,7 +104,7 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
                             onMouseOut={() => handleHover(4)}
                             className="cursor-pointer hover:border-b-2 min-w-[54.52px] hover:border-black h-full flex items-center hover:text-black"
                         >
-                            <Link href='/faq'>FAQs</Link>
+                            <Link href="/faq">FAQs</Link>
                             {/* <IconButton sx={{ padding: 0 }}>
                                 <KeyboardArrowDownIcon fontSize="small" />
                             </IconButton> */}
@@ -129,7 +133,7 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
                     </div>
                 </div>
             </div>
-            <MenuHover hover={hover} handleHover={handleHover}/>
+            <MenuHover hover={hover} handleHover={handleHover} />
         </>
     );
 };

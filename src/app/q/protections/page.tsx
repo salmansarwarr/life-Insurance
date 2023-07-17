@@ -8,7 +8,13 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
-const willFlow = localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
+let willFlow: any;
+try {
+    willFlow =
+        localStorage.getItem("flow") && localStorage.getItem("flow") == "will";
+} catch (error) {
+    willFlow = false;
+}
 
 const page = () => {
     const router = useRouter();
@@ -22,7 +28,11 @@ const page = () => {
         "p-4 border border-gray-400 flex gap-2 flex-col justify-center text-center items-center";
 
     const handleClick = (name: string) => {
-        localStorage.setItem("depend", name);
+        try {
+            localStorage.setItem("depend", name);
+        } catch (error) {
+            console.log(error)
+        }
         if (!selectedDependencies.includes(name)) {
             setselectedDependencies((prev) => [...prev, name]);
         } else {
