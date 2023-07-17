@@ -18,6 +18,7 @@ const page = () => {
         //@ts-ignore
         e.target.value == "Donestic Partner"
             ? setMartialStatus("domestic")
+            //@ts-ignore
             : setMartialStatus(e.target.value.toLowerCase());
     };
 
