@@ -7,7 +7,12 @@ import { Playfair_Display } from "next/font/google";
 import Link from "next/link";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "500" });
-const depend = localStorage.getItem("depend");
+let depend: any;
+try {
+    depend = localStorage.getItem("depend");
+} catch (error) {
+    depend = ''
+}
 let willFlow: any;
 try {
     willFlow =
