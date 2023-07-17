@@ -28,6 +28,7 @@ const page = () => {
 
     const handleInput = (event: React.FormEvent<HTMLInputElement>) => {
         const inputAmount = event.currentTarget.value;
+        //@ts-ignore
         if (event.target.name == "debt") {
             setDebt(inputAmount);
         } else {
