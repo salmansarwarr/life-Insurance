@@ -48,7 +48,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                         >
                             <li className="p-4  pt-0">
                                 <Link
-                                target="_self"
+                                    target="_self"
                                     href="/life/term-life-insurance-no-medical-exam"
                                     className="hover:font-light"
                                 >
@@ -297,30 +297,17 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                     </p>
                 </div>
                 <div className="pt-8 flex gap-5">
-                    <div className="flex flex-col gap-4">
-                        <Link
-                            href="/how-it-works"
-                            className="text-sm hover:underline"
-                        >
-                            How Minalife works
-                            <EastOutlinedIcon
-                                fontSize="small"
-                                color="inherit"
-                                className="text-sm font-light ml-2"
-                            />
-                        </Link>
-                        <Link
-                            href="/minalifeforgood"
-                            className="text-sm hover:underline"
-                        >
-                            Minalife for good
-                            <EastOutlinedIcon
-                                fontSize="small"
-                                color="inherit"
-                                className="text-sm font-light ml-2"
-                            />
-                        </Link>
-                    </div>
+                    <Link
+                        href="/why-minalife"
+                        className="text-sm hover:underline"
+                    >
+                        How Minalife works
+                        <EastOutlinedIcon
+                            fontSize="small"
+                            color="inherit"
+                            className="text-sm font-light ml-2"
+                        />
+                    </Link>
                     <Link href="/reviews" className="text-sm hover:underline">
                         Customer reviews
                         <EastOutlinedIcon
