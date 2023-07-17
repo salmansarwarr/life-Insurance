@@ -27,7 +27,12 @@ export const fetchCountryStates = async () => {
             redirect: "follow",
         };
 
-        const code = localStorage.getItem('countryCode');
+        let code: any;
+        try {
+             code = localStorage.getItem('countryCode');
+        } catch (error) {
+            console.log(error);
+        }
 
         const response = await fetch(
             `https://api.countrystatecity.in/v1/countries/${code}/states`,
