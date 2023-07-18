@@ -124,7 +124,7 @@ const Menu = () => {
                                         Life insurance rates by age
                                     </Link>
                                 </li>
-                                <li className="p-4 px-6 pt-0">
+                                {/* <li className="p-4 px-6 pt-0">
                                     <Link
                                         href="/life/500000-dollar-life-insurance-policy"
                                         className="hover:font-light"
@@ -139,7 +139,7 @@ const Menu = () => {
                                     >
                                         $1 million life insurance
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                             <li
                                 onClick={() => handleNestedDownIcon(1)}
@@ -167,7 +167,7 @@ const Menu = () => {
                                         Term life insurance
                                     </Link>
                                 </li>
-                                <li className="p-4 px-6 pt-0">
+                                {/* <li className="p-4 px-6 pt-0">
                                     <Link
                                         href="/life/10-year-term"
                                         className="hover:font-light"
@@ -190,7 +190,7 @@ const Menu = () => {
                                     >
                                         30 year term life insurance
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                             <li
                                 onClick={() => handleNestedDownIcon(2)}
@@ -218,7 +218,7 @@ const Menu = () => {
                                         Whole life insurance
                                     </Link>
                                 </li>
-                                <li className="p-4 px-6 pt-0">
+                                {/* <li className="p-4 px-6 pt-0">
                                     <Link
                                         href="/life/gi-whole-life-insurance"
                                         className="hover:font-light"
@@ -241,7 +241,7 @@ const Menu = () => {
                                     >
                                         Permanent and whole life insurance
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                             {/* <li
                                 onClick={() => handleNestedDownIcon(3)}

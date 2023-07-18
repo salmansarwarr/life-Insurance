@@ -911,7 +911,7 @@ const page = () => {
                             >
                                 Online Privacy Policy
                             </Link>
-                            <Link
+                            {/* <Link
                                 href="/data-security-at-minalife"
                                 className="underline text-white"
                             >
@@ -929,7 +929,7 @@ const page = () => {
                                 className="underline text-white"
                             >
                                 Licenses
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                     <p className="text-[0.7rem] mt-10 text-white sm:hidden lg:block lg:mt-20">

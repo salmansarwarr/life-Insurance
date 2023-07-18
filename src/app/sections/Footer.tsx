@@ -154,7 +154,7 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                         <Link href="/privacy" className="underline text-white">
                             Online Privacy Policy
                         </Link>
-                        <Link
+                        {/* <Link
                             href="/data-security-at-minalife"
                             className="underline text-white"
                         >
@@ -169,7 +169,7 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
 
                         <Link href="/licenses" className="underline text-white">
                             Licenses
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
                 <p className="text-[0.7rem] mt-10 text-white sm:hidden lg:block lg:mt-20">

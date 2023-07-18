@@ -64,21 +64,15 @@ const page = () => {
     }
 
     return (
-        <>
+        <div>
             <Header showMenu={showMenu} setshowMenu={setshowMenu} />
             <div className="mt-[61px] bg-[#dbede5] flex w-full justify-center items-center md:flex-row flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
                 <div className="flex flex-col gap-4">
                     <div className="max-w-[400px]">
                         <p
-                            className={`${playfair.className} text-[2rem] md:text-[2.4rem] text-[#fa640a] sm:text-[2.8rem] max-w-[500px]`}
+                            className={`${playfair.className} text-[2rem] md:text-[3.8rem] md:leading-tight text-[#054742] sm:text-[2.8rem] max-w-[560px]`}
                         >
                             Life insurance that puts you first
-                        </p>
-                        <p className="text-gray-800 font-medium mt-4">
-                            The older you get, the more life insurance rates
-                            increase. The sooner you buy, the sooner you'll lock
-                            in your lowest premium—and save the most money in
-                            the long run.
                         </p>
                     </div>
                     <div className="flex gap-4">
@@ -102,33 +96,109 @@ const page = () => {
                     alt="img"
                 />
             </div>
-            <div className="mt-[61px] bg-white flex w-full justify-center items-center md:flex-row-reverse flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
+            <div className="flex gap-12 bg-[#dbede5] sm:pt-24 lg:pt-30 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 pt-16 justify-center">
+                <h1
+                    className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.6rem] font-extralight`}
+                >
+                    We do life insurance <br className="hidden sm:block" />{" "}
+                    differently.
+                </h1>
+                <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0  2md:grid-cols-2">
+                    <div className="max-w-[550px] 2md:border-r 2md:pr-8 2md:pb-6">
+                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
+                            Fast, straightforward application
+                        </p>
+                        <p className="text-[1.1rem] mt-5 text-[#323232]">
+                            Our 100% online and hassle-free process makes it
+                            easy to apply. What traditionally took weeks can now
+                            be done in minutes, so you can focus on what
+                            matters. Most applicants
+                            <Link
+                                href="/life/term-life-insurance-no-medical-exam"
+                                className="underline ml-2"
+                            >
+                                don't even need a medical exam.
+                            </Link>
+                        </p>
+                    </div>
+                    <div className="max-w-[550px] 2md:pb-6">
+                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
+                            Automated & simplified underwriting
+                        </p>
+                        <p className="text-[1.1rem] mt-5 text-[#323232]">
+                            Our simplified underwriting process uses new
+                            technology and predictive modeling to provide
+                            instant decisions, with no medical exams for most
+                            people. When that isn’t possible, we’ve reduced the
+                            time you wait from months to days.
+                        </p>
+                    </div>
+                    <div className="max-w-[550px] 2md:pb-6">
+                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
+                            Expert advice
+                        </p>
+                        <p className="text-[1.1rem] mt-5 text-[#323232]">
+                            If you want help, our team of licensed agents is
+                            dedicated to finding you the right life insurance
+                            policy for you.
+                        </p>
+                    </div>
+                    <div className="max-w-[550px] 2md:pb-6">
+                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
+                            Money-back guarantee
+                        </p>
+                        <p className="text-[1.1rem] mt-5 text-[#323232]">
+                            If you’re not happy with your policy in the first 30
+                            days for any reason, we’ll refund your payment in
+                            full. No problem.
+                        </p>
+                    </div>
+                    <div className="max-w-[550px] 2md:pb-6">
+                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
+                            Flexible, affordable options
+                        </p>
+                        <p className="text-[1.1rem] mt-5 text-[#323232]">
+                            We analyze your information against our wide range
+                            of products in real-time, matching you to a policy
+                            that fits your needs with a price that works for
+                            you.
+                        </p>
+                    </div>
+                    <div className="max-w-[550px] 2md:pb-6">
+                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
+                            Cancel anytime
+                        </p>
+                        <p className="text-[1.1rem] mt-5 text-[#323232]">
+                            You can cancel your policy anytime, with no
+                            cancellation fees.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="mt-[61px] bg-white flex w-full justify-center items-center md:flex-row flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
                 <div className="flex flex-col gap-4">
                     <div className="max-w-[400px]">
                         <p
                             className={`${playfair.className} text-[2rem] md:text-[2.4rem] sm:text-[2rem] max-w-[500px]`}
                         >
-                            A simple way to save on life insurance
+                            Coverage you can trust
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            Purchasing life insurance early typically sets you
-                            up for your best rates. The average life insurance
-                            cost can increase by 8%, on average, for each year
-                            you delay. However, the moment you sign your policy,
-                            your rate is locked in and won't change during the
-                            policy's term. For example, a 40-year-old
-                            non-smoking male in good health could get a new,
-                            20-year term policy with $1 million coverage for
-                            $2,172 a year.* However, if he were to purchase the
-                            same policy at age 41, his cost would rise to $2,340
-                            a year—and he'd spend $2,508 annually if he waited
-                            another year.
+                            Our policies are insured by established life
+                            insurance companies like Legal & General America,
+                            Ameritas Life Insurance Corp., and TruStage®. By
+                            combining our streamlined application process with
+                            their coverage, we've been able to shrink the
+                            application process down to just minutes, compared
+                            to the weeks traditional applications require. You
+                            get the dependability of major insurers and the
+                            convenience of a modern technology company.
                         </p>
                     </div>
                 </div>
                 <img
                     className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"
-                    src="/chart-life-insurance-age.webp"
+                    src="/value-in-good-hands.webp"
                     alt="img"
                 />
             </div>
@@ -161,59 +231,6 @@ const page = () => {
                     src="/rate-chart-10yr.webp"
                     alt="img"
                 />
-            </div>
-            <div className="flex gap-12 sm:mt-20 lg:mt-24 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
-                <h1
-                    className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] font-extralight`}
-                >
-                    Common mistakes when <br className="hidden sm:block" />{" "}
-                    buying life insurance
-                </h1>
-                <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0  2md:grid-cols-2">
-                    <div className="max-w-[550px] 2md:border-r 2md:pr-8 2md:pb-6">
-                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
-                            Waiting until you have kids
-                        </p>
-                        <p className="text-[1.1rem] mt-5 text-[#323232]">
-                            If you delay buying life insurance until you have
-                            kids, it could cost you valuable years of locking in
-                            a low premium. Even if you don’t yet have children
-                            to protect, life insurance can cover your personal
-                            debts, medical bills, home mortgage, lost wages, and
-                            even funeral expenses. <br /> <br /> Your health
-                            status is one of the most crucial factors when
-                            determining premiums. The healthier you are, the
-                            less you pay, so getting life insurance at a younger
-                            age can be advantageous. As you age, the risk of
-                            developing health issues (such as cancer or
-                            diabetes) can lead to higher premiums and sometimes
-                            make it difficult to get coverage. Securing life
-                            insurance earlier in life helps protect you—and
-                            those who depend on you—against any unexpected
-                            changes.
-                        </p>
-                    </div>
-                    <div className="max-w-[550px] 2md:pb-6">
-                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
-                            Relying on employer-sponsored coverage
-                        </p>
-                        <p className="text-[1.1rem] mt-5 text-[#323232]">
-                            Employer-provided life insurance is a nice benefit,
-                            but these policies rarely offer sufficient coverage.
-                            Employer-sponsored policies typically only provide
-                            coverage of one to two times your annual salary.
-                            However, financial experts recommend you carry
-                            coverage about ten times your salary. And any change
-                            to your employment status (such as retirement,
-                            layoff, or job change) likely means you’ll lose the
-                            policy. If a change occurs when you're older—or
-                            after you've developed a health issue—it could be
-                            more expensive and difficult to secure new coverage.
-                            Having your own policy helps protect you and your
-                            loved ones against life’s unexpected changes.
-                        </p>
-                    </div>
-                </div>
             </div>
             <div className="bg-[#dbede5] lg:justify-center  xl:flex xl:gap-32 xl:py-10 px-8 sm:mx-8 mt-8 sm:px-20 py-8 text-[#212326]">
                 <div className="2md:mt-8">
@@ -785,7 +802,7 @@ const page = () => {
                 p1="*Sample based on 2021 rates. Individual rates may vary by carrier, underwriting class, date of issue, and other factors."
                 p2={`"How Age Affects Life Insurance", Investopedia. https://www.investopedia.com/articles/personal-finance/022615/how-age-affects-life-insurance-rates.asp`}
             />
-        </>
+        </div>
     );
 };
 

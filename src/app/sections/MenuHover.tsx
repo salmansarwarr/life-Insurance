@@ -63,7 +63,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                                     Life insurance rates by age
                                 </Link>
                             </li>
-                            <li className="p-4  pt-0">
+                            {/* <li className="p-4  pt-0">
                                 <Link
                                     href="/life/500000-dollar-life-insurance-policy"
                                     className="hover:font-light"
@@ -78,7 +78,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                                 >
                                     $1 million life insurance
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div>
@@ -98,7 +98,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                                     Term life insurance
                                 </Link>
                             </li>
-                            <li className="p-4  pt-0">
+                            {/* <li className="p-4  pt-0">
                                 <Link
                                     href="/life/10-year-term"
                                     className="hover:font-light"
@@ -121,7 +121,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                                 >
                                     30 year term life insurance
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div>
@@ -141,7 +141,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                                     Whole life insurance
                                 </Link>
                             </li>
-                            <li className="p-4  pt-0">
+                            {/* <li className="p-4  pt-0">
                                 <Link
                                     href="/life/gi-whole-life-insurance"
                                     className="hover:font-light"
@@ -164,7 +164,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                                 >
                                     Permanent and whole life insurance
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     {/* <div>

@@ -26,7 +26,7 @@ const page = () => {
 
     const handleSubmit = () => {
         if (isValidEmail(email)) {
-            router.push("/q/ssn");
+            willFlow ? router.push('#') : router.push("/q/ssn");
         } else {
             alert("Enter a valid phone number");
         }
