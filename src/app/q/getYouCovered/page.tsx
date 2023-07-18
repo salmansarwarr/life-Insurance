@@ -47,7 +47,7 @@ const page = () => {
                         <span>Next </span>
                         <ArrowForwardIcon fontSize="small" color="inherit" />
                     </Link>
-                    <Link href="#" className="text-[#26605f] underline">
+                    <Link href="https://minawill.com/all/products/individual" className="text-[#26605f] underline">
                         No thanks, I just want a partial estate plan
                     </Link>
                 </div>

@@ -47,7 +47,7 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
     return (
         <>
             <div
-                className={`flex fixed top-0 z-10 justify-between px-5 sm:px-6 lg:px-12 py-2 2md:pb-0 w-full bg-white ${
+                className={`flex fixed top-0 z-10 justify-between px-5 pl-3 sm:px-6 lg:px-12 py-2 2md:pb-0 w-full bg-white ${
                     !notHoveringAnything && "2md:border-b"
                 } hover:bg-white hover:border-b ${
                     notHoveringAnything && "2md:bg-[#dbede5]" && "bg-white"
@@ -111,12 +111,12 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
                         </li>
                     </ul>
                 </div>
-                <div className="flex w-[160px] 2md:w-[216px] items-center justify-between 2md:justify-end lg:justify-between">
+                <div className="flex w-[200px] 2md:w-[250px] items-center justify-between 2md:justify-end lg:justify-between">
                     <HiOutlineMagnifyingGlass className="text-[1.9rem] text-[#494d4b] hidden lg:block" />
                     <MdPersonOutline className="text-[2.2rem] text-[#494d4b] hidden lg:block" />
                     <button
                         onClick={handleClick}
-                        className="bg-[rgb(33,35,34)] hover:bg-[#494d4b] text-white py-2 px-3 text-[0.9rem]"
+                        className="bg-[rgb(33,35,34)] hover:bg-[#494d4b] text-white py-2 mb-2 px-3 text-[0.9rem]"
                     >
                         Start planning now
                     </button>
