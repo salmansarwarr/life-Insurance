@@ -7,9 +7,11 @@ import Link from "next/link";
 import Footer from "../sections/Footer";
 import StarRateIcon from "@mui/icons-material/StarRate";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import Image from "next/image";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "600" });
 const playfairMd = Playfair_Display({ subsets: ["latin"], weight: "500" });
+const playfairLight = Playfair_Display({ subsets: ["latin"], weight: "400" });
 
 const page = () => {
     const [showMenu, setshowMenu] = useState(false);
@@ -61,35 +63,79 @@ const page = () => {
     return (
         <div>
             <Header showMenu={showMenu} setshowMenu={setshowMenu} />
-            <div className="mt-[61px] bg-[#dbede5] flex w-full justify-center items-center md:flex-row flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
-                <div className="flex flex-col gap-4">
-                    <div className="max-w-[400px]">
+            <div className="mt-[65px]x flex w-full justify-center items-center md:flex-row flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-60">
+                <div className="flex flex-col gap-4 mt-6">
+                    <div className="max-w-[600px]">
                         <p
-                            className={`${playfair.className} text-[2rem] md:text-[3.8rem] md:leading-tight text-[#054742] sm:text-[2.8rem] max-w-[560px]`}
+                            className={`${playfair.className} text-[2rem] md:text-[3.8rem] md:leading-tight text-[#262626] sm:text-[2.8rem]`}
                         >
-                            Life insurance that puts you first
+                            Real customers.
                         </p>
-                    </div>
-                    <div className="flex gap-4">
-                        <Link
-                            href="/estimate-experience"
-                            className="bg-[rgb(33,35,34)] transition-all text-white hover:bg-[#494d4b] sm:w-[159px] font-medium text-center mt-6 py-3 sm:py-4 px-4 text-[1rem]"
+                        <p
+                            className={`${playfair.className} text-[2rem] md:text-[3.8rem] md:leading-tight text-[#262626] sm:text-[2.8rem]`}
                         >
-                            Check my price
-                        </Link>
-                        <Link
-                            href="/q/goals"
-                            className="text-[rgb(33,35,34)] hover:bg-[rgb(33,35,34)] transition-all hover:text-white border border-black sm:w-[159px] font-medium text-center mt-6 py-3 sm:py-4 px-4 text-[1rem]"
-                        >
-                            Start Applying
-                        </Link>
+                            Real Reviews.
+                        </p>
                     </div>
                 </div>
                 <img
                     className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[500px]"
-                    src="/grandfather-and-grandson-walking.jpg"
+                    src="/family-on-a-couch.jpg"
                     alt="img"
                 />
+            </div>
+            <div className="text-[#323232] xl:gap-28 2md:gap-20 2md:justify-center px-8 2md:px-12 xl:pl-16 flex flex-col 2md:flex-row py-10 2md:py-14 items-center">
+                <div className="flex gap-12 lg:items-center w-full sm:gap-16 flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
+                    <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 lg:gap-12 xl:gap-20">
+                        <div className="flex flex-col gap-3">
+                            <Image
+                                src="/icon-trustpilot_u560.webp"
+                                alt="trustpilot"
+                                height={50}
+                                width={50}
+                            />
+                            <p className=" text-[1.5rem] text-[#323232] mt-2">
+                                "Excellent” rating from Trustpilot
+                            </p>
+                            <p className="text-[1.1rem] text-gray-500">
+                                Ethos has an ‘Excellent’ rating from Trustpilot
+                                with 4.8/5 stars from customer reviews.
+                            </p>
+                            <Link href="#" className="hover:underline text-black">Read reviews →</Link>
+                        </div>
+                        <div className="flex flex-col gap-3">
+                            <Image
+                                src="/icon-BBB-centered.webp"
+                                alt="BBBColor"
+                                height={50}
+                                width={50}
+                            />
+                            <p className=" text-[1.5rem] text-[#323232] mt-2">
+                            A+ rating from Better Business Bureau
+                            </p>
+                            <p className="text-[1.1rem] text-gray-500">
+                            Ethos is rated A+ by the Better Business Bureau (BBB).
+                            </p>
+                            <Link href="#" className="hover:underline text-black">BBB profile →</Link>
+                        </div>
+                        <div className="flex flex-col gap-3">
+                            <Image
+                                src="/__G__Logo.webp"
+                                alt="trustpilot"
+                                height={50}
+                                width={50}
+                            />
+                            <p className=" text-[1.5rem] text-[#323232] mt-2">
+                            4.7/5 stars on Google
+
+                            </p>
+                            <p className="text-[1.1rem] text-gray-500">
+                            Ethos also earned a stellar rating of 4.7 out of 5 stars on Google based on average customer reviews.
+                            </p>
+                            <Link href="#" className="hover:underline text-black">Read reviews →</Link>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="flex gap-12 bg-[#dbede5] sm:pt-24 lg:pt-30 lg:items-center w-full sm:gap-16 text-[#323232] flex-col px-8 lg:px-14 sm:px-12 pt-16 justify-center">
                 <h1

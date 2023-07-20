@@ -71,10 +71,10 @@ const page = () => {
                             Life insurance with no medical exam
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            minaLife never requires a medical exam for anyone. You
-                            can apply for personalized online life insurance
-                            coverage through minaLife without needing to schedule
-                            an exam—you'll just need to answer a few
+                            minaLife never requires a medical exam for anyone.
+                            You can apply for personalized online life insurance
+                            coverage through minaLife without needing to
+                            schedule an exam—you'll just need to answer a few
                             health-related questions. Regardless of your health
                             status, with minaLife, you are eligible for a
                             no-medical-exam life insurance policy.
@@ -120,10 +120,8 @@ const page = () => {
                             Fast, online life insurance with no medical exam
                         </p>
                         <p className="text-lg mt-1 text-[#7c7377]">
-                            Complete our 100% online application in minutes.
-                            Just answer a few health questions and receive your
-                            life insurance quote today with no requirements of a
-                            medical exam.
+                            Instant life insurance quote online, no medical exam,
+                            just a few questions.
                         </p>
                     </div>
                     <div className="max-w-[550px]">
@@ -213,8 +211,8 @@ const page = () => {
                             The medical exam results are then used to determine
                             your premium, which could result in a "higher risk"
                             premium if the results indicate that's warranted.
-                            minaLife offers alternatives for those applicants who
-                            are considered a higher risk.{" "}
+                            minaLife offers alternatives for those applicants
+                            who are considered a higher risk.{" "}
                             <Link href="life-insurance/sipmlified-issue-life-insurance">
                                 Simplified issue
                             </Link>
@@ -497,7 +495,7 @@ const page = () => {
                     </p>
                 </form>
             </div>
-            <Footer p1="" p2=""/>
+            <Footer p1="" p2="" />
         </>
     );
 };
