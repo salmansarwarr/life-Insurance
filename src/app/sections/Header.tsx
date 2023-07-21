@@ -67,7 +67,7 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
                         <li
                             onMouseOver={() => handleHover(0)}
                             onMouseOut={() => handleHover(0)}
-                            className={`cursor-pointer hover:border-b-2 ${
+                            className={`cursor-pointer ${
                                 hover[0] && "border-b-2"
                             } border-black h-full flex items-center min-w-[113.9px] hover:text-black`}
                         >
@@ -82,7 +82,7 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
                         <li
                             onMouseOver={() => handleHover(1)}
                             onMouseOut={() => handleHover(1)}
-                            className="cursor-pointer hover:border-b-2 min-w-[181.33px] hover:border-black h-full flex items-center hover:text-black"
+                            className="cursor-pointer min-w-[181.33px] hover:border-black h-full flex items-center hover:text-black"
                         >
                             <span>Free wills & estate plans</span>
                             <IconButton sx={{ padding: 0 }}>
@@ -92,7 +92,7 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
                         <li
                             onMouseOver={() => handleHover(2)}
                             onMouseOut={() => handleHover(2)}
-                            className="cursor-pointer hover:border-b-2 min-w-[91.66px] hover:border-black h-full flex items-center hover:text-black"
+                            className="cursor-pointer min-w-[91.66px] hover:border-black h-full flex items-center hover:text-black"
                         >
                             <span>Why Minalife</span>
                             <IconButton sx={{ padding: 0 }}>
@@ -102,7 +102,7 @@ const Header = ({ showMenu, setshowMenu }: Props) => {
                         <li
                             onMouseOver={() => handleHover(4)}
                             onMouseOut={() => handleHover(4)}
-                            className="cursor-pointer hover:border-b-2 min-w-[54.52px] hover:border-black h-full flex items-center hover:text-black"
+                            className="cursor-pointer min-w-[54.52px] hover:border-black h-full flex items-center hover:text-black"
                         >
                             <Link href="/faq">FAQs</Link>
                             {/* <IconButton sx={{ padding: 0 }}>
