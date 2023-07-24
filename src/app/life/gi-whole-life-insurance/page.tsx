@@ -626,7 +626,7 @@ const page = () => {
                                 Blog
                             </Link>
                             <Link
-                                href="/life/life-insurance-101"
+                                href="/life/life-insurance-basics"
                                 className="underline text-white"
                             >
                                 Life insurance 101

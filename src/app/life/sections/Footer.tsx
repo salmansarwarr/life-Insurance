@@ -101,7 +101,7 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                             Blog
                         </Link>
                         <Link
-                            href="/life/life-insurance-101"
+                            href="/life/life-insurance-basics"
                             className="underline text-white"
                         >
                             Life insurance 101
