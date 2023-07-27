@@ -28,7 +28,7 @@ const page = () => {
                     <ul className="list-disc sm:w-[496px] mt-6 gap-4 flex flex-col">
                         <li>
                             Continue on to {"{Insurance Platform}"} underwritten
-                            by MinaLife Insurance Company to submit your
+                            by Minalife Insurance Company to submit your
                             application
                         </li>
                         <li>

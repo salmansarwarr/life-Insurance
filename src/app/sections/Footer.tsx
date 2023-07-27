@@ -18,10 +18,8 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                         Contact Us
                     </p>
                     <p className="text-sm text-white mt-4">
-                        1606 Headway Circle
+                    116 Forrestal Village, NJ, USA
                     </p>
-                    <p className="text-sm text-white">#9013</p>
-                    <p className="text-sm text-white">Austin, TX 78754</p>
                     <p className="text-sm text-white">(415) 915-0665</p>
                     <Link
                         href="/"
@@ -51,10 +49,6 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                         <p className="text-sm font-semibold text-white">
                             Contact Us
                         </p>
-                        {/* <p className="text-sm text-white mt-4">
-                            1606 Headway Circle
-                        </p>
-                        <p className="text-sm text-white">#9013</p> */} 
                         <p className="text-sm text-white">
                             116 Forrestal Village, NJ, USA
                         </p>
@@ -155,7 +149,7 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                             Online Privacy Policy
                         </Link> */}
                         {/* <Link
-                            href="/data-security-at-minalife"
+                            href="/data-security-at-Minalife"
                             className="underline text-white"
                         >
                             Data Security
@@ -177,7 +171,7 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                     states as Minalife Life Insurance Services. CA license
                     #0L28949; AR license #100164629. Minalife offers policies
                     issued by the carriers listed at{" "}
-                    <Link href="/carriers.">www.minalife.com/carriers.</Link>
+                    <Link href="/carriers.">www.Minalife.com/carriers.</Link>
                     Products and their features may not be available in all
                     states. To help avoid requiring a medical exam, our
                     application asks certain health and lifestyle questions.
@@ -194,10 +188,6 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                         <p className="text-sm font-semibold text-white">
                             Contact Us
                         </p>
-                        {/* <p className="text-sm text-white mt-4">
-                            1606 Headway Circle
-                        </p>
-                        <p className="text-sm text-white">#9013</p> */} 
                         <p className="text-sm text-white">
                             116 Forrestal Village, NJ, USA
                         </p>
@@ -241,7 +231,7 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                         license #0L28949; AR license #100164629. Minalife offers
                         policies issued by the carriers listed at{" "}
                         <Link href="/carriers.">
-                            www.minalife.com/carriers.
+                            www.Minalife.com/carriers.
                         </Link>
                         Products and their features may not be available in all
                         states. To help avoid requiring a medical exam, our

@@ -176,7 +176,7 @@ const page = () => {
                     some scenarios where a 30-year life insurance policy could
                     be the right choice for you, such as if you have financial
                     goals, plans, or obligations spanning roughly 30 years. To
-                    help with planning, consider using the minaLife web tool to
+                    help with planning, consider using the Minalife web tool to
                     <Link
                         href="/life/how-much-life-insurance-do-i-need"
                         className="underline text-[#254742] ml-2"
@@ -269,14 +269,14 @@ const page = () => {
                     insurance rates are often some of the most competitive.
                 </p>
                 <p className="mt-12 font-semibold text-lg xl:text-2xl text-black">
-                    Term life policies with minaLife
+                    Term life policies with Minalife
                 </p>
                 <p className="text-lg mt-6 text-[#323232]">
                     <Link
                         href="/life/term-life-policies"
                         className="underline text-[#254742] mr-2"
                     >
-                        Term life policies with minaLife
+                        Term life policies with Minalife
                     </Link>
                     include simplified and fully underwritten term life policies
                     for qualifying applicants. With a simplified policy, you'll
@@ -288,7 +288,7 @@ const page = () => {
                     fully underwritten plans include some health questions to
                     help determine premium levels. <br /> <br /> If you're
                     looking for life insurance online, consider a 30-year term
-                    life policy with minaLife and
+                    life policy with Minalife and
                     <Link
                         href="/estimate-experience"
                         className="underline text-[#254742] mx-2"

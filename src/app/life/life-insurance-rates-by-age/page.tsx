@@ -436,10 +436,10 @@ const page = () => {
                     <h1
                         className={`${playfair.className} text-[#262626] lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] font-extralight`}
                     >
-                        How minaLife works
+                        How Minalife works
                     </h1>
                     <p className="text-[1.1rem] mt-2 text-gray-600">
-                        minaLife makes it easy to apply for a life insurance plan
+                        Minalife makes it easy to apply for a life insurance plan
                         that helps <br className="hidden lg:block" /> protect
                         those you care about most.
                     </p>
@@ -519,9 +519,9 @@ const page = () => {
                             A+ rated and backed by top insurance agencies
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            MinaLife works with some of the world's largest and
+                            Minalife works with some of the world's largest and
                             most respected insurance companies, so you can feel
-                            confident and secure. minaLife puts our customers and
+                            confident and secure. Minalife puts our customers and
                             their needs first, as is evident in our excellent
                             user ratings.
                         </p>
@@ -652,14 +652,14 @@ const page = () => {
                         <p
                             className={`${playfairMd.className} text-lg text-[#fa640a] leading-[1.3] sm:text-[2rem]`}
                         >
-                            I loved working with minaLife
+                            I loved working with Minalife
                         </p>
                         <p className="text-[1rem] mt-4 text-gray-600">
-                            I loved working with minaLife. They are professional,
+                            I loved working with Minalife. They are professional,
                             timely, honest, and quick to respond to my questions
                             and concerns. I was really pleased with the service
                             I received through working with them. Thanks for
-                            helping me get insured, minaLife!
+                            helping me get insured, Minalife!
                         </p>
                         <p className="text-xs text-gray-600">M.F. Cook</p>
                     </div>
@@ -713,7 +713,7 @@ const page = () => {
                             We're here to help
                         </p>
                         <p className="text-[1.1rem] text-gray-900 mt-3 max-w-[500px]">
-                            At minaLife, we know life insurance is a significant
+                            At Minalife, we know life insurance is a significant
                             decision, so we make it easy to get answers. Our
                             team of licensed non-comissioned agents is ready to
                             answer all your questions.

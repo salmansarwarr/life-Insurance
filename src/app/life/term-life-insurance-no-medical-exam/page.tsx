@@ -71,12 +71,12 @@ const page = () => {
                             Life insurance with no medical exam
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            minaLife never requires a medical exam for anyone.
+                            Minalife never requires a medical exam for anyone.
                             You can apply for personalized online life insurance
-                            coverage through minaLife without needing to
+                            coverage through Minalife without needing to
                             schedule an exam—you'll just need to answer a few
                             health-related questions. Regardless of your health
-                            status, with minaLife, you are eligible for a
+                            status, with Minalife, you are eligible for a
                             no-medical-exam life insurance policy.
                         </p>
                     </div>
@@ -212,7 +212,7 @@ const page = () => {
                             The medical exam results are then used to determine
                             your premium, which could result in a "higher risk"
                             premium if the results indicate that's warranted.
-                            minaLife offers alternatives for those applicants
+                            Minalife offers alternatives for those applicants
                             who are considered a higher risk.{" "}
                             <Link href="life-insurance/sipmlified-issue-life-insurance">
                                 Simplified issue
@@ -230,7 +230,7 @@ const page = () => {
                     </div>
                     <div className="max-w-[550px] 2md:pb-6">
                         <p className=" text-lg font-semibold text-[#323232]">
-                            minaLife applicants don't need a medical exam
+                            Minalife applicants don't need a medical exam
                         </p>
                         <p className="text-lg mt-5 text-[#323232]">
                             After you answer a few health questions and submit

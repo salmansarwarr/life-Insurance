@@ -9,7 +9,7 @@ const Section5 = () => {
             <h1
                 className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] font-extralight`}
             >
-                Why MinaLife
+                Why Minalife
             </h1>
             <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full  lg:items-center">
                 <div className="max-w-[550px]">

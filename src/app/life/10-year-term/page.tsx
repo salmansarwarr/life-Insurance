@@ -72,7 +72,7 @@ const page = () => {
                             Compare 10 Year Term Life Insurance Plans
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            With minaLife, you can apply for a term length that
+                            With Minalife, you can apply for a term length that
                             gives you the coverage you need, with terms ranging
                             from 10 to 30 years.
                         </p>
@@ -103,7 +103,7 @@ const page = () => {
                         <p className="text-gray-800 font-medium mt-4">
                             Example monthly premiums for a healthy 40-year-old
                             male and female. Ranging for $20K to $1.5M in
-                            coverage, minaLife can provide as much life insurance
+                            coverage, Minalife can provide as much life insurance
                             coverage as you need at an affordable rate. 10 year
                             life insurance premiums can cost as little as $26 a
                             month for a{" "}
@@ -134,7 +134,7 @@ const page = () => {
                             debt, mortgage payments, education, and more. Enjoy
                             the piece of mind that your family's long-term
                             stability can be secured with the protection of a
-                            death benefit from minaLife.
+                            death benefit from Minalife.
                         </p>
                     </div>
                     <div className="flex gap-4">
@@ -226,13 +226,13 @@ const page = () => {
                     <h1
                         className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
                     >
-                        Why thousands of Americans choose minaLife
+                        Why thousands of Americans choose Minalife
                     </h1>
                     <p className="text-[1.1rem] mt-2 text-gray-500">
-                        minaLife makes it easy to apply for life insurance that’s
+                        Minalife makes it easy to apply for life insurance that’s
                         tailored to your budget and coverage needs. Customers
-                        choose minaLife because we offer affordable rates and help
-                        you find the right coverage for you. With minaLife, you
+                        choose Minalife because we offer affordable rates and help
+                        you find the right coverage for you. With Minalife, you
                         don’t need to talk to any agents to apply but if you
                         need, our team of licensed agents is ready to help you
                         with anything.
@@ -300,7 +300,7 @@ const page = () => {
                         <p className="text-lg mt-1 text-[#7c7377]">
                             If you change your mind within the first 30 days of
                             activating your coverage, we’ll refund your payment
-                            in full. And with minaLife, you can cancel your policy
+                            in full. And with Minalife, you can cancel your policy
                             anytime with no extra fees.
                         </p>
                     </div>
@@ -530,7 +530,7 @@ const page = () => {
                         license #0L28949; AR license #100164629. Minalife offers
                         policies issued by the carriers listed at{" "}
                         <Link href="/carriers.">
-                            www.minalife.com/carriers.
+                            www.Minalife.com/carriers.
                         </Link>
                         Products and their features may not be available in all
                         states. To help avoid requiring a medical exam, our

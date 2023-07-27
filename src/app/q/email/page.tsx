@@ -68,7 +68,7 @@ const page = () => {
                             type="email"
                             value={email}
                             onChange={handleChange}
-                            placeholder="example@minalife.com"
+                            placeholder="example@Minalife.com"
                             className={
                                 "w-full py-4 text-left px-4 sm:w-[496px] border bg-white border-gray-400 transition-all"
                             }

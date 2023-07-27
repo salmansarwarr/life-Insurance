@@ -17,12 +17,12 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                 onMouseOut={() => handleHover(0)}
                 className={`${
                     hover[0] ? "block" : "hidden"
-                } fixed left-36 lg:left-40 xl:left-[11.6rem] 2xl:left-96 border-r-8 rounded-se-lg rounded-bl-lg max-w-[200px] transition-all border-b-8 border-[#80e0b5] bg-white z-10`}
+                } fixed left-36 lg:left-40 xl:left-[11.6rem] 2xl:left-96 border-r-8 rounded-se-lg rounded-bl-lg max-w-[200px] transition-all border-b-8 border-[#268057] bg-white z-10`}
             >
-                <ul className={`font-medium text-[1.1rem] flex justify-around`}>
+                <ul className={` text-[1.1rem] flex justify-around`}>
                     <div>
                         <li
-                            className={`${playfairDisplay.className} hover:underline text-[#80e0b5] border-b mb-3 flex items-center justify-between p-4 pb-3 pt-4`}
+                            className={`text-[1rem] hover:text-[#80e0b5] mb-3 flex items-center justify-between p-4 pb-3 pt-4`}
                         >
                             <Link href="/life/life-insurance-basics">
                                 Life insurance
@@ -73,15 +73,10 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                 onMouseOut={() => handleHover(1)}
                 className={`${
                     hover[1] ? "block" : "hidden"
-                } fixed left-[304px] lg:left-[340px] xl:left-[360px] border-r-8 rounded-se-lg rounded-bl-lg max-w-[200px] transition-all border-b-8 border-[#80e0b5] bg-white z-10`}
+                } fixed left-[304px] lg:left-[340px] xl:left-[360px] border-r-8 rounded-se-lg rounded-bl-lg max-w-[200px] transition-all border-b-8 border-[#268057] bg-white z-10`}
             >
                 <ul className={`font-medium text-[1.1rem] flex justify-around`}>
                     <div>
-                        <li
-                            className={`${playfairDisplay.className} hover:underline text-[#80e0b5] border-b mb-3 flex items-center justify-between p-4 pb-3 pt-4`}
-                        >
-                            <Link href="/plan">Wills & estate plans 101</Link>
-                        </li>
                         <ul
                             className={`text-[1rem] font-normal text-[#212322] max-w-[20rem]`}
                         >
@@ -103,14 +98,14 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                 onMouseOut={() => handleHover(2)}
                 className={`${
                     hover[2] ? "block" : "hidden"
-                } fixed left-[525px] lg:left-[545px] xl:left-[560px] border-r-8 rounded-se-lg rounded-bl-lg max-w-[200px] transition-all border-b-8 border-[#80e0b5] bg-white z-10`}
+                } fixed left-[525px] lg:left-[545px] xl:left-[560px] border-r-8 rounded-se-lg rounded-bl-lg max-w-[200px] transition-all border-b-8 border-[#268057] bg-white z-10`}
             >
-                <ul className={`font-medium text-[1.1rem] flex justify-around`}>
+                <ul className={`text-[1rem] flex justify-around`}>
                     <div>
                         <li
-                            className={`${playfairDisplay.className} hover:underline text-[#80e0b5] border-b mb-3 flex items-center justify-between p-4 pb-3 pt-4`}
+                            className={` hover:text-[#80e0b5] mb-3 flex items-center justify-between p-4 pb-3 pt-4`}
                         >
-                            <Link href="/why-minalife"> Why Minalife</Link>
+                            <Link href="/why-Minalife"> Why Minalife</Link>
                         </li>
                         <ul
                             className={`text-[1rem] font-normal text-[#212322] max-w-[20rem]`}
@@ -118,7 +113,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                             <li className="p-4  pt-0">
                                 <Link
                                     target="_self"
-                                    href="/why-minalife"
+                                    href="/why-Minalife"
                                     className="hover:text-[#5fbd92] transition-all"
                                 >
                                     How Minalife works

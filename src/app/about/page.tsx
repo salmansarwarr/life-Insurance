@@ -104,7 +104,7 @@ const page = () => {
                             involve confusing paperwork and long phone calls
                             with agents. At the end of the day, it wasn’t as
                             people-friendly as it could be. <br /> <br /> We set
-                            out to change that. <br /> <br /> minaLife has
+                            out to change that. <br /> <br /> Minalife has
                             redesigned the application process from start to
                             finish, to make sure you always come first. How? By
                             offering flexible coverage options, eliminating
@@ -126,7 +126,7 @@ const page = () => {
                         </p>
                     </div>
                     <Link
-                        href="/why-minalife"
+                        href="/why-Minalife"
                         className="flex items-center justify-center gap-4 py-4 px-8 2md:px-0 2md:min-w-[212px] 2md:h-[56px] border mt-8 border-black hover:bg-[#323232] hover:text-white"
                     >
                         <span>Learn more</span>
@@ -185,7 +185,7 @@ const page = () => {
                         Industry-leading partners
                     </p>
                     <p className="text-gray-800 font-medium mt-5">
-                        minaLife partners with some of the most respected and
+                        Minalife partners with some of the most respected and
                         highly-rated insurance carriers in the world. These
                         insurance giants have paid out hundreds of millions of
                         dollars in life insurance claims for over a hundred

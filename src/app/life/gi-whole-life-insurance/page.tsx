@@ -168,7 +168,7 @@ const page = () => {
                         How it works
                     </h1>
                     <p className="text-[1.1rem] mt-2 text-gray-600">
-                        minaLife makes it easy to apply for a life insurance
+                        Minalife makes it easy to apply for a life insurance
                         plan that helps <br className="hidden lg:block" />{" "}
                         protect those you care about most.
                     </p>
@@ -291,7 +291,7 @@ const page = () => {
                             Help the whole way
                         </p>
                         <p className="text-lg mt-5 text-[#323232]">
-                            Before you buy this policy, minaLife is available to
+                            Before you buy this policy, Minalife is available to
                             help you with any questions you may have via phone,
                             email, text, and chat.
                         </p>
@@ -522,10 +522,6 @@ const page = () => {
                         <p className="text-sm font-semibold text-white">
                             Contact Us
                         </p>
-                        {/* <p className="text-sm text-white mt-4">
-                            1606 Headway Circle
-                        </p>
-                        <p className="text-sm text-white">#9013</p> */}
                         <p className="text-sm text-white">
                             116 Forrestal Village, NJ, USA
                         </p>
@@ -569,11 +565,7 @@ const page = () => {
                                 Contact Us
                             </p>
                             <p className="text-sm text-white mt-4">
-                                1606 Headway Circle
-                            </p>
-                            <p className="text-sm text-white">#9013</p>
-                            <p className="text-sm text-white">
-                                Austin, TX 78754
+                            116 Forrestal Village, NJ, USA
                             </p>
                             <p className="text-sm text-white">(415) 915-0665</p>
                             <Link
@@ -691,7 +683,7 @@ const page = () => {
                                 Online Privacy Policy
                             </Link> */}
                             {/* <Link
-                                href="/data-security-at-minalife"
+                                href="/data-security-at-Minalife"
                                 className="underline text-white"
                             >
                                 Data Security
@@ -717,7 +709,7 @@ const page = () => {
                         license #0L28949; AR license #100164629. Minalife offers
                         policies issued by the carriers listed at{" "}
                         <Link href="/carriers.">
-                            www.minalife.com/carriers.
+                            www.Minalife.com/carriers.
                         </Link>
                         Products and their features may not be available in all
                         states. To help avoid requiring a medical exam, our
@@ -736,11 +728,7 @@ const page = () => {
                                 Contact Us
                             </p>
                             <p className="text-sm text-white mt-4">
-                                1606 Headway Circle
-                            </p>
-                            <p className="text-sm text-white">#9013</p>
-                            <p className="text-sm text-white">
-                                Austin, TX 78754
+                            116 Forrestal Village, NJ, USA
                             </p>
                             <p className="text-sm text-white">(415) 915-0665</p>
                             <Link
@@ -782,7 +770,7 @@ const page = () => {
                             CA license #0L28949; AR license #100164629. Minalife
                             offers policies issued by the carriers listed at{" "}
                             <Link href="/carriers.">
-                                www.minalife.com/carriers.
+                                www.Minalife.com/carriers.
                             </Link>
                             Products and their features may not be available in
                             all states. To help avoid requiring a medical exam,

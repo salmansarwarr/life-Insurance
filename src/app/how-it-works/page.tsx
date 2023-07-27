@@ -74,7 +74,7 @@ const page = () => {
                         </p>
                         <p className="text-gray-700 font-medium mt-6">
                             Apply for life insurance online in just a few
-                            minutes with minaLife' simple application. No medical
+                            minutes with Minalife' simple application. No medical
                             exams are required. Just answer a few health
                             questions — many customers enjoy same-day coverage!
                         </p>
@@ -177,7 +177,7 @@ const page = () => {
                         What to expect when you apply:
                     </h1>
                     <p className="text-xl">
-                        minaLife takes the guesswork out of the application
+                        Minalife takes the guesswork out of the application
                         process. Answer a few basic questions and see which
                         products offer the best fit for your coverage needs.
                     </p>
@@ -206,7 +206,7 @@ const page = () => {
                             Who can apply?
                         </p>
                         <p className="mt-4 text-[#323232]">
-                            All U.S. citizens ages 20 to 85 can apply. minaLife is
+                            All U.S. citizens ages 20 to 85 can apply. Minalife is
                             licensed and operates in the District of Columbia
                             and every U.S. state except New York.
                         </p>
@@ -606,10 +606,10 @@ const page = () => {
                 <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0 lg:items-center 2md:grid-cols-2">
                     <div className="max-w-[550px] 2md:border-r 2md:pr-4 2md:pb-6">
                         <p className=" text-lg xl:text-xl font-semibold text-[#323232]">
-                            What does MinaLife's life insurance cover?
+                            What does Minalife's life insurance cover?
                         </p>
                         <p className="text-lg mt-1 text-[#323232]">
-                            MinaLife's life insurance can help cover a variety
+                            Minalife's life insurance can help cover a variety
                             of expenses, including mortgage payments, debt,
                             college tuition, and lost income. Ultimately, it's
                             up to your beneficiaries to decide how to use the
@@ -618,14 +618,14 @@ const page = () => {
                     </div>
                     <div className="max-w-[550px] 2md:pb-6">
                         <p className=" text-lg xl:text-xl font-semibold text-[#323232]">
-                            Does the COVID-19 pandemic affect MinaLife's life
+                            Does the COVID-19 pandemic affect Minalife's life
                             insurance coverage?
                         </p>
                         <p className="text-lg mt-1 text-[#323232]">
-                            No, MinaLife's life insurance does cover deaths
+                            No, Minalife's life insurance does cover deaths
                             related to COVID-19, and the pandemic does not
                             impact our rates. You can still apply for life
-                            insurance online with MinaLife and be considered
+                            insurance online with Minalife and be considered
                             covered as soon as your first premium payment is
                             made.
                         </p>
@@ -638,7 +638,7 @@ const page = () => {
                         <p className="text-lg mt-1 text-[#323232]">
                             Employer-sponsored policies typically offer coverage
                             that is a fraction of what financial experts
-                            recommend. MinaLife offers individual term policies
+                            recommend. Minalife offers individual term policies
                             to supplement your coverage through work and help
                             ensure your family is fully protected.
                         </p>
@@ -649,7 +649,7 @@ const page = () => {
                         </p>
                         <p className="text-lg mt-1 text-[#323232]">
                             Calculating the right amount of coverage can be
-                            tricky, but MinaLife offers a helpful life insurance
+                            tricky, but Minalife offers a helpful life insurance
                             calculator to determine your coverage needs. A
                             common rule of thumb is to multiply your annual
                             income by 10.
@@ -657,10 +657,10 @@ const page = () => {
                     </div>
                     <div className="max-w-[550px] 2md:border-r 2md:pr-4 2md:py-6">
                         <p className=" text-lg xl:text-xl font-semibold text-[#323232]">
-                            What type of life insurance does MinaLife offer?
+                            What type of life insurance does Minalife offer?
                         </p>
                         <p className="text-lg mt-1 text-[#323232]">
-                            MinaLife offers both term life insurance and
+                            Minalife offers both term life insurance and
                             guaranteed issue whole life insurance, with term
                             lengths ranging from 10 to 30 years and coverage
                             amounts from $20,000 to $2 million, depending on
@@ -669,11 +669,11 @@ const page = () => {
                     </div>
                     <div className="max-w-[550px] 2md:py-6">
                         <p className=" text-lg xl:text-xl font-semibold text-[#323232]">
-                            How can I be sure that MinaLife is a legitimate
+                            How can I be sure that Minalife is a legitimate
                             provider?
                         </p>
                         <p className="text-lg mt-1 text-[#323232]">
-                            MinaLife's policies are backed by industry giants
+                            Minalife's policies are backed by industry giants
                             with a long history of financial strength and
                             stability. You can trust that your policy will
                             withstand the test of time, while enjoying the
@@ -682,10 +682,10 @@ const page = () => {
                     </div>
                     <div className="max-w-[550px] 2md:border-r 2md:pr-4 2md:py-6">
                         <p className=" text-lg xl:text-xl font-semibold text-[#323232]">
-                            Does MinaLife offer a money-back guarantee?
+                            Does Minalife offer a money-back guarantee?
                         </p>
                         <p className="text-lg mt-1 text-[#323232]">
-                            Yes, MinaLife's application is non-binding and 100%
+                            Yes, Minalife's application is non-binding and 100%
                             free, with no impact on your credit score. Each
                             policy comes with a 30-day free look period and a
                             money-back guarantee. You can cancel your policy at

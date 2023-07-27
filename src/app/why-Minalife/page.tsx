@@ -232,7 +232,7 @@ const page = () => {
                         </p>
                         <p className="text-lg mt-3 max-w-[483px]">
                             Our founders, Peter Colis and Lingke Wang, met at
-                            Stanford Business School and started minaLife in 2016
+                            Stanford Business School and started Minalife in 2016
                             with the goal of making life insurance affordable,
                             accessible, and straightforward. While Lingke was in
                             college, he was upsold on an expensive life
@@ -244,7 +244,7 @@ const page = () => {
                             expensive, and time-consuming. Lingke and Peter
                             wanted to change that—so they set out to help people
                             protect their families with simple, affordable life
-                            insurance. minaLife provides an affordable life
+                            insurance. Minalife provides an affordable life
                             insurance option so people don't get stuck with
                             policies they don't need.
                         </p>
@@ -343,10 +343,10 @@ const page = () => {
                             Getting life insurance was so easy…
                         </p>
                         <p className="text-[1rem] mt-4 text-gray-600">
-                            Getting life insurance was so easy through minaLife.
+                            Getting life insurance was so easy through Minalife.
                             I’ve been procrastinating doing it for years because
                             the whole process felt intimidating and confusing.
-                            minaLife cut right through all that and made it
+                            Minalife cut right through all that and made it
                             simple for me.
                         </p>
                         <p className="text-xs text-gray-600">Laleh H.</p>
@@ -387,7 +387,7 @@ const page = () => {
                         <p className="text-[1rem] mt-4 text-gray-600">
                             Extremely efficient easy application process & took
                             less than a week for approval. Compared premiums
-                            from many insurance companies & minaLife Life had
+                            from many insurance companies & Minalife Life had
                             the best rates. Medical not required. HIGHLY
                             RECOMMENDED!
                         </p>
@@ -429,7 +429,7 @@ const page = () => {
                         <p className="text-[1rem] mt-4 text-gray-600">
                             This was such a good experience looking at insurance
                             policy options. The experience working with the
-                            minaLife team was so simple and easy. In the end I
+                            Minalife team was so simple and easy. In the end I
                             was given options that exceeded my expectations and
                             gave me peace of mind thay my wife is in good hands
                             if something happened to me.

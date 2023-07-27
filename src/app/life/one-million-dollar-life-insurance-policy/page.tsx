@@ -71,7 +71,7 @@ const page = () => {
                             $1 million term life insurance
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            minaLife makes it easy to apply for an online life
+                            Minalife makes it easy to apply for an online life
                             insurance policy that fits your needs. See if a
                             million-dollar life insurance policy will be enough
                             to help protect your family if the unexpected were
@@ -102,7 +102,7 @@ const page = () => {
                             How much is a million-dollar life insurance policy?
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            Discover how minaLife can help you get a policy of up
+                            Discover how Minalife can help you get a policy of up
                             to a million dollars at an affordable rate. This
                             chart shows average 10- to 30-year term life policy
                             premiums for healthy, non-smoking 35-year-old males
@@ -227,10 +227,10 @@ const page = () => {
                     <h1
                         className={`${playfairMd.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
                     >
-                        How to get a million dollar policy with minaLife?
+                        How to get a million dollar policy with Minalife?
                     </h1>
                     <p className="text-xl mt-1">
-                        minaLife makes it easy to apply for online life insurance
+                        Minalife makes it easy to apply for online life insurance
                         tailored to your budget and coverage needs.
                     </p>
                 </div>
@@ -297,7 +297,7 @@ const page = () => {
                         <p className="text-lg mt-1 text-[#7c7377]">
                             If you change your mind within the first 30 days of
                             activating your coverage, we'll refund your payment
-                            in full. And with minaLife, you can cancel your policy
+                            in full. And with Minalife, you can cancel your policy
                             anytime with no extra fees.
                         </p>
                     </div>
@@ -532,7 +532,7 @@ const page = () => {
                     states as Minalife Life Insurance Services. CA license
                     #0L28949; AR license #100164629. Minalife offers policies
                     issued by the carriers listed at{" "}
-                    <Link href="/carriers.">www.minalife.com/carriers.</Link>
+                    <Link href="/carriers.">www.Minalife.com/carriers.</Link>
                     Products and their features may not be available in all
                     states. To help avoid requiring a medical exam, our
                     application asks certain health and lifestyle questions.

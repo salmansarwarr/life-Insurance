@@ -397,7 +397,7 @@ const Menu = () => {
                     >
                         <li className="p-4 px-6">
                             <Link
-                                href="/why-minalife"
+                                href="/why-Minalife"
                                 className="hover:font-light"
                             >
                                 Why Minalife
@@ -405,7 +405,7 @@ const Menu = () => {
                         </li>
                         <li className="p-4 px-6 pt-0">
                             <Link
-                                href="/why-minalife"
+                                href="/why-Minalife"
                                 className="hover:font-light"
                             >
                                 How Minalife works
@@ -418,7 +418,7 @@ const Menu = () => {
                         </li>
                         <li className="p-4 px-6 pt-0">
                             <Link
-                                href="/minalifeforgood"
+                                href="/Minalifeforgood"
                                 className="hover:font-light"
                             >
                                 Minalife for good

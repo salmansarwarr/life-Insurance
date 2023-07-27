@@ -10,6 +10,7 @@ import Section5 from "./sections/Section5";
 import Section6 from "./sections/Section6";
 import Footer from "./sections/Footer";
 import Header from "./sections/Header";
+import Section7 from "./sections/Section7";
 
 const Page = () => {
     const [showMenu, setshowMenu] = useState<boolean>(false);
@@ -27,6 +28,7 @@ const Page = () => {
                     <Section4 />
                     <Section5 />
                     <Section6 />
+                    <Section7/>
                     <Footer
                         p1="*Prices start at $7/month based on a 20-year old female, healthy, non-smoking for a 10 year term and $100,000 policy."
                         p2="Trustpilot rating as of 3/31/23"

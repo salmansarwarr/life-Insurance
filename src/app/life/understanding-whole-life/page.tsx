@@ -117,7 +117,7 @@ const page = () => {
                     How much does whole life insurance cost?
                 </p>
                 <p className="text-lg mt-6 text-[#323232]">
-                    At minaLife, our
+                    At Minalife, our
                     <Link
                         href="/life/whole-life-policies"
                         className="mx-2 underline text-[#254742]"
@@ -139,7 +139,7 @@ const page = () => {
                     </Link>
                     <br /> <br /> This also means you will be paying that
                     premium for the rest of your life, even during retirement.
-                    With minaLife’ whole life policy and in most other cases, your
+                    With Minalife’ whole life policy and in most other cases, your
                     premiums for a whole life insurance policy are fixed. <br />
                     <br /> Given all the variables, you’ll want to carefully
                     consider the cost of any type of life insurance and
@@ -295,7 +295,7 @@ const page = () => {
                         href="/life/whole-life-policies"
                         className="mx-2 underline text-[#254742]"
                     >
-                        whole life insurance with minaLife
+                        whole life insurance with Minalife
                     </Link>
                     might be right for you:
                 </p>

@@ -76,7 +76,7 @@ const page = () => {
                             Our online life insurance policies
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            At minaLife, we work with the best in the business to
+                            At Minalife, we work with the best in the business to
                             find you a life insurance policy to meet your needs.
                             Explore this page to learn about the online life
                             insurance products we offer.
@@ -130,7 +130,7 @@ const page = () => {
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
                             Age and health issues make it difficult for some to
-                            gain access to life insurance. That's why minaLife
+                            gain access to life insurance. That's why Minalife
                             offers whole life insurance. It helps your loved
                             ones cover expenses such as funeral costs,
                             outstanding debt, and other day-to-day costs. If
@@ -160,14 +160,14 @@ const page = () => {
                         <p
                             className={`${playfairMd.className} text-[2rem] sm:text-[2.4rem] md:text-[3rem] max-w-[500px]`}
                         >
-                            How minaLife works
+                            How Minalife works
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            minaLife partners with some of the world's largest and
+                            Minalife partners with some of the world's largest and
                             most respected life insurance companies. You'll
                             receive the dependability of centuries-old industry
                             giants combined with the convenience of a modern
-                            technology company. With minaLife, the online life
+                            technology company. With Minalife, the online life
                             insurance application process is entirely digitized
                             to give you results in minutes. Once you apply, we
                             analyze your information in real-time against our
@@ -180,7 +180,7 @@ const page = () => {
                 </div>
                 <img
                     className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"
-                    src="/value_backed-giants.webp"
+                    src="/minaLife-spot-illustrations.webp"
                     alt="img"
                 />
             </div>
@@ -189,7 +189,7 @@ const page = () => {
                     <h1
                         className={`${playfair.className} text-[#262626] lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] md:text-[3rem] font-extralight`}
                     >
-                        Why choose minaLife?
+                        Why choose Minalife?
                     </h1>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 lg:gap-12 xl:gap-20">
@@ -254,9 +254,9 @@ const page = () => {
                             A+ rated and backed by top insurance agencies
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
-                            MinaLife works with some of the world's largest and
+                            Minalife works with some of the world's largest and
                             most respected insurance companies, so you can feel
-                            confident and secure. minaLife puts our customers
+                            confident and secure. Minalife puts our customers
                             and their needs first, as is evident in our
                             excellent user ratings.
                         </p>

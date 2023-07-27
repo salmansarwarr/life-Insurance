@@ -13,7 +13,7 @@ const page = () => {
                     <p
                         className={`font-semibold text-[1.7rem] sm:text-[2rem] leading-tight`}
                     >
-                        Thanks for trusting minaLife for your term life insurance
+                        Thanks for trusting Minalife for your term life insurance
                         quote
                     </p>
                     <p className="mt-2">

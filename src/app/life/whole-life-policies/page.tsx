@@ -77,7 +77,7 @@ const page = () => {
                         </p>
                         <p className="text-gray-800 font-medium mt-4">
                             Get guaranteed approval on a whole life insurance
-                            policy through minaLife and instantly secure a lifetime
+                            policy through Minalife and instantly secure a lifetime
                             of coverage.
                         </p>
                     </div>
@@ -99,7 +99,7 @@ const page = () => {
             <div className="mt-[61px] bg-white flex w-full justify-center items-center md:flex-row-reverse flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
                 <img
                     className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"
-                    src="/minaLife-spot-illustrations.webp"
+                    src="/Minalife-spot-illustrations.webp"
                     alt="img"
                 />
                 <div className="flex flex-col gap-4">
@@ -136,7 +136,7 @@ const page = () => {
                         </p>
                         <p className="text-[#323232] text-lg mt-4">
                             We’re striving to make getting whole life insurance
-                            simpler, faster, and just plain easier here. minaLife
+                            simpler, faster, and just plain easier here. Minalife
                             offers whole life insurance with guaranteed approval
                             in a matter of minutes for those ages 66 to 85, no
                             matter your health history. With no medical exams,
@@ -226,14 +226,14 @@ const page = () => {
                             Help at every step
                         </p>
                         <p className="text-lg mt-1 text-[#7c7377]">
-                            minaLife knows whole life insurance is a significant
+                            Minalife knows whole life insurance is a significant
                             decision, so we make it easy to get answers. Our
                             licensed agents are a quick call away whenever you
-                            have a question. minaLife is here to help.
+                            have a question. Minalife is here to help.
                         </p>
                         <ul className="text-lg mt-5 text-[#7c7377] list-disc ml-8">
                             <li>Phone: (415) 915-0665</li>
-                            <li>Email: support@minaLife.com</li>
+                            <li>Email: support@Minalife.com</li>
                             <li>Business hours: 8 a.m. - 6 p.m. CST</li>
                         </ul>
                     </div>
@@ -244,10 +244,10 @@ const page = () => {
                     <h1
                         className={`${playfair.className} text-[#262626] lg:w-[100%] 2xl:w-[65%] text-[2rem] sm:text-[2.5rem] font-extralight`}
                     >
-                        How minaLife works
+                        How Minalife works
                     </h1>
                     <p className="text-[1.1rem] mt-2 text-gray-600">
-                        minaLife makes it easy to apply for a life insurance
+                        Minalife makes it easy to apply for a life insurance
                         plan that helps <br className="hidden lg:block" />{" "}
                         protect those you care about most.
                     </p>
@@ -523,10 +523,6 @@ const page = () => {
                         <p className="text-sm font-semibold text-white">
                             Contact Us
                         </p>
-                        {/* <p className="text-sm text-white mt-4">
-                            1606 Headway Circle
-                        </p>
-                        <p className="text-sm text-white">#9013</p> */} 
                         <p className="text-sm text-white">
                             116 Forrestal Village, NJ, USA
                         </p>
@@ -570,11 +566,7 @@ const page = () => {
                                 Contact Us
                             </p>
                             <p className="text-sm text-white mt-4">
-                                1606 Headway Circle
-                            </p>
-                            <p className="text-sm text-white">#9013</p>
-                            <p className="text-sm text-white">
-                                Austin, TX 78754
+                            116 Forrestal Village, NJ, USA
                             </p>
                             <p className="text-sm text-white">(415) 915-0665</p>
                             <Link
@@ -704,7 +696,7 @@ const page = () => {
                                 Online Privacy Policy
                             </Link> */}
                             {/* <Link
-                                href="/data-security-at-minalife"
+                                href="/data-security-at-Minalife"
                                 className="underline text-white"
                             >
                                 Data Security
@@ -730,7 +722,7 @@ const page = () => {
                         license #0L28949; AR license #100164629. Minalife offers
                         policies issued by the carriers listed at{" "}
                         <Link href="/carriers.">
-                            www.minalife.com/carriers.
+                            www.Minalife.com/carriers.
                         </Link>
                         Products and their features may not be available in all
                         states. To help avoid requiring a medical exam, our
@@ -749,11 +741,7 @@ const page = () => {
                                 Contact Us
                             </p>
                             <p className="text-sm text-white mt-4">
-                                1606 Headway Circle
-                            </p>
-                            <p className="text-sm text-white">#9013</p>
-                            <p className="text-sm text-white">
-                                Austin, TX 78754
+                            116 Forrestal Village, NJ, USAe
                             </p>
                             <p className="text-sm text-white">(415) 915-0665</p>
                             <Link
@@ -795,7 +783,7 @@ const page = () => {
                             CA license #0L28949; AR license #100164629. Minalife
                             offers policies issued by the carriers listed at{" "}
                             <Link href="/carriers.">
-                                www.minalife.com/carriers.
+                                www.Minalife.com/carriers.
                             </Link>
                             Products and their features may not be available in
                             all states. To help avoid requiring a medical exam,

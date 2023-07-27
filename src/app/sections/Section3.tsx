@@ -14,7 +14,7 @@ const Section3 = () => {
                         How Minalife works
                     </h1>
                     <p className="text-[1.1rem] mt-2 text-gray-600">
-                        minaLife makes it easy to apply for a life insurance
+                        Minalife makes it easy to apply for a life insurance
                         plan that helps <br className="hidden lg:block" />{" "}
                         protect those you care about most.
                     </p>

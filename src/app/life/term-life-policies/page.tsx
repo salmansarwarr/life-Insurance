@@ -118,7 +118,7 @@ const page = () => {
                             your beneficiaries receive a cash payment.
                         </p>
                         <p className=" text-lg mt-4 font-semibold text-[#323232]">
-                            Term life insurance with minaLife might be right for
+                            Term life insurance with Minalife might be right for
                             you if:
                         </p>
                         <ul className="text-lg mt-5 text-[#323232] list-disc ml-8">
@@ -186,10 +186,10 @@ const page = () => {
                             Our policies are backed by established life
                             insurance companies like Legal & General America,
                             Ameritas Life Insurance Corp., Senior Life, and
-                            TruStage®. By combining minaLife' streamlined
+                            TruStage®. By combining Minalife' streamlined
                             application with their coverage, we've shortened the
                             application process to minutes, compared to weeks
-                            with traditional applications. With minaLife, you get
+                            with traditional applications. With Minalife, you get
                             the dependability of major insurers and the
                             convenience of modern technology.
                         </p>
@@ -206,7 +206,7 @@ const page = () => {
                     <h1
                         className={`${playfair.className} lg:w-[100%] 2xl:w-[65%] text-[2.3rem] sm:text-[2.5rem] font-extralight`}
                     >
-                        Why purchase with minaLife?
+                        Why purchase with Minalife?
                     </h1>
                 </div>
                 <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full">
@@ -294,7 +294,7 @@ const page = () => {
                         Simplified issue vs. fully underwritten
                     </h1>
                     <p className="text-2xl mt-1 font-light">
-                        minaLife offers term life insurance policies with both
+                        Minalife offers term life insurance policies with both
                         simplified issue and fully underwritten options.
                         Understand the differences and what it means for you.
                     </p>
@@ -339,7 +339,7 @@ const page = () => {
                         <p className="text-lg mt-5 text-[#323232]">
                             We also offer fully underwritten term policies, a
                             more traditional method that historically includes a
-                            complete application and medical exam. minaLife
+                            complete application and medical exam. Minalife
                             modernizes the process and doesn't require a medical
                             exam but does include health questions within the
                             application to help determine premium levels.
@@ -439,7 +439,7 @@ const page = () => {
                         <p className="text-[1.15rem] mt-4 text-[#323232]">
                             Find the answers on the{" "}
                             <Link href="/faq" className="underline">
-                                minaLife FAQ page
+                                Minalife FAQ page
                             </Link>
                             .
                         </p>
@@ -465,7 +465,7 @@ const page = () => {
                             Choose coverage
                         </p>
                         <p className="text-[1.1rem] text-gray-600">
-                            Choose a policy that’s right for you. minaLife offers a
+                            Choose a policy that’s right for you. Minalife offers a
                             range of coverage and term length options, so you
                             can personalize your coverage to fit your needs.
                         </p>
@@ -726,10 +726,6 @@ const page = () => {
                         <p className="text-sm font-semibold text-white">
                             Contact Us
                         </p>
-                        {/* <p className="text-sm text-white mt-4">
-                            1606 Headway Circle
-                        </p>
-                        <p className="text-sm text-white">#9013</p> */} 
                         <p className="text-sm text-white">
                             116 Forrestal Village, NJ, USA
                         </p>
@@ -773,11 +769,7 @@ const page = () => {
                                 Contact Us
                             </p>
                             <p className="text-sm text-white mt-4">
-                                1606 Headway Circle
-                            </p>
-                            <p className="text-sm text-white">#9013</p>
-                            <p className="text-sm text-white">
-                                Austin, TX 78754
+                            116 Forrestal Village, NJ, USA
                             </p>
                             <p className="text-sm text-white">(415) 915-0665</p>
                             <Link
@@ -872,7 +864,7 @@ const page = () => {
                                 Online Privacy Policy
                             </Link> */}
                             {/* <Link
-                                href="/data-security-at-minalife"
+                                href="/data-security-at-Minalife"
                                 className="underline text-white"
                             >
                                 Data Security
@@ -898,7 +890,7 @@ const page = () => {
                         license #0L28949; AR license #100164629. Minalife offers
                         policies issued by the carriers listed at{" "}
                         <Link href="/carriers.">
-                            www.minalife.com/carriers.
+                            www.Minalife.com/carriers.
                         </Link>
                         Products and their features may not be available in all
                         states. To help avoid requiring a medical exam, our
@@ -917,11 +909,7 @@ const page = () => {
                                 Contact Us
                             </p>
                             <p className="text-sm text-white mt-4">
-                                1606 Headway Circle
-                            </p>
-                            <p className="text-sm text-white">#9013</p>
-                            <p className="text-sm text-white">
-                                Austin, TX 78754
+                            116 Forrestal Village, NJ, USA
                             </p>
                             <p className="text-sm text-white">(415) 915-0665</p>
                             <Link
@@ -963,7 +951,7 @@ const page = () => {
                             CA license #0L28949; AR license #100164629. Minalife
                             offers policies issued by the carriers listed at{" "}
                             <Link href="/carriers.">
-                                www.minalife.com/carriers.
+                                www.Minalife.com/carriers.
                             </Link>
                             Products and their features may not be available in
                             all states. To help avoid requiring a medical exam,

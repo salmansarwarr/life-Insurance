@@ -281,7 +281,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
             >
                 <div className="py-8 px-16">
                     <Link
-                        href="/why-minalife"
+                        href="/why-Minalife"
                         className={`${playfairDisplay.className} hover:underline font-light text-black text-[1.5rem]`}
                     >
                         Why Minalife
@@ -309,7 +309,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                             />
                         </Link>
                         <Link
-                            href="/minalifeforgood"
+                            href="/Minalifeforgood"
                             className="text-sm hover:underline"
                         >
                             Minalife for good
@@ -350,7 +350,7 @@ const MenuHover = ({ hover, handleHover }: Props) => {
                         />
                     </Link>
                     <p className="text-[#494d4b] text-[1rem]">
-                        Grow your business with <br /> minaLife.
+                        Grow your business with <br /> Minalife.
                     </p>
                 </div>
                 <div className="pt-8 flex gap-5">

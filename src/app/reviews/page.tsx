@@ -98,10 +98,16 @@ const page = () => {
                                 "Excellent” rating from Trustpilot
                             </p>
                             <p className="text-[1.1rem] text-gray-500">
-                                minaLife has an ‘Excellent’ rating from Trustpilot
-                                with 4.8/5 stars from customer reviews.
+                                Minalife has an ‘Excellent’ rating from
+                                Trustpilot with 4.8/5 stars from customer
+                                reviews.
                             </p>
-                            <Link href="#" className="hover:underline text-black">Read reviews →</Link>
+                            <Link
+                                href="#"
+                                className="hover:underline text-black"
+                            >
+                                Read reviews →
+                            </Link>
                         </div>
                         <div className="flex flex-col gap-3">
                             <Image
@@ -111,12 +117,18 @@ const page = () => {
                                 width={50}
                             />
                             <p className=" text-[1.5rem] text-[#323232] mt-2">
-                            A+ rating from Better Business Bureau
+                                A+ rating from Better Business Bureau
                             </p>
                             <p className="text-[1.1rem] text-gray-500">
-                            minaLife is rated A+ by the Better Business Bureau (BBB).
+                                Minalife is rated A+ by the Better Business
+                                Bureau (BBB).
                             </p>
-                            <Link href="#" className="hover:underline text-black">BBB profile →</Link>
+                            <Link
+                                href="#"
+                                className="hover:underline text-black"
+                            >
+                                BBB profile →
+                            </Link>
                         </div>
                         <div className="flex flex-col gap-3">
                             <Image
@@ -126,13 +138,19 @@ const page = () => {
                                 width={50}
                             />
                             <p className=" text-[1.5rem] text-[#323232] mt-2">
-                            4.7/5 stars on Google
-
+                                4.7/5 stars on Google
                             </p>
                             <p className="text-[1.1rem] text-gray-500">
-                            minaLife also earned a stellar rating of 4.7 out of 5 stars on Google based on average customer reviews.
+                                Minalife also earned a stellar rating of 4.7 out
+                                of 5 stars on Google based on average customer
+                                reviews.
                             </p>
-                            <Link href="#" className="hover:underline text-black">Read reviews →</Link>
+                            <Link
+                                href="#"
+                                className="hover:underline text-black"
+                            >
+                                Read reviews →
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -146,8 +164,8 @@ const page = () => {
                 </h1>
                 <div className="gap-10 grid w-full 2xl:w-[65%] 2md:gap-y-0  2md:grid-cols-2">
                     <div className="max-w-[550px] 2md:border-r 2md:pr-8 2md:pb-6">
-                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
-                            Fast, straightforward application
+                        <p className=" text-[1.5rem] font-semibold text-[#323232] flex items-center gap-2">
+                            <MdOutlineDone /> Fast, straightforward application
                         </p>
                         <p className="text-[1.1rem] mt-5 text-[#323232]">
                             Our 100% online and hassle-free process makes it
@@ -163,8 +181,9 @@ const page = () => {
                         </p>
                     </div>
                     <div className="max-w-[550px] 2md:pb-6">
-                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
-                            Automated & simplified underwriting
+                        <p className=" text-[1.5rem] font-semibold text-[#323232] flex items-center gap-2">
+                            <MdOutlineDone /> Automated & simplified
+                            underwriting
                         </p>
                         <p className="text-[1.1rem] mt-5 text-[#323232]">
                             Our simplified underwriting process uses new
@@ -175,8 +194,8 @@ const page = () => {
                         </p>
                     </div>
                     <div className="max-w-[550px] 2md:pb-6">
-                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
-                            Expert advice
+                        <p className=" text-[1.5rem] font-semibold text-[#323232] flex items-center gap-2">
+                            <MdOutlineDone /> Expert advice
                         </p>
                         <p className="text-[1.1rem] mt-5 text-[#323232]">
                             If you want help, our team of licensed agents is
@@ -185,8 +204,8 @@ const page = () => {
                         </p>
                     </div>
                     <div className="max-w-[550px] 2md:pb-6">
-                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
-                            Money-back guarantee
+                        <p className=" text-[1.5rem] font-semibold text-[#323232] flex items-center gap-2">
+                            <MdOutlineDone /> Money-back guarantee
                         </p>
                         <p className="text-[1.1rem] mt-5 text-[#323232]">
                             If you’re not happy with your policy in the first 30
@@ -195,8 +214,8 @@ const page = () => {
                         </p>
                     </div>
                     <div className="max-w-[550px] 2md:pb-6">
-                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
-                            Flexible, affordable options
+                        <p className=" text-[1.5rem] font-semibold text-[#323232] flex items-center gap-2">
+                            <MdOutlineDone /> Flexible, affordable options
                         </p>
                         <p className="text-[1.1rem] mt-5 text-[#323232]">
                             We analyze your information against our wide range
@@ -206,8 +225,8 @@ const page = () => {
                         </p>
                     </div>
                     <div className="max-w-[550px] 2md:pb-6">
-                        <p className=" text-[1.5rem] font-semibold text-[#323232]">
-                            Cancel anytime
+                        <p className=" text-[1.5rem] font-semibold text-[#323232] flex items-center gap-2">
+                            <MdOutlineDone /> Cancel anytime
                         </p>
                         <p className="text-[1.1rem] mt-5 text-[#323232]">
                             You can cancel your policy anytime, with no
@@ -276,7 +295,7 @@ const page = () => {
                         </p>
                         <p className="text-lg mt-3 max-w-[483px]">
                             Our founders, Peter Colis and Lingke Wang, met at
-                            Stanford Business School and started minaLife in 2016
+                            Stanford Business School and started Minalife in 2016
                             with the goal of making life insurance affordable,
                             accessible, and straightforward. While Lingke was in
                             college, he was upsold on an expensive life
@@ -288,7 +307,7 @@ const page = () => {
                             expensive, and time-consuming. Lingke and Peter
                             wanted to change that—so they set out to help people
                             protect their families with simple, affordable life
-                            insurance. minaLife provides an affordable life
+                            insurance. Minalife provides an affordable life
                             insurance option so people don't get stuck with
                             policies they don't need.
                         </p>
@@ -387,11 +406,11 @@ const page = () => {
                             Getting life insurance was so easy…
                         </p>
                         <p className="text-[1rem] mt-4 text-gray-600">
-                            Getting life insurance was so easy through minaLife.
+                            Getting life insurance was so easy through Minalife.
                             I’ve been procrastinating doing it for years because
                             the whole process felt intimidating and confusing.
-                            minaLife cut right through all that and made it simple
-                            for me.
+                            Minalife cut right through all that and made it
+                            simple for me.
                         </p>
                         <p className="text-xs text-gray-600">Laleh H.</p>
                     </div>
@@ -431,8 +450,8 @@ const page = () => {
                         <p className="text-[1rem] mt-4 text-gray-600">
                             Extremely efficient easy application process & took
                             less than a week for approval. Compared premiums
-                            from many insurance companies & minaLife Life had the
-                            best rates. Medical not required. HIGHLY
+                            from many insurance companies & Minalife Life had
+                            the best rates. Medical not required. HIGHLY
                             RECOMMENDED!
                         </p>
                         <p className="text-xs text-gray-600">Donald L.</p>
@@ -473,10 +492,10 @@ const page = () => {
                         <p className="text-[1rem] mt-4 text-gray-600">
                             This was such a good experience looking at insurance
                             policy options. The experience working with the
-                            minaLife team was so simple and easy. In the end I was
-                            given options that exceeded my expectations and gave
-                            me peace of mind thay my wife is in good hands if
-                            something happened to me.
+                            Minalife team was so simple and easy. In the end I
+                            was given options that exceeded my expectations and
+                            gave me peace of mind thay my wife is in good hands
+                            if something happened to me.
                         </p>
                         <p className="text-xs text-gray-600">Roger H.</p>
                     </div>

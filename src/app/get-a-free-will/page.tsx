@@ -83,7 +83,7 @@ const page = () => {
                         className={`${dmSerif.className} font-bold flex flex-col text-[2.8rem] sm:text-[3.8rem] lg:text-[4rem]`}
                     >
                         <span className="leading-tight sm:h-[60px]">
-                            minaLife life insurance
+                            Minalife life insurance
                         </span>
                         <span className="leading-tight">
                             includes free wills
@@ -425,7 +425,7 @@ const page = () => {
                             I’m a policyholder*. Where can I find this perk?
                         </p>
                         <p className="text-[1rem] my-2 text-gray-600">
-                            Depending on your current minaLife policy, you will be
+                            Depending on your current Minalife policy, you will be
                             able to add the will and/or estate planning tools to
                             your policy at no additional cost. Sign into your
                             account to access this perk. Can’t find it? Our team
@@ -446,10 +446,6 @@ const page = () => {
                         <p className="text-sm font-semibold text-white">
                             Contact Us
                         </p>
-                        {/* <p className="text-sm text-white mt-4">
-                            1606 Headway Circle
-                        </p>
-                        <p className="text-sm text-white">#9013</p> */}
                         <p className="text-sm text-white">
                             116 Forrestal Village, NJ, USA
                         </p>
@@ -493,12 +489,10 @@ const page = () => {
                                 Contact Us
                             </p>
                             <p className="text-sm text-white mt-4">
-                                1606 Headway Circle
+                            116 Forrestal Village, NJ, USA
                             </p>
                             <p className="text-sm text-white">#9013</p>
-                            <p className="text-sm text-white">
-                                Austin, TX 78754
-                            </p>
+                      
                             <p className="text-sm text-white">(415) 915-0665</p>
                             <Link
                                 href="/"
@@ -621,7 +615,7 @@ const page = () => {
                                 Terms of Use
                             </Link>
                             {/* <Link
-                                href="/data-security-at-minalife"
+                                href="/data-security-at-Minalife"
                                 className="underline text-white"
                             >
                                 Data Security
@@ -647,7 +641,7 @@ const page = () => {
                         license #0L28949; AR license #100164629. Minalife offers
                         policies issued by the carriers listed at{" "}
                         <Link href="/carriers.">
-                            www.minalife.com/carriers.
+                            www.Minalife.com/carriers.
                         </Link>
                         Products and their features may not be available in all
                         states. To help avoid requiring a medical exam, our
@@ -666,11 +660,7 @@ const page = () => {
                                 Contact Us
                             </p>
                             <p className="text-sm text-white mt-4">
-                                1606 Headway Circle
-                            </p>
-                            <p className="text-sm text-white">#9013</p>
-                            <p className="text-sm text-white">
-                                Austin, TX 78754
+                            116 Forrestal Village, NJ, USA
                             </p>
                             <p className="text-sm text-white">(415) 915-0665</p>
                             <Link
@@ -712,7 +702,7 @@ const page = () => {
                             CA license #0L28949; AR license #100164629. Minalife
                             offers policies issued by the carriers listed at{" "}
                             <Link href="/carriers.">
-                                www.minalife.com/carriers.
+                                www.Minalife.com/carriers.
                             </Link>
                             Products and their features may not be available in
                             all states. To help avoid requiring a medical exam,
