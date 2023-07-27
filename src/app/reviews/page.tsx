@@ -8,6 +8,7 @@ import Footer from "../sections/Footer";
 import StarRateIcon from "@mui/icons-material/StarRate";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import Image from "next/image";
+import { MdOutlineDone } from "react-icons/md";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: "600" });
 const playfairMd = Playfair_Display({ subsets: ["latin"], weight: "500" });
