@@ -526,14 +526,6 @@ const page = () => {
                             user ratings.
                         </p>
                     </div>
-                    <div className="flex gap-4">
-                        <Link
-                            href="/life/trust"
-                            className="bg-[rgb(33,35,34)] transition-all text-white hover:bg-[#494d4b] sm:w-[159px] font-medium text-center mt-6 py-3 sm:py-4 px-4 text-[1rem]"
-                        >
-                            Learn More
-                        </Link>
-                    </div>
                 </div>
                 <img
                     className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"

@@ -24,12 +24,6 @@ const Section5 = () => {
                         insurance policy to supplement the coverage they receive
                         through work.
                     </p>
-                    <Link
-                        href="/life/employer-sponsored-life-insurance/"
-                        className=" bg-black px-6 py-4 text-base font-medium text-gray-100 hover:bg-[#292929]"
-                    >
-                        Learn more
-                    </Link>
                 </div>
                 <div className="max-w-[550px]">
                     <Image src="/employer-coverage.png" alt="employer-coverage" height={500} width={500}/>

@@ -89,7 +89,7 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                     <div className="flex flex-col gap-2">
                         <p className="font-semibold text-white">Resources</p>
                         <Link
-                            href="/insurance/life-insurance-policies"
+                            href="/life/life-insurance-policies"
                             className="underline text-white"
                         >
                             Our policies
@@ -145,9 +145,9 @@ const Footer = ({ p1, p2 }: { p1: string; p2: string }) => {
                         <Link href="/terms" className="underline text-white">
                             Terms of Use
                         </Link>
-                        <Link href="/privacy" className="underline text-white">
+                        {/* <Link href="/privacy" className="underline text-white">
                             Online Privacy Policy
-                        </Link>
+                        </Link> */}
                         {/* <Link
                             href="/data-security-at-minalife"
                             className="underline text-white"

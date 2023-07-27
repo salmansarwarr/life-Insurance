@@ -209,7 +209,7 @@ const page = () => {
                         Why purchase with minaLife?
                     </h1>
                 </div>
-                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full  lg:items-center">
+                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full">
                     <div className="max-w-[550px]">
                         <Image
                             src="/icon_agent.svg"
@@ -248,6 +248,7 @@ const page = () => {
                         <Image
                             src="/shoe.svg"
                             alt="Fast process (no medical exams)"
+                            className="h-[50px]"
                             height={50}
                             width={50}
                         />
@@ -268,6 +269,7 @@ const page = () => {
                         <Image
                             src="/icon_money-back.svg"
                             alt="Affordable Policies"
+                            className="h-[50px]"
                             height={50}
                             width={50}
                         />
@@ -816,7 +818,7 @@ const page = () => {
                                 Resources
                             </p>
                             <Link
-                                href="/insurance/life-insurance-policies"
+                                href="/life/life-insurance-policies"
                                 className="underline text-white"
                             >
                                 Our policies
@@ -826,12 +828,6 @@ const page = () => {
                             </Link>
                             <Link href="/blog" className="underline text-white">
                                 Blog
-                            </Link>
-                            <Link
-                                href="/app/needs"
-                                className="underline text-white"
-                            >
-                                Coverage Calculator
                             </Link>
                             <Link
                                 href="/life/life-insurance-basics"
@@ -845,12 +841,6 @@ const page = () => {
                             >
                                 How it works
                             </Link>
-                            <Link
-                                href="/app/login"
-                                className="underline text-white"
-                            >
-                                Account login
-                            </Link>
                         </div>
                         <div className="flex flex-col gap-2">
                             <p className="font-semibold text-white">Company</p>
@@ -861,40 +851,10 @@ const page = () => {
                                 About us
                             </Link>
                             <Link
-                                href="/carriers"
-                                className="underline text-white"
-                            >
-                                Our carriers
-                            </Link>
-                            <Link
                                 href="/reviews"
                                 className="underline text-white"
                             >
                                 Reviews
-                            </Link>
-                            <Link
-                                href="/careers"
-                                className="underline text-white"
-                            >
-                                Careers
-                            </Link>
-                            <Link
-                                href="/press"
-                                className="underline text-white"
-                            >
-                                Press
-                            </Link>
-                            <Link
-                                href="/leadership"
-                                className="underline text-white"
-                            >
-                                Leadership
-                            </Link>
-                            <Link
-                                href="/whats-yours-minalife"
-                                className="underline text-white"
-                            >
-                                What's your Minalife? Podcast
                             </Link>
                         </div>
                         <div className="flex flex-col gap-2">
@@ -905,12 +865,12 @@ const page = () => {
                             >
                                 Terms of Use
                             </Link>
-                            <Link
+                            {/* <Link
                                 href="/privacy"
                                 className="underline text-white"
                             >
                                 Online Privacy Policy
-                            </Link>
+                            </Link> */}
                             {/* <Link
                                 href="/data-security-at-minalife"
                                 className="underline text-white"

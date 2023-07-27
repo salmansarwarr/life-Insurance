@@ -99,7 +99,7 @@ const page = () => {
             <div className="mt-[61px] bg-white flex w-full justify-center items-center md:flex-row-reverse flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-72">
                 <img
                     className="self-center sm:max-w-[448px] md:max-w-[350px] lg:max-w-[448px]"
-                    src="/ethos-spot-illustrations.webp"
+                    src="/minaLife-spot-illustrations.webp"
                     alt="img"
                 />
                 <div className="flex flex-col gap-4">
@@ -165,7 +165,7 @@ const page = () => {
                         A 10-minute application for a lifetime of protection.
                     </p>
                 </div>
-                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full  lg:items-center">
+                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full  ">
                     <div className="max-w-[550px]">
                         <Image
                             src="/icon_guaranteed.webp"
@@ -615,7 +615,7 @@ const page = () => {
                                 Resources
                             </p>
                             <Link
-                                href="/insurance/life-insurance-policies"
+                                href="/life/life-insurance-policies"
                                 className="underline text-white"
                             >
                                 Our policies
@@ -697,12 +697,12 @@ const page = () => {
                             >
                                 Terms of Use
                             </Link>
-                            <Link
+                            {/* <Link
                                 href="/privacy"
                                 className="underline text-white"
                             >
                                 Online Privacy Policy
-                            </Link>
+                            </Link> */}
                             {/* <Link
                                 href="/data-security-at-minalife"
                                 className="underline text-white"

@@ -684,12 +684,12 @@ const page = () => {
                             >
                                 Terms of Use
                             </Link>
-                            <Link
+                            {/* <Link
                                 href="/privacy"
                                 className="underline text-white"
                             >
                                 Online Privacy Policy
-                            </Link>
+                            </Link> */}
                             {/* <Link
                                 href="/data-security-at-minalife"
                                 className="underline text-white"

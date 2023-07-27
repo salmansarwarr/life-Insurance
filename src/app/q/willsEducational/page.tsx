@@ -20,7 +20,7 @@ const page = () => {
                     <p
                         className={`${playfair.className} text-[1.8rem] sm:text-[2.1rem] leading-tight mt-8`}
                     >
-                        Ethos policies include a legal will
+                        minaLife policies include a legal will
                     </p>
                     <p className="text-gray-800 mt-6 max-w-[500px]">
                         Creating a will is fast, simple, and free.

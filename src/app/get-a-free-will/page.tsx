@@ -83,7 +83,7 @@ const page = () => {
                         className={`${dmSerif.className} font-bold flex flex-col text-[2.8rem] sm:text-[3.8rem] lg:text-[4rem]`}
                     >
                         <span className="leading-tight sm:h-[60px]">
-                            Ethos life insurance
+                            minaLife life insurance
                         </span>
                         <span className="leading-tight">
                             includes free wills
@@ -425,7 +425,7 @@ const page = () => {
                             I’m a policyholder*. Where can I find this perk?
                         </p>
                         <p className="text-[1rem] my-2 text-gray-600">
-                            Depending on your current Ethos policy, you will be
+                            Depending on your current minaLife policy, you will be
                             able to add the will and/or estate planning tools to
                             your policy at no additional cost. Sign into your
                             account to access this perk. Can’t find it? Our team
@@ -538,7 +538,7 @@ const page = () => {
                                 Resources
                             </p>
                             <Link
-                                href="/insurance/life-insurance-policies"
+                                href="/life/life-insurance-policies"
                                 className="underline text-white"
                             >
                                 Our policies
@@ -619,12 +619,6 @@ const page = () => {
                                 className="underline text-white"
                             >
                                 Terms of Use
-                            </Link>
-                            <Link
-                                href="/privacy"
-                                className="underline text-white"
-                            >
-                                Online Privacy Policy
                             </Link>
                             {/* <Link
                                 href="/data-security-at-minalife"

@@ -104,7 +104,7 @@ const page = () => {
                             involve confusing paperwork and long phone calls
                             with agents. At the end of the day, it wasn’t as
                             people-friendly as it could be. <br /> <br /> We set
-                            out to change that. <br /> <br /> Ethos has
+                            out to change that. <br /> <br /> minaLife has
                             redesigned the application process from start to
                             finish, to make sure you always come first. How? By
                             offering flexible coverage options, eliminating
@@ -185,7 +185,7 @@ const page = () => {
                         Industry-leading partners
                     </p>
                     <p className="text-gray-800 font-medium mt-5">
-                        Ethos partners with some of the most respected and
+                        minaLife partners with some of the most respected and
                         highly-rated insurance carriers in the world. These
                         insurance giants have paid out hundreds of millions of
                         dollars in life insurance claims for over a hundred

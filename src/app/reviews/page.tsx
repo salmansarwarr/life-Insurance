@@ -98,7 +98,7 @@ const page = () => {
                                 "Excellent” rating from Trustpilot
                             </p>
                             <p className="text-[1.1rem] text-gray-500">
-                                Ethos has an ‘Excellent’ rating from Trustpilot
+                                minaLife has an ‘Excellent’ rating from Trustpilot
                                 with 4.8/5 stars from customer reviews.
                             </p>
                             <Link href="#" className="hover:underline text-black">Read reviews →</Link>
@@ -114,7 +114,7 @@ const page = () => {
                             A+ rating from Better Business Bureau
                             </p>
                             <p className="text-[1.1rem] text-gray-500">
-                            Ethos is rated A+ by the Better Business Bureau (BBB).
+                            minaLife is rated A+ by the Better Business Bureau (BBB).
                             </p>
                             <Link href="#" className="hover:underline text-black">BBB profile →</Link>
                         </div>
@@ -130,7 +130,7 @@ const page = () => {
 
                             </p>
                             <p className="text-[1.1rem] text-gray-500">
-                            Ethos also earned a stellar rating of 4.7 out of 5 stars on Google based on average customer reviews.
+                            minaLife also earned a stellar rating of 4.7 out of 5 stars on Google based on average customer reviews.
                             </p>
                             <Link href="#" className="hover:underline text-black">Read reviews →</Link>
                         </div>
@@ -243,7 +243,7 @@ const page = () => {
                     alt="img"
                 />
             </div>
-            <div className="mt-[61px] bg-[#dbede5] flex w-full justify-center items-center md:flex-row-reverse flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-60">
+            {/* <div className="mt-[61px] bg-[#dbede5] flex w-full justify-center items-center md:flex-row-reverse flex-col py-14 px-4 xl:px-20 gap-10 xl:gap-x-60">
                 <div className="flex flex-col gap-4">
                     <div className="max-w-[400px]">
                         <p
@@ -265,8 +265,8 @@ const page = () => {
                     src="/value_backed-giants.webp"
                     alt="img"
                 />
-            </div>
-            <div className="py-14 2md:px-8">
+            </div> */}
+            {/* <div className="py-14 2md:px-8">
                 <div className="px-8 py-10 flex flex-col 2md:flex-row lg:px-14 xl:px-24 lg:py-20 sm:px-12 2md:justify-between items-center">
                     <div>
                         <p
@@ -276,7 +276,7 @@ const page = () => {
                         </p>
                         <p className="text-lg mt-3 max-w-[483px]">
                             Our founders, Peter Colis and Lingke Wang, met at
-                            Stanford Business School and started Ethos in 2016
+                            Stanford Business School and started minaLife in 2016
                             with the goal of making life insurance affordable,
                             accessible, and straightforward. While Lingke was in
                             college, he was upsold on an expensive life
@@ -288,7 +288,7 @@ const page = () => {
                             expensive, and time-consuming. Lingke and Peter
                             wanted to change that—so they set out to help people
                             protect their families with simple, affordable life
-                            insurance. Ethos provides an affordable life
+                            insurance. minaLife provides an affordable life
                             insurance option so people don't get stuck with
                             policies they don't need.
                         </p>
@@ -301,7 +301,7 @@ const page = () => {
                         <ArrowRightAltIcon fontSize="small" />
                     </Link>
                 </div>
-            </div>
+            </div> */}
             <div className="flex gap-12 lg:items-center w-full sm:gap-16 flex-col px-8 lg:px-14 sm:px-12 mt-8 justify-center">
                 <div className="lg:w-full">
                     <h1
@@ -387,10 +387,10 @@ const page = () => {
                             Getting life insurance was so easy…
                         </p>
                         <p className="text-[1rem] mt-4 text-gray-600">
-                            Getting life insurance was so easy through Ethos.
+                            Getting life insurance was so easy through minaLife.
                             I’ve been procrastinating doing it for years because
                             the whole process felt intimidating and confusing.
-                            Ethos cut right through all that and made it simple
+                            minaLife cut right through all that and made it simple
                             for me.
                         </p>
                         <p className="text-xs text-gray-600">Laleh H.</p>
@@ -431,7 +431,7 @@ const page = () => {
                         <p className="text-[1rem] mt-4 text-gray-600">
                             Extremely efficient easy application process & took
                             less than a week for approval. Compared premiums
-                            from many insurance companies & Ethos Life had the
+                            from many insurance companies & minaLife Life had the
                             best rates. Medical not required. HIGHLY
                             RECOMMENDED!
                         </p>
@@ -473,7 +473,7 @@ const page = () => {
                         <p className="text-[1rem] mt-4 text-gray-600">
                             This was such a good experience looking at insurance
                             policy options. The experience working with the
-                            Ethos team was so simple and easy. In the end I was
+                            minaLife team was so simple and easy. In the end I was
                             given options that exceeded my expectations and gave
                             me peace of mind thay my wife is in good hands if
                             something happened to me.

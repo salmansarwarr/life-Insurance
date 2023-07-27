@@ -74,7 +74,7 @@ const page = () => {
                         </p>
                         <p className="text-gray-700 font-medium mt-6">
                             Apply for life insurance online in just a few
-                            minutes with Ethos' simple application. No medical
+                            minutes with minaLife' simple application. No medical
                             exams are required. Just answer a few health
                             questions — many customers enjoy same-day coverage!
                         </p>
@@ -177,7 +177,7 @@ const page = () => {
                         What to expect when you apply:
                     </h1>
                     <p className="text-xl">
-                        Ethos takes the guesswork out of the application
+                        minaLife takes the guesswork out of the application
                         process. Answer a few basic questions and see which
                         products offer the best fit for your coverage needs.
                     </p>
@@ -206,7 +206,7 @@ const page = () => {
                             Who can apply?
                         </p>
                         <p className="mt-4 text-[#323232]">
-                            All U.S. citizens ages 20 to 85 can apply. Ethos is
+                            All U.S. citizens ages 20 to 85 can apply. minaLife is
                             licensed and operates in the District of Columbia
                             and every U.S. state except New York.
                         </p>

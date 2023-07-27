@@ -108,11 +108,12 @@ const page = () => {
                     Online no-exam term life <br className="hidden sm:block" />{" "}
                     insurance
                 </h1>
-                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full  lg:items-center">
+                <div className="grid 2md:grid-cols-2 2xl:w-[65%] gap-12 w-full  ">
                     <div className="max-w-[550px]">
                         <Image
                             src="/shoe.svg"
                             alt="no medical exam"
+                            className="h-[50px]"
                             height={50}
                             width={50}
                         />
